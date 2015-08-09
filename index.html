@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
     <title>ORCONF 2015</title>
   </head>
 
@@ -27,37 +27,90 @@
 
 	  <p>We're pleased to announce that ORCONF 2015 will be held over the weekend of <strong>October 10 and 11</strong> at <a href="http://knowledgetransfer.web.cern.ch/ideasquare/about">Ideasquare</a>, CERN in <strong>Geneva, Switzerland</strong>.</p>
 
-	  <p>ORCONF is an open source digital design and embedded systems conference, covering areas of electronics from the transistor level up to Linux user space and beyond. Primarily we'll hear about open source IP projects and implementations on FPGA and in silicon, verification, EDA tools, licensing and embedded software to name a few. Begun as the annual OpenRISC developers and users conference, it has become a general open source digital design conference.</p>
+	  <p>ORCONF is an open source digital design and embedded systems conference, covering areas of electronics from the transistor level up to Linux user space and beyond. Expect presentations and discussion on free and open source IP projects, implementations on FPGA and in silicon, verification, EDA tools, licensing and embedded software, to name a few. Begun as the annual OpenRISC developers and users conference, it has become a general open source digital design conference.</p>
 
-<p>The event will run from 12:00 until 19:30 on Saturday, and from 09:30 until 15:30 on Sunday. A dinner as a group will be arranged for the Saturday evening, and for those arriving on Friday evening there's usually a venue nominated for pre-event drinks. Lunch will be provided both days.</p>
+	  <p>The event will run from <strong>12:00 until 19:30 on Saturday</strong>, and from <strong>09:30 until 15:30 on Sunday</strong>. It is free to attend but you must <a href="http://goo.gl/forms/KRZux8vnyO">register</a>. Lunch will be provided both days. A dinner as a group will be arranged for the Saturday evening, and for those arriving on Friday evening there's usually a venue nominated for pre-event drinks.</p>
 
 
-<div style=" vertical-align:middle; text-align:center">
-	  <p><a href="http://goo.gl/forms/KRZux8vnyO">Click here to register to attend</a></p>
-</div>
+	  <div style=" vertical-align:middle; text-align:center">
+	    <p><a href="http://goo.gl/forms/KRZux8vnyO">Click here to register to attend</a></p>
+	  </div>
 
-<p>We invite anyone who's involved or even just interested in these fields to come along. If you'd like to present your project or ideas, please <a href="mailto:julius@orconf.org;olof@orconf.org?Subject=ORCONF%202015%20Presentation">contact the organisers</a> and submit a synopsis.</p>
+	  <p>We invite anyone who's involved or even just interested in these fields to come along. If you'd like to present your project or ideas, please <a href="mailto:julius@orconf.org;olof@orconf.org?Subject=ORCONF%202015%20Presentation">contact the organisers</a> and submit a synopsis.</p>
 
-<p>Check back here for details on schedule and arrangements.</p>
+	  <p>Check back here for details on schedule and arrangements.</p>
 
+	  <h3><a name="presentations" class="anchor" href="#presentations"><span class="octicon octicon-link"></span></a>2015 presentations and bios</h3>
+	  
+	  <h4><a name="pulp" class="anchor" href="#pulp"><span class="octicon octicon-link"></span></a>PULP: OpenRISC-based ultra-low power parallel platform</h4>
+	  <p>PULP is an open-source parallel, low-power architecture built on clusters of tightly-coupled OpenRISC ISA cores, with advanced techniques for fast performance and energy scalability. The PULP platform targets a number of high-growth application areas such as internet of Things, E-health, wearable Human-Computer interfaces. The PULP project currently involves several universities and research centers in Europe including University of Bologna, Swiss Federal Institute of Technology Zurich (ETHZ), Politecnico di Milano, Swiss Federal Institute of Technology in Lausanne (EPFL), and Laboratory for Electronics and Information Technolog­y of Atomic Energy and Alternative Energies Commission (CEA-LETI). This talk will describe the aims of the PULP project, and summarize its current status and plans for future evolutions of the project.</p>
+
+	  <h5>Presenter: <a name="davide" class="anchor" href="#davide"><span class="octicon octicon-link"></span></a>Davide Rossi</h5>
+	  <p>Davide Rossi received the M.Sc. degree from the University of Bologna, in 2007, and the Ph.D. degree from the University of Bologna, in 2012, all in electronics engineering. He has been a Consultant with STMicroelectronics since 2008, where he is involved in reconfigurable architectures. He is currently post doctoral fellow at University of Bologna where he works on low-power, energy-efficienct many-core architectures.</p>
+
+	  <h4><a name="aap" class="anchor" href="#aap"><span class="octicon octicon-link"></span></a>AAP: An Altruistic Processor</h4>
+	  <p>An Altruistic Processor (AAP) is a free and open source processor ISA,
+	    intended as reference architecture to improve software tool chain
+	    support for small, deeply embedded Harvard architectures.  These are
+	    still in very widespread use (for example the Atmel AVR architecture),
+	    but compiler tool chains often suffer from assuming all targets are 32-
+	    or 64-bit Von Neumann RISC architectures with many registers (such as
+	    ARM).</p>
+	  
+	  <p>AAP is a 16-bit Harvard architecture, with a 24-bit word addressed code
+	    space.  It can be configured with as few as four 16-bit registers and
+	    has an extensible instruction set offering 16-bit, 32-bit and longer
+	    instructions.  It thus provides a robust test of the generality of
+	    modern compiler tool chains.</p>
+	  
+	  <p>Embecosm has implemented a LLVM tool chain and instruction set simulator
+	    for AAP, and is in the process of creating FPGA implementations in
+	    Verilog for the DE0-Nano.</p>
+	  
+	  <p>In this talk, we will explain in detail the feature and philosophy of
+	    AAP as well as some software features we aim to improve through this
+	    project.  We will present the implementation of both the ISS and the
+	    FPGA designs, one of which is a simple student implementation, and the
+	    other a superscalar pipelined implementation.</p>
+	  
+
+	  <h5>Presenter: <a name="simoncook" class="anchor" href="#simoncook"><span class="octicon octicon-link"></span></a><a href="http://www.embecosm.com/about/meet-the-team/">Simon Cook</a></h5>
+	  <p></p>
+	  
+	  <h4><a name="opensocdebug" class="anchor" href="#opensocdebug"><span class="octicon octicon-link"></span></a>Open SoC Debug</h4>
+	  <p>TBD</p>
+	  <h5>Presenter: <a name="stefanw" class="anchor" href="#stefanw"><span class="octicon octicon-link"></span></a><a href="http://www.lis.ei.tum.de/?id=wallentowitz">Stefan Wallentowitz</a></h5>
+	  <p></p>
+
+	  <h4><a name="gplhdl" class="anchor" href="#gplhdl"><span class="octicon octicon-link"></span></a>Interpretation of LGPL and GPL for HDL designs</h4>
+	  <p>TBD</p>
+	  <h5>Presenters: <a name="gplhdlpresenters" class="anchor" href="#gplhdlpresenters"><span class="octicon octicon-link"></span></a>Javier Serrano, David Mazur, Charlyne Allison Rabe</h5>
+	  <p></p>
+
+	  <h4><a name="smallriscv" class="anchor" href="#smallriscv"><span class="octicon octicon-link"></span></a>Small footprint RISC-V core in Verilog</h4>
+	  <p>A lightning talk on the development of a small footprint RISC-V core in Verilog HDL targeted at low-end usecases.</p>
+	  <h5>Presenter: <a name="tomasz" class="anchor" href="#tomasz"><span class="octicon octicon-link"></span></a>Tomasz Wlostowski</h5>
+	  <p></p>
+
+ 
 
 	  <p><emph>Previous editions: <a href="http://opencores.org/or1k/OpenRISC_Project_Meetings_Archive">2012/2013</a>, <a href="http://openrisc.github.io/orconf/2014/">2014</a></emph></p>
 
-<p><strong>We are seeking sponsors for the event, if you're interested please <a href="mailto:julius@orconf.org;olof@orconf.org?Subject=ORCONF%202015%20Sponsorship">contact the organisers</a></strong></p>
+	  <p><strong>We are seeking sponsors for the event, if you're interested please <a href="mailto:julius@orconf.org;olof@orconf.org?Subject=ORCONF%202015%20Sponsorship">contact the organisers</a></strong></p>
 
-<p>Questions? Contact <a href="mailto:julius@orconf.org;olof@orconf.org?Subject=ORCONF%202015%20Question">the organisers</a> or ask in <a href=http://webchat.freenode.net/?channels=openrisc">#openrisc on irc.freenode.net</a></p>
-<div style=" vertical-align:middle; text-align:center">
-<img src="images/orconf201502.png" style="max-height: 100px; max-width: 100px;"/>
+	  <p>Questions? Contact <a href="mailto:julius@orconf.org;olof@orconf.org?Subject=ORCONF%202015%20Question">the organisers</a> or ask in <a href=http://webchat.freenode.net/?channels=openrisc">#openrisc on irc.freenode.net</a></p>
+																									<div style="text-align:center">
+																									  <img src="images/orconf201502.png" style="max-height: 100px; max-width: 100px;"/>
+																									</div>
+																									<footer>
+																									  ORCONF 2015 is maintained by the <a href="https://openrisc.github.io">OpenRISC community</a><br>
+																									  This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+																									  Logo design by <a href="https://www.fiverr.com/ei8htz">ei8htz</a>.
+																									  
+																									</footer>
+
+																									
 </div>
-        <footer>
-          ORCONF 2015 is maintained by the <a href="https://openrisc.github.io">OpenRISC community</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-	  Logo design by <a href="https://www.fiverr.com/ei8htz">ei8htz</a>.
-	  
-        </footer>
-
-        
-      </div>
-    </div>
-  </body>
+</div>
+</body>
 </html>
