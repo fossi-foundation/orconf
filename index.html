@@ -174,6 +174,42 @@ One of the class in series of processors, the I-Class is aimed at mobile and des
 
 	  <p></p>
 
+	  <h4><a name="opa" class="anchor" href="#opa"><span class="octicon octicon-link"></span></a>OPA: Out-of-Order Superscalar Soft CPU</h4>
+	  <p>OPA is an out-of-order superscalar processor designed for FPGAs.
+	    Compared to a traditional ASIC, an FPGA does not have ready access to
+	    multiported memory, content-addressable memory, or fast combinatoric
+	    circuitry.  On the other hand, memory is much faster compared to core
+	    clock rate.  The cost of a cache miss to DDR on a 4GHz ASIC is more than
+	    an order of magnitude more serious than a cache miss to DDR from an
+	    FPGA-based design.
+	  </p>
+	  <p>The primary challenge in the design of OPA has been finding circuits
+	    which are simple enough to run at a reasonable clock rate on an FPGA.
+	    Of particular note is the wakeup-select circuit which schedules
+	    instructions for execution once their dependants are available.  OPA
+	    manages this using novel shift and mux circuit with one ready bit and
+	    two muxes per pending instruction.  While a traditional out-of-order
+	    design uses a separate reorder buffer and instruction scheduler, the low
+	    cache miss penalty makes it possible for OPA to use a simple unified
+	    circuit for both.
+	  </p>
+	  <p>As FPGAs come in many different sizes, so too must OPA. At synthesis
+	    time, one can select the number of execution units, the scheduler window
+	    size, and the supported instruction set (currently only LM32 or RV32M).
+	    On a low-end Cyclone V, a 4-decode 3-issue processor which schedules up
+	    28-instructions at once can run at 125MHz in 10k ALMs.  The smallest
+	    configuration costs 4k, but there is no upper limit on the issue width
+	    and cost.  However, OPA does not yet include a TLB or ITTAGE predictor,
+	    so these costs will increase.
+	  </p>
+	  <h5>Presenter: <a name="wesley" class="anchor" href="#wesley"><span class="octicon octicon-link"></span></a>Wesley W. Terpstra</h5>
+	  <p>Wesley currently works on FPGA-based embedded systems at the
+	    GSI Helmholtz Centre, primarily Wishbone-based System-on-Chip designs.
+	    He received his Dr.-ing. in Computer Science from the Technische
+	    Universitaet Darmstadt in 2015 and his B.Sc. in Mathematics and Computer
+	    Science from the University of British Columbia in 2003.
+	  </p>
+	  <p></p>
 	  <p><strong>More to come...</strong></p>
  
 
