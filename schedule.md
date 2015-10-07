@@ -41,7 +41,7 @@ layout: default
 | 4:40 PM  | Break                                                      |
 | 5:00 PM  | Reduced Complexity ManyCore (RC/MC)                        | Jörg Mische
 | 5:30 PM  | SeL4                                                       | Hesham ALMatary
-| 6:00 PM  | Ocaml                                                      | Andrew Ray
+| 6:00 PM  | Writing hardware in OCaml, Running OCaml in hardware       | Andrew Ray
 | | |
 |-----
 |  | **Sunday**
