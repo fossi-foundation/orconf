@@ -7,7 +7,7 @@ layout: default
 | -------- | ---------------------------------------------------------- | --------------
 |          |                                                            |
 | 1:00 PM  | RISC-V Update                                              | Krste Asanovic
-| 1:30 PM  | LowRISC                                                    | Alex Bradbury
+| 1:30 PM  | An update on the lowRISC open source System-on-Chip        | Alex Bradbury
 | 2:00 PM  | PULP: OpenRISC-based ultra-low power parallel platform     | Davide Rossi
 | 2:30 PM  | Pulpino                                                    | Andreas Traber
 | 3:00 PM  | Coffee break at venue (sponsored by CERN)                  |
@@ -17,7 +17,7 @@ layout: default
 | 4:40 PM  | Break                                                      |
 | 5:00 PM  | Shakti RISC-V processors                                   | Rahul Bodduna
 | 5:30 PM  | A fast RISC-V emulator in Javascript - How hard can it be? | Sebastian Macke
-| 6:30 PM  | Rump kernel                                                | Sebastian Wicki
+| 6:30 PM  | TCP/IP Offload to Minion Cores using Rump Kernels          | Sebastian Wicki
 | 6:00 PM  | lowRISC general discussion                                 |
 | | |
 |---------------------------------------------------------------------------------------------
