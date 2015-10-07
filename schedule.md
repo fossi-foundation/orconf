@@ -17,7 +17,7 @@ layout: default
 | 4:40 PM  | Break                                                      |
 | 5:00 PM  | Shakti RISC-V processors                                   | Rahul Bodduna
 | 5:30 PM  | A fast RISC-V emulator in Javascript - How hard can it be? | Sebastian Macke
-| 6:30 PM  | Rump kernel                                                | Sebastian Wicki
+| 6:30 PM  | TCP/IP Offload to Minion Cores using Rump Kernels          | Sebastian Wicki
 | 6:00 PM  | lowRISC general discussion                                 |
 | | |
 |---------------------------------------------------------------------------------------------
