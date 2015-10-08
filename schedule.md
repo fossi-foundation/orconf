@@ -11,7 +11,7 @@ layout: default
 | 2:00 PM  | PULP: OpenRISC-based ultra-low power parallel platform     | Davide Rossi
 | 2:30 PM  | Pulpino                                                    | Andreas Traber
 | 3:00 PM  | Coffee break at venue (sponsored by CERN)                  |
-| 3:20 PM  | Z-scale RISCV                                              | Yunsup Lee
+| 3:20 PM  | Z-scale: Tiny 32-bit RISC-V Systems                        | Yunsup Lee
 | 3:50 PM  | Small footprint RISC-V core in Verilog                     | Tomasz Wlostowski
 | 4:10 PM  | OPA: Out-of-Order Superscalar Soft CPU                     | Wesley W. Terpstra
 | 4:40 PM  | Break                                                      |
