@@ -36,7 +36,7 @@ layout: default
 | 2:40 PM  | Icarus VHDL                                                | Maciej Sumiński
 | 3:00 PM  | Coffee break at venue (Sponsored by CERN)                  |
 | 3:30 PM  | Open SoC debug                                             | Stefan Wallentowitz
-| 3:50 PM  | Credo Semi or1k SoC                                        | Alex Guo
+| 3:50 PM  | ORXSys - OpenRISC based eXtendible System                  | Alex Guo
 | 4:10 PM  | Axiom 4K open filmmaking camera - a success story of collaboration around open source | Michael Gielda
 | 4:40 PM  | Break                                                      |
 | 5:00 PM  | Reduced Complexity ManyCore (RC/MC)                        | Jörg Mische
