@@ -88,6 +88,40 @@
 	    and riding an electric unicycle.
 	  </p>
 
+	  <h4>
+	    <a name="zipcpu" class="anchor" href="#zipcpu"><span class="octicon octicon-link"></span>
+	    </a>The ZipCPU: A resource efficient 32-bit SoftCore</h4>
+	  <p>Now that FPGAs have become powerful and ubiquitous enough, there
+	    exist many soft core CPUs that can be placed within FPGAs to
+	    accomplish sequential tasks. Among these are the proprietary CPU's
+	    Microblaze and Nios, as well as the open CPUs of OpenRISC and RISC-V.
+	    These CPUs, however, tend to be built with the generic purpose of
+	    turning an FPGA into a high quality CPU, rather than complementing
+	    the FPGA's strength by augmenting some specialized FPGA algorithm
+	    with some amount of sequential logic. This focus can be seen in both
+	    the area these CPUs take up, as well as the complexity of their
+	    interface to the rest of the FPGA's logic and memory.
+	  </p>
+	  <p>In contrast,
+	    the ZipCPU has been designed from the ground up with a focus on
+	    simplified logic and on-chip interaction. It does this by using a
+	    stripped down instruction set, as well as a stripped down interrupt
+	    and wishbone bus model. This allows the ZipCPU to fit within the
+	    small spaces left over within larger designs, as exemplified by the
+	    fact that it can easily fit within a Spartan-LX4, using only 1215 LUTs.
+	  </p>
+	  <h5>Presenter: <a name="gisselquist" class="anchor" href="#gisselquist"><span class="octicon octicon-link"></span>
+	    </a>Dan Gisselquist</h5>
+	  <p>Dr. Gisselquist is the lead engineer and owner of Gisselquist
+	    Technology, LLC, a services based company focused on providing
+	    superior Computer Engineering and Signal Processing services to our
+	    customers. Dr. Gisselquist has an M.S. in Computer Engineering and
+	    an Ph.D. in Electrical Engineering from the U.S. Air Force Institute
+	    of Technology. His current work has been focused on the ZipCPU, and
+	    the environment, toolsuite, and peripherals necessary to support
+	    both it and any customer applications.
+	  </p>
+
 <!--
 	  <h4>
 	    <a name="FIXME:presentation_id" class="anchor" href="#FIXME:presentation_id"><span class="octicon octicon-link"></span>
