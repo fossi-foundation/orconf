@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="177.16534"
-   height="177.16534"
+   width="173.31091"
+   height="136.80577"
    id="svg3288"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Memory document 1">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="lowrisc_sticker_no_strapline.svg">
   <defs
      id="defs3290" />
   <sodipodi:namedview
@@ -24,25 +24,31 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.1630594"
-     inkscape:cx="148.99367"
-     inkscape:cy="14.060563"
+     inkscape:zoom="2.9068891"
+     inkscape:cx="86.635499"
+     inkscape:cy="51.28665"
      inkscape:document-units="mm"
-     inkscape:current-layer="g3594-0"
+     inkscape:current-layer="g3443"
      showgrid="false"
      units="mm"
-     inkscape:window-width="2878"
-     inkscape:window-height="2143"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
      inkscape:window-x="0"
-     inkscape:window-y="15"
-     inkscape:window-maximized="0">
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     fit-margin-top="15"
+     fit-margin-left="15"
+     fit-margin-right="15"
+     fit-margin-bottom="15">
     <inkscape:grid
        type="xygrid"
        id="grid3489"
        empspacing="5"
        visible="true"
        enabled="true"
-       snapvisiblegridlinesonly="true" />
+       snapvisiblegridlinesonly="true"
+       originx="-1.9471732"
+       originy="-37.296022" />
   </sodipodi:namedview>
   <metadata
      id="metadata3293">
@@ -60,7 +66,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-875.19683)">
+     transform="translate(-1.9471732,-878.2604)">
     <g
        id="g3443"
        transform="translate(20.018677,35.762205)">
@@ -135,7 +141,7 @@
            transform="matrix(0.9526491,0,0,-0.9526491,57.887065,965.90186)">
           <path
              inkscape:connector-curvature="0"
-             d="m 0,0 c 0.505,-0.768 0.803,-1.683 0.803,-2.671 0,-2.692 -2.183,-4.875 -4.875,-4.875 -2.692,0 -4.875,2.183 -4.875,4.875 0,2.692 2.183,4.875 4.875,4.875 0.86,0 1.656,-0.242 2.357,-0.633 L 2.38,5.666 c -1.765,1.371 -4.028,2.103 -6.512,2.103 -6.275,0 -10.137,-4.947 -10.137,-9.975 0,-6.556 4.506,-10.499 10.217,-10.499 6.436,0.122 10.177,4.787 10.177,9.976 0,2.753 -0.791,5.02 -2.114,6.74 L 0,0 z"
+             d="m 0,0 c 0.505,-0.768 0.803,-1.683 0.803,-2.671 0,-2.692 -2.183,-4.875 -4.875,-4.875 -2.692,0 -4.875,2.183 -4.875,4.875 0,2.692 2.183,4.875 4.875,4.875 0.86,0 1.656,-0.242 2.357,-0.633 L 2.38,5.666 c -1.765,1.371 -4.028,2.103 -6.512,2.103 -6.275,0 -10.137,-4.947 -10.137,-9.975 0,-6.556 4.506,-10.499 10.217,-10.499 6.436,0.122 10.177,4.787 10.177,9.976 0,2.753 -0.791,5.02 -2.114,6.74 L 0,0 Z"
              style="fill:#4f4c4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
              id="path4547-9" />
         </g>
