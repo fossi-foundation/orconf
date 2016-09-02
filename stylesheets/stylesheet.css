@@ -369,3 +369,22 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+.orconf-nav {
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 0 0 3px rgba(153, 153, 153, 0.75);
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.orconf-nav .nav > li {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.orconf-nav .nav > li > a {
+  color: #003366;
+}
