@@ -690,6 +690,120 @@
 	    is trying to get the AAP design up and running on IceStorm.
 	  </p>
 
+	  <h4>
+	    <a name="stateofopenrisc" class="anchor" href="#stateofopenrisc"><span class="octicon octicon-link"></span>
+            </a>The state of Openrisc: Documentation, Toolchains and Linux</h4>
+          <p>
+	    Other than the OpenRISC CPUs and surrounding hardware cores we have the
+	    soft aspects of the project. I would like to give an overview of what I
+	    have been working on over the past year and what is in store for the
+	    future of documentation, the toolchain and Linux ecosystem. 
+	  </p>
+	  <p>
+	    I started off interested in the Linux port. We will go over the
+	    changes I have made as well as progress on getting changes upstream. 
+	  </p>
+	  <p>
+	    We will go over the state of to the toolchain, including getting the
+	    last changes out of the `<a href="https://github.com/openrisc/or1k-src"
+					target="_blank">or1k-src</a>` project,
+	    specifically GDB and binutils. This will also be followed up with what
+	    is needed to get changes upstreamed.
+	  </p>
+	  <p>
+	    Wrapping it up, the documentation for the project is split between a
+	    few different places including the opencores media wiki.  Often we
+	    in <a href="http://opencores.org/or1k/OR1K:Community_portal#IRC"
+		  target="_blank">#openrisc</a> get people who have been using old
+	    versions of the toolchain pointed to by old docs. I would like to
+	    present my thoughts on what we can do going forward.	
+	  </p>
+	  
+          <h5>Presenter: <a name="stafford" class="anchor" href="#stafford"><span class="octicon octicon-link"></span>
+            </a><a href="https://twitter.com/stffrdhrn" target="_blank">Stafford Horne</a></h5>
+          <p>
+	    As a typical computer hobbyist my background starts with a
+	    BS in Computer Engineering from San Jose State University
+	    which is where I learned RTL design and Verilog (more than
+	    10 years ago), although I have no problem with VHDL either.
+	  </p>
+	  <p>I kept an interest in hardware but have a job in software.
+	    In the past few years I have started to really get back into
+	    hardware design, both analog and digital. I designed a very
+	    simple <a href="https://github.com/stffrdhrn/sdram-controller"
+		      target="_blank">SDRAM controller in Verilog</a> for
+	    the de0 nano. I
+	    hooked up a self designed preamp circuit, dac chip and amp
+	    to the de0 nano and built a small digital recorder (all
+	    hardware, <a href="https://github.com/stffrdhrn/digi-recorder"
+			 target="_blank">all on github</a>, and
+	    demo on youtube) I then looked
+	    into running linux on the de0 nano and found OpenRISC.
+	  </p>
+
+
+	  
+	  <h4>
+	    <a name="rcmc" class="anchor" href="#rcmc"><span class="octicon octicon-link"></span>
+            </a>RC/MC - Pipeline Integrated Message Passing</h4>
+          <p>
+	    Although recent manycore architectures (e.g. Intel SCC, Kalray MPPA)
+	    offer hardware support for message passing, it is still costly: the
+	    sender writes the message in its local memory, a DMA transfer is used
+	    to copy the message to the receiver's local memory and an additional
+	    signalling mechanism is used to notify the receiver.
+	  </p>
+	  <p>
+	    The Reduced Complexity Many Core (RC/MC) architecture uses a different
+	    approach: by resticting the message length to the size of a data word,
+	    special instructions can be used to send and receive messages directly
+	    from the processor pipeline. The interconnect is controlled directly,
+	    no clumsy memory accesses are involved. This leads to an architecture,
+	    where a minimalistic network-on-chip connects small RISC-V cores with
+	    private isolated memories.
+	    </p>
+	  
+          <h5>Presenter: <a name="mische" class="anchor" href="#mische"><span class="octicon octicon-link"></span>
+            </a>Jörg Mische</h5>
+          <p>
+	    Jörg Mische is postdoc researcher at the University of Augsburg (Germany).
+	    His group investigates the parallel real-time capabilities of the RC/MC
+	    architecture.	    
+	  </p>
+	  
+	  <h4>
+	    <a name="mor1kx" class="anchor" href="#mor1kx"><span class="octicon octicon-link"></span>
+            </a>Improving mor1kx Cappuccino performance: using PCU and branch predictors as a case study</h4>
+          <p>
+	    In this presentation we introduce a way to examine the performance
+	    a new implementation of the OpenRISC 1000 arch specification, mor1kx,
+	    the fastest version of its pipeline called 'Cappuccino'.
+	  </p>
+	  <p>
+	    To understand what happens inside the Cappuccino, we implemented
+	    Performance Counter Unit (PCU) according to the OpenRISC design
+	    specification, and we suggest extensions to this specification in
+	    order to make performance evaluation process more effective.
+	  </p>
+	  <p>
+	    The branch predictor module is chosen as a case study to test our approach
+	    in performance tuning for 'Cappuccino', testing included implementation
+	    of several branch predictors in verilog and additional evaluation in the
+	    software framework with different branch predictors running traces of real
+	    programs obtained from mor1kx Cappuccino: static, saturation counter,
+	    gshare, bimodal, perceptron, etc.
+	  </p>
+	  <p>
+	    We overview problems and difficulties of the existing infrastructure
+	    we encountered during our efforts and suggest ways to make the whole
+	    process easier for further researches.
+	  </p>
+	  
+          <h5>Presenters: <a name="alexey" class="anchor" href="#alexey"><span class="octicon octicon-link"></span>
+            </a>Alexey Baturo, Andrew Voroshilov</h5>
+          <p>
+	    Engineers who are interested in performance improvement of mor1kx project.
+	  </p>
 	  
 	  <h4>
 	    <a name="moretocome" class="anchor" href="#moretocome"><span class="octicon octicon-link"></span>
