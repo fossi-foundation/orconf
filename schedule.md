@@ -24,7 +24,7 @@ layout: default
 | 09:00-09:20  | [RISC-V Update](http://orconf.org/#boom) | [Christopher Celio](http://orconf.org/#chriscelio)
 | 09:20-09:50  | [BOOM: A Superscalar Out-of-order RISC-V Processor](http://orconf.org/#boom) | [Christopher Celio](http://orconf.org/#chriscelio)
 | 10:00-10:40  | [PULP: an open source Parallel Ultra-Low-Power computing platform](http://orconf.org/#) | [Davide Rossi](http://orconf.org/#)
-| 10:50-11:30  | [GAP8: A Pulp/RiscV based SoC IOT processor](http://orconf.org/#pulp) | [Eric Flamand](http://orconf.org/#davide)
+| 10:50-11:30  | [GAP8: A PULP/RISC-V based SoC IoT processor](http://orconf.org/#pulp) | [Eric Flamand](http://orconf.org/#davide)
 | 11:40-12:20  | [A fully-tested 32-bit RISC-V microcontroller in 130nm and board development](http://orconf.org/#riscv_uc) | [Elkim Roa](http://orconf.org/#elkim)
 | 12:30-14:00  | Lunch
 | 14:00-14:40  | [The ZipCPU: A resource efficient 32-bit SoftCore](http://orconf.org/#zipcpu) | [Dan Gisselquist](http://orconf.org/#gisselquist)
