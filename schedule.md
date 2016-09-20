@@ -4,7 +4,7 @@ layout: default
 ---
 
 | | **Friday** 
-| -------- | :---------------------------------------------------------- | :--------------
+| -------- | :------------------------- | :--------------
 | | |
 | 13:00-13:10  | Conference Welcome   | 
 | 13:10-13:40  | FOSSi Update         | 
@@ -16,7 +16,7 @@ layout: default
 | 17:10-17:40  | [Improving mor1kx Cappuccino performance: using PCU and branch predictors as a case study](http://orconf.org/#mor1kx) | [Alexey Baturo, Andrew Voroshilov](http://orconf.org/#alexey)
 | 17:50-18:20  | Open EEG | Matteo Chiesi 
 | | |
-|---------------------------------------------------------------------------------------------
+|---------------------------------------
 | | **Saturday** 
 |---------------------------------------
 | | |
