@@ -34,9 +34,10 @@ layout: default
 | 15:50-16:00  | [Modules, hardware and JavaScript](http://orconf.org#javascript) | [Patrick Mulder](http://orconf.org/#mulder)
 | 16:00-16:30  | Break |
 | 16:30-17:10  | [VDT - Free Software Environment for FPGA Development](http://orconf.org/#vdt) | [Andrey N. Filippov](http://orconf.org/#andrey)
-| 17:20-18:00  | [Automating Hardware Projects with Jenkins](http://orconf.org/#jenkins) | [Oleg Nenashev](http://orconf.org/#oleg)
-| 18:00-19:00  | Pre-dinner break, mingle |
-| 19:00-       | [Dinner](http://www.altrobologna.com/) |
+| 17:20-17:50  | [Automating Hardware Projects with Jenkins](http://orconf.org/#jenkins) | [Oleg Nenashev](http://orconf.org/#oleg)
+| 18:00-18:30  | LibreCores launch and demo | 
+| 18:30-19:30  | Pre-dinner break, mingle |
+| 19:30-       | [Dinner](http://www.altrobologna.com/) |
 | | |
 |-----
 |  | **Sunday**
