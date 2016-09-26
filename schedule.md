@@ -16,6 +16,7 @@ layout: default
 | 16:40-17:10  | [The state of OpenRISC: Documentation, Toolchains and Linux](http://orconf.org/#stateofopenrisc) | [Stafford Horne](http://orconf.org/#stafford)
 | 17:20-17:50  | [Improving mor1kx Cappuccino performance: using PCU and branch predictors as a case study](http://orconf.org/#mor1kx) | [Alexey Baturo, Andrew Voroshilov](http://orconf.org/#alexey)
 | 18:00-18:30  | [A Cost-effective System for Neuroscientific Research](http://orconf.org/#openeeg) | [Matteo Chiesi](http://orconf.org/#matteo)
+| 18:30-       | Enoteca time |
 | | |
 |---------------------------------------
 | | **Saturday** 
