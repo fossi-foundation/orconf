@@ -45,7 +45,7 @@ layout: default
 | 09:00-09:30  | Room open, coffee served |
 | 09:30-10:10  | [Formal Verification with Yosys-SMTBMC](http://orconf.org/#yosys) | [Clifford Wolf](http://orconf.org/#clifford)
 | 10:20-11:00  | [MyStorm: An Open Source FPGA board for the IceStorm tool chain](http://orconf.org/#mystorm) | [Ken Boak, Alan Wood, Jeremy Bennett](http://orconf.org/#mystormpresenters)
-| 11:10-11:40  | [Kactus2: Open Source IP-XACT tool update](http://orconf.org/#kaktus | [Esko Pekkarinen](http://orconf.org/#esko)
+| 11:10-11:40  | [Kactus2: Open Source IP-XACT tool update](http://orconf.org/#kaktus) | [Esko Pekkarinen](http://orconf.org/#esko)
 | 11:40-12:00  | Lightning talk(s) |
 | 12:00-13:00  | Lunch |
 | 13:00-13:30  | [RC/MC - Pipeline Integrated Message Passing](http://orconf.org/#rcmc) | [Jörg Mische](http://orconf.org/#mische)
