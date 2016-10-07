@@ -32,7 +32,7 @@ layout: default
 | 14:00-14:30  | [The ZipCPU: A resource efficient 32-bit SoftCore](http://orconf.org/#zipcpu) | [Dan Gisselquist](http://orconf.org/#gisselquist)
 | 14:40-15:10  | [OpenPiton: A Full-Stack Open Source Manycore](http://orconf.org/#openpiton) | [Jonathan Balkind](http://orconf.org/#balkind)
 | 15:20-15:50  | [Application development co-design for FPGA-accelerated data center HPC servers](http://orconf.org/#fpgahpc) | [Mihai Lazarescu](http://orconf.org/#mihai)
-| 15:50-16:00  | [Modules, hardware and JavaScript](http://orconf.org#javascript) | [Patrick Mulder](http://orconf.org/#mulder)
+| 15:50-16:00  | [LibreCores Design Content presentations](http://www.librecores.org/designcontest) | Tsung-Wei Huang, Fabian Schuiki
 | 16:00-16:30  | Break |
 | 16:30-17:10  | [VDT - Free Software Environment for FPGA Development](http://orconf.org/#vdt) | [Andrey N. Filippov](http://orconf.org/#andrey)
 | 17:20-17:50  | [Automating Hardware Projects with Jenkins](http://orconf.org/#jenkins) | [Oleg Nenashev](http://orconf.org/#oleg)
