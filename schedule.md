@@ -3,11 +3,11 @@ title: ORCONF 2016 Schedule
 layout: default
 ---
 
-| | **Friday** 
+| | **Friday**
 | -------- | :------------------------- | :--------------
 | | |
-| 13:00-13:10  | Conference Welcome   | 
-| 13:10-13:40  | FOSSi Update         | 
+| 13:00-13:10  | Conference Welcome   |
+| 13:10-13:40  | FOSSi Update         |
 | 13:50-14:40  | [Open-source Hardware: Opportunities and Challenges](http://orconf.org/#oshwopp) | [Gagan Gupta](http://orconf.org/#gagangupta)
 | 14:50-15:20  | [lowRISC: an update on our efforts to produce an open-source SoC](http://orconf.org/#lowrisc) | [Alex Bradbury](http://orconf.org/#asbradbury)
 | 15:30-16:00  | [Open SoC Debug](http://orconf.org/#opensocdebug) | [Stefan Wallentowitz](http://orconf.org/#stefanwallentowitz)
@@ -19,15 +19,16 @@ layout: default
 | 18:30-       | Enoteca time |
 | | |
 |---------------------------------------
-| | **Saturday** 
+| | **Saturday**
 |---------------------------------------
 | | |
 | 08:30-09:00  | Room open, coffee served
 | 09:00-09:20  | [RISC-V Update](http://orconf.org/#boom) | [Christopher Celio](http://orconf.org/#chriscelio)
 | 09:20-09:50  | [BOOM: A Superscalar Out-of-order RISC-V Processor](http://orconf.org/#boom) | [Christopher Celio](http://orconf.org/#chriscelio)
-| 10:00-10:40  | [PULP: an open source Parallel Ultra-Low-Power computing platform](http://orconf.org/#pulp) | [Davide Rossi](http://orconf.org/#davide)
-| 10:50-11:30  | [GAP8: A PULP/RISC-V based SoC IoT processor](http://orconf.org/#) | [Eric Flamand](http://orconf.org/#)
-| 11:40-12:20  | [A fully-tested 32-bit RISC-V microcontroller in 130nm and board development](http://orconf.org/#riscv_uc) | [Elkim Roa](http://orconf.org/#elkim)
+| 10:00-10:40  | [PULP: an open source Parallel Ultra-Low-Power computing platform](http://orconf.org/#) | [Davide Rossi](http://orconf.org/#)
+| 10:50-11:30  | [GAP8: A PULP/RISC-V based SoC IoT processor](http://orconf.org/#pulp) | [Eric Flamand](http://orconf.org/#davide)
+| 11:40-11:50  | A SoC for biomedical signal acquisition and processing based on the PULP platform | Giovanni Rovere
+| 11:50-12:30  | [A fully-tested 32-bit RISC-V microcontroller in 130nm and board development](http://orconf.org/#riscv_uc) | [Elkim Roa](http://orconf.org/#elkim)
 | 12:30-14:00  | Lunch
 | 14:00-14:30  | [The ZipCPU: A resource efficient 32-bit SoftCore](http://orconf.org/#zipcpu) | [Dan Gisselquist](http://orconf.org/#gisselquist)
 | 14:40-15:10  | [OpenPiton: A Full-Stack Open Source Manycore](http://orconf.org/#openpiton) | [Jonathan Balkind](http://orconf.org/#balkind)
@@ -36,7 +37,7 @@ layout: default
 | 16:00-16:30  | Break |
 | 16:30-17:10  | [VDT - Free Software Environment for FPGA Development](http://orconf.org/#vdt) | [Andrey N. Filippov](http://orconf.org/#andrey)
 | 17:20-17:50  | [Automating Hardware Projects with Jenkins](http://orconf.org/#jenkins) | [Oleg Nenashev](http://orconf.org/#oleg)
-| 18:00-18:30  | LibreCores launch and demo | 
+| 18:00-18:30  | LibreCores launch and demo |
 | 18:30-19:30  | Pre-dinner break, mingle |
 | 19:30-       | [Dinner](http://www.altrobologna.com/) |
 | | |
