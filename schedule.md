@@ -37,7 +37,7 @@ layout: default
 | 16:00-16:30  | Break |
 | 16:30-17:10  | [VDT - Free Software Environment for FPGA Development](http://orconf.org/#vdt) | [Andrey N. Filippov](http://orconf.org/#andrey)
 | 17:20-17:50  | [Automating Hardware Projects with Jenkins](http://orconf.org/#jenkins) | [Oleg Nenashev](http://orconf.org/#oleg)
-| 18:00-18:30  | LibreCores launch and demo | Philipp Wagner
+| 18:00-18:30  | LibreCores launch and demo - [Video](https://www.youtube.com/watch?v=ZQseM1GuQGo) | Philipp Wagner
 | 18:30-19:30  | Pre-dinner break, mingle |
 | 19:30-       | [Dinner](http://www.altrobologna.com/) |
 | | |
