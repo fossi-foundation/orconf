@@ -47,7 +47,7 @@ layout: default
 | | |
 | 09:00-09:30  | Room open, coffee served |
 | 09:30-10:10  | [Formal Verification with Yosys-SMTBMC](http://orconf.org/#yosys) - [Slides](http://www.clifford.at/papers/2016/yosys-smtbmc/) [Video](https://youtu.be/Q2w5outo6DI)| [Clifford Wolf](http://orconf.org/#clifford)
-| 10:20-11:00  | [MyStorm: An Open Source FPGA board for the IceStorm tool chain](http://orconf.org/#mystorm) - [Video](https://youtu.be/_oTp6_rc3b8) | [Ken Boak, Alan Wood, Jeremy Bennett](http://orconf.org/#mystormpresenters)
+| 10:20-11:00  | [MyStorm: An Open Source FPGA board for the IceStorm tool chain](http://orconf.org/#mystorm) - [AAP Slides](orconf-aap-9-oct-16.pdf) [Video](https://youtu.be/_oTp6_rc3b8) | [Ken Boak, Alan Wood, Jeremy Bennett](http://orconf.org/#mystormpresenters)
 | 11:10-11:40  | [Kactus2: Open Source IP-XACT tool update](http://orconf.org/#kaktus) - [Video](https://youtu.be/UsvUHnA0DnU) | [Esko Pekkarinen](http://orconf.org/#esko)
 | 11:40-12:00  | Lightning talk(s) - [Educating Next Generation Video](https://youtu.be/wWWJIxOiPuI) [Cocotb Video](https://youtu.be/pxorarLnQYc) [FuseSoc Video](https://youtu.be/pKlJWe_HKPM) |
 | 12:00-13:00  | Lunch |
