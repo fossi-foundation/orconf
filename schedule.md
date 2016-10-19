@@ -14,7 +14,7 @@ layout: default
 | 16:00-16:10  | [LimeSDR Demonstration](http://orconf.org/#limesdr) | [A Back](http://orconf.org/#andrewback)
 | 16:10-16:40  | Break |
 | 16:40-17:10  | [The state of OpenRISC: Documentation, Toolchains and Linux](http://orconf.org/#stateofopenrisc) - [Video](https://youtu.be/OHAZqLqln8o) | [Stafford Horne](http://orconf.org/#stafford)
-| 17:20-17:50  | [Improving mor1kx Cappuccino performance: using PCU and branch predictors as a case study](http://orconf.org/#mor1kx) - [Video](https://youtu.be/A9ahb3uSkS4) | [Alexey Baturo, Andrew Voroshilov](http://orconf.org/#alexey)
+| 17:20-17:50  | [Improving mor1kx Cappuccino performance: using PCU and branch predictors as a case study](http://orconf.org/#mor1kx) - [Slides](presentation_design_ver5_2.pptx) [Video](https://youtu.be/A9ahb3uSkS4) | [Alexey Baturo, Andrew Voroshilov](http://orconf.org/#alexey)
 | 18:00-18:30  | [A Cost-effective System for Neuroscientific Research](http://orconf.org/#openeeg) - [Video](https://youtu.be/8Y_54nEwNeE) | [Matteo Chiesi](http://orconf.org/#matteo)
 | 18:30-       | Enoteca time |
 | | |
