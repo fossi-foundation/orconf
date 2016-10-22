@@ -24,7 +24,7 @@ layout: default
 | | |
 | 08:30-09:00  | Room open, coffee served
 | 09:00-09:20  | [RISC-V Update](http://orconf.org/#boom) - [Slides](2016_OrConf_RISC-V_Update.pdf) [Video](https://youtu.be/0mU8LK6rwcY) | [Christopher Celio](http://orconf.org/#chriscelio)
-| 09:20-09:50  | [BOOM: A Superscalar Out-of-order RISC-V Processor](http://orconf.org/#boom) - [Video](https://youtu.be/HVPSlS2v1F0) | [Christopher Celio](http://orconf.org/#chriscelio)
+| 09:20-09:50  | [BOOM: A Superscalar Out-of-order RISC-V Processor](http://orconf.org/#boom) - [Slides](boom-orconf2016.pdf) [Video](https://youtu.be/HVPSlS2v1F0) | [Christopher Celio](http://orconf.org/#chriscelio)
 | 10:00-10:40  | [PULP: an open source Parallel Ultra-Low-Power computing platform](http://orconf.org/#) - [Video](https://youtu.be/Bfsxn1cMyRk) | [Davide Rossi](http://orconf.org/#)
 | 10:50-11:30  | [GAP8: A PULP/RISC-V based SoC IoT processor](http://orconf.org/#pulp) - [Video](https://youtu.be/PE3myfKA7ik) | [Eric Flamand](http://orconf.org/#davide)
 | 11:40-11:50  | A SoC for biomedical signal acquisition and processing based on the PULP platform - [Video](https://youtu.be/aXw5ARm0NqY) | Giovanni Rovere
