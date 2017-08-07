@@ -155,18 +155,19 @@
             </a>Michael Brodeur</h5>
           <p>
           </p>
-	  <h4>
-	    <a name="testinginmanufacturing" class="anchor" href="#testinginmanufacturing"><span class="octicon octicon-link"></span>
-            </a>Mass Production: Open-source Testing in Manufacturing</h4>
-          <p>
-	    After the crowd campaign ends, once the design is done, as soon as units start rolling off the factory line, you need to make sure each item is correctly built.
-	    We present open-source test jig software built to handle the unexpected problems that are encountered in the factory.
-	    Come hear talks about the software, plans for the future, and some horror stories that we've encountered in the factory when developing it.
-	  </p>
-          <h5>Presenter: <a name="testinginmanufacturingpresenter" class="anchor" href="#testinginmanufacturingpresenter"><span class="octicon octicon-link"></span>
-            </a>Sean Cross of <a href="https://www.kosagi.com/w/index.php?title=Main_Page" target="_blank">Kosagi</a></h5>
-          <p>
-	  </p>
+
+	  <!-- <h4> -->
+	  <!--   <a name="testinginmanufacturing" class="anchor" href="#testinginmanufacturing"><span class="octicon octicon-link"></span> -->
+          <!--   </a>Mass Production: Open-source Testing in Manufacturing</h4> -->
+          <!-- <p> -->
+	  <!--   After the crowd campaign ends, once the design is done, as soon as units start rolling off the factory line, you need to make sure each item is correctly built. -->
+	  <!--   We present open-source test jig software built to handle the unexpected problems that are encountered in the factory. -->
+	  <!--   Come hear talks about the software, plans for the future, and some horror stories that we've encountered in the factory when developing it. -->
+	  <!-- </p> -->
+          <!-- <h5>Presenter: <a name="testinginmanufacturingpresenter" class="anchor" href="#testinginmanufacturingpresenter"><span class="octicon octicon-link"></span> -->
+          <!--   </a>Sean Cross of <a href="https://www.kosagi.com/w/index.php?title=Main_Page" target="_blank">Kosagi</a></h5> -->
+          <!-- <p> -->
+	  <!-- </p> -->
 	  
 	  <h4>
 	    <a name="optimsoc" class="anchor" href="#optimsoc"><span class="octicon octicon-link"></span>
@@ -314,6 +315,46 @@
           <p>
 	  </p>
 
+	  <h4>
+	    <a name="autofpga" class="anchor" href="#autofpga"><span class="octicon octicon-link"></span>
+            </a>AutoFPGA: An FPGA Component Aggregator</h4>
+          <p>
+	    Placing a CPU into a new environment can be a daunting task.  Components need to be selected, resources allocated, 
+	    addresses given, interrupts assigned, and peripherals configured--not only in RTL but also for all of the
+	    software support. The problem with this approach to designing hardware is that it works very well for
+	    one-off solutions, but not for quickly creating generic solutions to new problems.  This is where 
+	    <a href="https://github.com/ZipCPU/autofpga" target="_blank">AutoFPGA</a> comes in.
+	  </p>
+	  <p>
+	    Given a set of components, it builds the boiler plate files, the top level and main design files, the
+	    Wishbone interconnect, and the software header files necessary for software support within that design.
+	    As a result, I can reconfigure a project with new hardware in a matter of minutes, rather than the days it
+	    took before.
+	  </p>
+
+          <h5>Presenter: <a name="gisselquist" class="anchor" href="#gisselquist"><span class="octicon octicon-link"></span>
+            </a>Dan Gisselquist</h5>
+          <p>
+	    Dr. Gisselquist is the lead engineer and owner of <a href="http://zipcpu.com/" target="_blank">Gisselquist
+	      Technology, LLC</a>, a services based company
+	    focused on providing superior Computer Engineering and Signal Processing services to our customers.
+	    Dr. Gisselquist has an M.S. in Computer Engineering and an Ph.D. in Electrical Engineering from the
+	    U.S. Air Force Institute of Technology. His current work has been focused on the ZipCPU, and the
+	    environment, toolsuite, and peripherals necessary to support both it and any end-user applications. 	    
+	  </p>
+
+	  <h4>
+	    <a name="zipcpu" class="anchor" href="#zipcpu"><span class="octicon octicon-link"></span>
+            </a>An update on the ZipCPU</h4>
+          <p>
+	    When I last presented the <a href="https://github.com/ZipCPU/zipcpu" target="_blank">ZipCPU</a>, it had
+	    no 8-bit byte support.  This and several other things have now changed with the CPU.  This lightening
+	    talk will present the current state of the ZipCPU project.
+	  </p>
+          <h5>Presenter: <a name="gisselquist2" class="anchor" href="#gisselquist2"><span class="octicon octicon-link"></span>
+            </a><a href="#gisselquist">Dan Gisselquist</a></h5>
+          <p>
+	  </p>
 
 	  <h4>
 	    <a name="opensocdebug" class="anchor" href="#opensocdebug"><span class="octicon octicon-link"></span>
@@ -366,43 +407,193 @@
 	  </p>
 
 
+	  <!-- <h4> -->
+	  <!--   <a name="poc" class="anchor" href="#poc"><span class="octicon octicon-link"></span> -->
+          <!--   </a>PoC - An Open Source and Vendor Independent IP Core Library</h4> -->
+          <!-- <p> -->
+	  <!--   <a href="https://github.com/VLSI-EDA/PoC" target="_blank">Pile of Cores (PoC)</a>  -->
+	  <!--   is an open source IP core library containing more than 120 IP -->
+	  <!--   cores mostly written in VHDL. All IP cores are written in a vendor independent style. -->
+	  <!--   If this is not possible or a synthesis tool is not capable of producing the 'best' -->
+	  <!--   synthesis result, we implemented a vendor abstraction layer. -->
+	  <!-- </p> -->
+	  <!-- <p> -->
+	  <!--   Our cores are FPGA-proven and some are even tested in ASIC tool chains.  All IP cores  -->
+	  <!--   offered as source code files with full disclosure. This allows even the usage in security -->
+	  <!--   critical or closed source projects. Additionally, the IP cores are shipped with testbenches -->
+	  <!--   and synthesis constrains, when needed. If necessary, example projects are provided, too. -->
+	  <!--   PoC provides a simple command line interface to simulate, synthesize or package an IP core. -->
+	  <!-- </p> -->
+	  <!-- <p> -->
+	  <!--   PoC is heavily using free web services to ensure and disclose the quality of PoC's IP cores. -->
+	  <!--   That means we are using continuous integration (CI) techniques based on GitHub, Travis-CI, -->
+	  <!--   AppVeyor, and GHDL to verify our IP cores. More over, we are using ReadTheDocs to -->
+	  <!--   implement continuous documentation! -->
+	  <!-- </p> -->
+          <!-- <h5>Presenter: <a name="plehmann" class="anchor" href="#plehmann"><span class="octicon octicon-link"></span> -->
+          <!--   </a>Patrick Lehmann</h5> -->
+          <!-- <p> -->
+	  <!--   <a href="https://paebbels.github.io/" target="_blank">Mr. Lehmann</a> is one of developers and maintainers -->
+	  <!--   of The PoC-Library, a platform and vendor independent -->
+	  <!--   open source IP core library. He is also a contributor to the free VHDL simulator GHDL. In 2016, -->
+	  <!--   he started an initiative called 'Open Source VHDL Group'. -->
+	  <!-- </p> -->
+	  <!-- <p> -->
+	  <!--   Mr. Lehmann is active in the IEEE P1076 'VHDL Analysis and Standardization Group' since 2014. He -->
+	  <!--   detailed and wrote major parts of the language changes for the upcoming VHDL revision. In 2017 -->
+	  <!--   he became an IEEE Standards Association member and was announced vice-chair of the P1076 working group. -->
+	  <!--   In June 2017 he started working at PLC2 GmbH as a developer and trainer. -->
+	  <!-- </p> -->
+
+
+	  <!-- <h4> -->
+	  <!--   <a name="" class="anchor" href="#"><span class="octicon octicon-link"></span> -->
+          <!--   </a>title</h4> -->
+          <!-- <p> -->
+	  <!-- </p> -->
+          <!-- <h5>Presenter: <a name="presenter" class="anchor" href="#presenter"><span class="octicon octicon-link"></span> -->
+          <!--   </a>text</h5> -->
+          <!-- <p> -->
+	  <!-- </p> -->
+
 	  <h4>
-	    <a name="poc" class="anchor" href="#poc"><span class="octicon octicon-link"></span>
-            </a>PoC - An Open Source and Vendor Independent IP Core Library</h4>
+	    <a name="chips4makers" class="anchor" href="#chips4makers"><span class="octicon octicon-link"></span>
+            </a>Chips4Makers</h4>
           <p>
-	    <a href="https://github.com/VLSI-EDA/PoC" target="_blank">Pile of Cores (PoC)</a> 
-	    is an open source IP core library containing more than 120 IP
-	    cores mostly written in VHDL. All IP cores are written in a vendor independent style.
-	    If this is not possible or a synthesis tool is not capable of producing the 'best'
-	    synthesis result, we implemented a vendor abstraction layer.
+	    Bootstrapping open source low-volume ASICs.
 	  </p>
-	  <p>
-	    Our cores are FPGA-proven and some are even tested in ASIC tool chains.  All IP cores 
-	    offered as source code files with full disclosure. This allows even the usage in security
-	    critical or closed source projects. Additionally, the IP cores are shipped with testbenches
-	    and synthesis constrains, when needed. If necessary, example projects are provided, too.
-	    PoC provides a simple command line interface to simulate, synthesize or package an IP core.
-	  </p>
-	  <p>
-	    PoC is heavily using free web services to ensure and disclose the quality of PoC's IP cores.
-	    That means we are using continuous integration (CI) techniques based on GitHub, Travis-CI,
-	    AppVeyor, and GHDL to verify our IP cores. More over, we are using ReadTheDocs to
-	    implement continuous documentation!
-	  </p>
-          <h5>Presenter: <a name="plehmann" class="anchor" href="#plehmann"><span class="octicon octicon-link"></span>
-            </a>Patrick Lehmann</h5>
+          <h5>Presenter: <a name="staff" class="anchor" href="#staff"><span class="octicon octicon-link"></span>
+            </a><a href="https://www.linkedin.com/in/staf-verhaegen-b3316b/?ppe=1" target="_blank">Staf Verhaegen</a></h5>
           <p>
-	    <a href="https://paebbels.github.io/" target="_blank">Mr. Lehmann</a> is one of developers and maintainers
-	    of The PoC-Library, a platform and vendor independent
-	    open source IP core library. He is also a contributor to the free VHDL simulator GHDL. In 2016,
-	    he started an initiative called 'Open Source VHDL Group'.
+	    Long time open source proponent and developer - with interest in Linux, Python, AROS, etc. -
+	    that also would like to get that spirit in the ASIC world.
+	  </p>
+
+	  <h4>
+	    <a name="edsac" class="anchor" href="#edsac"><span class="octicon octicon-link"></span>
+            </a>EDSAC Museum on FPGA</h4>
+          <p>
+	    The project’s goal is to reimagine the <a href="https://en.wikipedia.org/wiki/Electronic_delay_storage_automatic_calculator"
+						      target="_blank">Electronic Delay Storage Automatic Calculator</a> (EDSAC),
+	    a computer built by <a href="https://en.wikipedia.org/wiki/Maurice_Wilkes" target="_blank">Maurice Wilkes</a>
+	    in 1949, on modern hardware, with the ultimate objective to
+	    make the historic computer accessible to and reproducible by a new generation of computer
+	    architects and engineers.
 	  </p>
 	  <p>
-	    Mr. Lehmann is active in the IEEE P1076 'VHDL Analysis and Standardization Group' since 2014. He
-	    detailed and wrote major parts of the language changes for the upcoming VHDL revision. In 2017
-	    he became an IEEE Standards Association member and was announced vice-chair of the P1076 working group.
-	    In June 2017 he started working at PLC2 GmbH as a developer and trainer.
+	    Investigating the evolution of computing techniques gives architects and engineers context to
+	    modern concepts of computer architecture, organisation and design.
 	  </p>
+          <h5>Presenter: <a name="hatim" class="anchor" href="#hatim"><span class="octicon octicon-link"></span>
+            </a>Hatim Kanchwala</h5>
+          <p>
+	    I am an undergraduate pursuing Bachelors in Electrical Engineering at the Indian Institute of
+	    Technology Patna. My academic interests are in the hardware domain, especially computer architecture
+	    and organisation, digital design and embedded systems.
+	  </p>
+
+	  <h4>
+	    <a name="cariscv" class="anchor" href="#cariscv"><span class="octicon octicon-link"></span>
+            </a>Bringing up cycle-accurate models of RISC-V cores</h4>
+          <p>
+	    The openness of the RISC-V ISA has enabled the development of many open-source RISC-V cores with
+	    varying capabilities. Choosing an implementation that meets given requirements can be done to some
+	    extent by comparing specifications and other attributes of the cores, but any decision must be based
+	    on actual testing. Using Verilator to generate cycle-accurate models enables rapid development of testing
+	    platforms.
+	  </p>
+	  <p>
+	    This talk provides a report of our experience bringing up cycle-accurate models of two cores in particular,
+	    <a href="https://github.com/pulp-platform/riscv" target="_blank">RI5CY</a> from the
+	    <a href="http://www.pulp-platform.org/" target="_blank">PuLP project</a>, and
+	    Clifford Wolf's <a href="https://github.com/cliffordwolf/picorv32?hn=1" target="_blank">PicoRV32</a>.
+	    For testing, a software ecosystem consisting
+	    of a compiler, binary utilities, debugger, and an interface between the model and debugger accompanies
+	    the Verilator model.
+	  </p>
+	  <p>
+	    To compare the cores, we used the GCC test suite and the RISC-V ISA test suite for measuring correctness,
+	    and the Bristol/Embecosm Embedded Benchmark Suite (BEEBS) to compare performance. All code and scripts
+	    used for the implementation are open-source, and can be re-used by others who wish to do similar exercises
+	    with other RISC-V cores.
+	  </p>
+          <h5>Presenter: <a name="graham" class="anchor" href="#graham"><span class="octicon octicon-link"></span>
+            </a>Graham Markall</h5>
+          <p>
+	    <a href="http://www.doc.ic.ac.uk/~grm08/" target="_blank">Dr Graham Markall</a> has a background in
+	    languages and compilers for scientific computing, and is well known for his work on the Numba project.
+	    He is part of <a href="http://www.embecosm.com/about/meet-the-team/" target="_blank">Embecosm’s GNU
+	      tool chain team</a>.
+	  </p>
+	  <p>
+	    Dr Markall holds an MSc and PhD in Computer Science from Imperial College, London, where his doctoral
+	    research was on compiler frameworks for implementing PDE solvers.
+	  </p>
+
+	  <h4>
+	    <a name="uvvm" class="anchor" href="#uvvm"><span class="octicon octicon-link"></span>
+            </a>UVVM – Universal VHDL Verification Methodology – The standardised VHDL testbench architecture</h4>
+          <p>
+	    For an FPGA design we all know that the architecture – all the way from the top to the micro architecture – is
+	    critical for both the FPGA quality and the development time. It should really be obvious that this also applies to the testbench.
+	  </p>
+	  <p>
+	    Most FPGA designs are split into stand-alone modules – for instance for each of the FPGA external interfaces.
+	    In VHDL these modules are VHDL entities (components), and they are normally accessed from a CPU via a more
+	    or less standardised register interface, which acts as an abstraction layer. This abstraction allows a safe
+	    and very efficient control of the complete FPGA.
+	  </p>
+	  <p>
+	    It becomes clear that this approach should also be used for the verification environment - to simplify the
+	    testbench architecture and the control of the interfaces. This way the verification structure will mirror the
+	    design structure, allowing the best possible overview, readability, maintainability and reuse.
+	  </p>
+	  <p>
+	    <a href="http://www.bitvis.no/products/uvvm/" target="_blank">UVVM</a> provides a very simple and powerful architecture for this – to allow designers to build their own
+	    test harness much faster than ever before – using a mix of their own and open source verification components.
+	    OSVVM may be used seamlessly with UVVM, so that Constrained Random and Functional Coverage may be combined
+	    with a great architecture and infrastructure, and controlled in an easily understandable, maintainable and
+	    reusable way.
+	  </p>
+	  <p>
+	    This presentation will show you how simple this is to understand, build and control. 
+	  </p>
+          <h5>Presenter: <a name="espen" class="anchor" href="#espen"><span class="octicon octicon-link"></span>
+            </a>Espen Tallaksen</h5>
+          <p>
+	    <a href="http://www.bitvis.no/about/people/" target="_blank">Espen Tallaksen</a> is the managing director
+	    and founder of <a href="http://www.bitvis.no/" target="_blank">Bitvis</a>, an independent design centre for embedded
+	    software and FPGA. He graduated from the University of Glasgow (Scotland) in 1987 and has 30 years’ experience with
+	    FPGA and ASIC development from Philips Semiconductors in Switzerland and various companies in Norway,
+	    including his earlier founded company Digitas.
+	  </p>
+	  <p>
+	    During twenty years Espen has had a special interest for methodology cultivation and pragmatic efficiency
+	    and quality improvement. One result of this interest is the UVVM verification platform that is currently
+	    being used by companies world-wide. He has given many presentations and keynotes on various technical aspects
+	    of FPGA development.
+	  </p>
+
+	  <h4>
+	    <a name="chiphack" class="anchor" href="#chiphack"><span class="octicon octicon-link"></span>
+            </a>Chip Hack EDSAC 2017</h4>
+          <p>
+	    For the <a href="http://wutheringbytes.com/" target="_blank">Wuthering Bytes</a> festival, a two and a half
+	    day event was organised to teach near beginners FPGA
+	    programming. Dubbed <a href="http://chiphack.org/" target="_blank">Chip Hack</a>, the course included a
+	    selection of talks and tutorials to ease the participants into the FPGA
+	    world so that by the end of the first day all participants can program a UART transmitter or a receiver.
+	  </p>
+	  <p>
+	    To celebrate the 60th anniversary of the BCS, during the second half of the Chip Hack course a replica of
+	    EDSAC (implemented by Hatim Kanchwala of the Indian Institute of Technology) was brought up on the FPGA boards used the day before. The boards could interface with multiple peripherals, such as the delay lines and tape reader, to educate the participants on simple computer architecture and design.	    
+	  </p>
+          <h5>Presenter: <a name="bennetts" class="anchor" href="#bennetts"><span class="octicon octicon-link"></span>
+            </a>Mary Bennett, Peter Bennett, Dan Gorringe</h5>
+          <p>
+	  </p>
+
+	  <!-- End of presentation section -->
 
 
 	  <h2><a name="venue" class="anchor" href="#venue"><span class="octicon octicon-link"></span></a>Venue</h2>
