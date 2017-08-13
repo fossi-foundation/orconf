@@ -706,6 +706,38 @@
             in the ASIC world.
           </p>
 
+	  <h4>
+	    <a name="consistency" class="anchor" href="#consistency"><span class="octicon octicon-link"></span>
+            </a>Sequential Consistency on lowRISC</h4>
+          <p>
+            SMP systems with out-of-order processors provide sequentially
+            consistent memory operations by performing speculation and delayed
+            commit. On the other hand, implementing sequential consistency
+            increases hardware complexity on in-order SMP systems, where even a
+            small amount of area gain matters significantly. Thus, a
+            low-complexity method for sequential consistency model on low-power
+            in-order SMP systems is appealing.
+          </p>
+          <p>
+            In this work-in-progress talk, I will report the latest status of
+            implementation of a lightweight sequential consistency model on
+            lowRISC SoC with in-order Rocket processor. I will start the
+            presentation with an overview of interconnect and cache coherence
+            architecture of lowRISC, followed by sequential consistency features
+            incorporated so far. I will conclude the talk with a list of
+            remaining work and lessons learned during the work.
+          </p>
+          <h5>Presenter: <a name="mahircan" class="anchor" href="#mahircan"><span class="octicon octicon-link"></span>
+            </a>Mahircan Gul</h5>
+          <p>
+            I have received my MSc degree from Technical University of
+            Kaiserslautern, with focus on processor architecture and real-time
+            operating systems. I'm currently working as a full-time application
+            developer for computer vision/deep learning applications on FPGA/DSP
+            platforms. Aside of my work, I contribute to RISC-V based open
+            source systems.
+          </p>
+
 	  <!-- End of presentation section -->
 
 
