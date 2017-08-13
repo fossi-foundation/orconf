@@ -626,6 +626,70 @@
             Moscow Institute of Physics and Technology (MIPT).
 	  </p>
 
+	  <h4>
+	    <a name="swhwportability" class="anchor" href="#swhwportability"><span class="octicon octicon-link"></span>
+            </a>Software to hardware portability</h4>
+          <p>
+            At Philips Healthcare we participated in the
+            <a href="http://almarvi.eu/" target="_blank">ARTEMIS ALMARVI project</a>
+            . In the context of this project we studied, among others, tools and
+            techniques to become less platform dependent when implementing high
+            performance real-time image processing algorithms. We aim to be
+            portable across CPU, GPU and FPGA platforms and have zoomed in
+            especially on enablers for portability towards FPGAs.
+          </p>
+          <p>
+            In this presentation we will talk about our experiences with tools
+            and techniques to achieve software to hardware portability, coming
+            from a software algorithm description to an FPGA implementation.
+          </p>
+          <p>
+            We have selected the Halide domain specific language and
+            specifically the Halide HLS framework which generates Xilinx High
+            Level Synthesis compatible C/C++ targeting FPGAs. As well as the new
+            SDAccel tool from Xilinx which allows us to program System On Chip
+            FPGAs at the abstraction level of OpenCL. SDAccel also uses the
+            Xilinx HLS tools underneath.
+          </p>
+          <p>
+            Halide has the advantage that algorithms are described separately
+            from the schedule for a specific platform, meaning that when moving
+            to other platforms the algorithm remains untouched. Halide can also
+            generate OpenCL or C/C++ targeting GPU and CPU platforms.
+          </p>
+          <p>
+            SDAccel has the advantage that we can use OpenCL as a common
+            implementation language, which is nowadays widely supported by CPU
+            and GPU vendors as well as both Xilinx and Intel Altera FPGAs.
+          </p>
+          <p>
+            Several selected image processing algorithms were tested with both
+            approaches and some extensions and optimizations were made to
+            improve the performance and resource utilization in the HLS output.
+          </p>
+          <h5>Presenter: <a name="steven" class="anchor" href="#steven"><span class="octicon octicon-link"></span>
+            </a>Steven van der Vlugt</h5>
+          <p>
+            Bachelor Electrical Engineering Embedded Systems 2005 - 2009 (Hogeschool Utrecht NL)
+            Master Electrical Engineering Electronic Systems 2010 - 2014 (TU Eindhoven NL), specialization in Computer Architecture, Signal Processing, (Bio-)Medical domain
+(https://nl.linkedin.com/in/steven-van-der-vlugt-2880223b)
+          </p>
+          <p>
+            I have been with Philips Healthcare Image Guided Therapy in the
+            Netherlands through Topic Embedded Systems for the last three years
+            (since 2014). First as FPGA engineer working with Xilinx High Level
+            Synthesis tools. Next during the last 1.5 years I have worked on a
+            European project (ARTEMIS ALMARVI [almarvi.eu]) on portable
+            solutions for image processing algorithms. As part of this study we
+            have used Xilinx High Level Synthesis tools to become portable from
+            C/C++ algorithms (PC based) to implementations on Xilinx FPGAs
+            (Verilog/VHDL). Later we extended this study looking for even higher
+            levels of abstraction coming from Domain Specific Languages or
+            OpenCL. I was the lead engineer, researcher and designer for Philips
+            Healthcare and Work Package leader for one of 5 technical work
+            packages in the European project.
+          </p>
+
 	  <!-- End of presentation section -->
 
 
