@@ -593,6 +593,151 @@
           <p>
 	  </p>
 
+	  <h4>
+	    <a name="scr1" class="anchor" href="#scr1"><span class="octicon octicon-link"></span>
+            </a>SCR1: an open-source MCU-class RISC-V compatible core with maintenance and support</h4>
+          <p>
+            SCR1 is an open-source MCU-class RISC-V core for deeply embedded
+            applications and accelerator control, for which Syntacore provides
+            maintaining and best-effort support. SCR1 has competitive features
+            and characteristics and can be configured for RV32I or RV32E base
+            instruction set with optional M and C extensions and variety of
+            predefined configurable features and uncore components. The core is
+            released under the permissive Solderpad Hardware License, which is
+            Apache 2.0 derivative with HW specifics. SCR1 is implemented in
+            SystemVerilog, optimized for area and power, and comes with
+            documentation, tests, verification and synthesis collateral as well
+            as instantiation examples and open-source FPGA-based devkit. It is
+            compatible with the current RISC-V privileged ISA v1.10 and user ISA
+            v2.2 specifications.
+	  </p>
+          <h5>Presenters: <a name="syntacore" class="anchor" href="#syntacore"><span class="octicon octicon-link"></span>
+            </a>Ekaterina Berezina, Vasily Varaksin</h5>
+          <p>
+            Ekaterina Berezina is a RTL designer at Syntacore company, and one
+            of the developers of the SCR1 core. She has 4 years of experience in
+            RTL development (Intel, Syntacore) and Master’s degree in Computer
+            Science at ITMO University, Saint-Petersburg.
+          </p>
+          <p>
+            Vasily Varaksin is hardware developer at Syntacore company. He has
+            6+ years of experience in developing SoCs based on RISC-V, MIPS, ARM
+            and E2K architectures and masters degree in Computer Science and
+            Moscow Institute of Physics and Technology (MIPT).
+	  </p>
+
+	  <h4>
+	    <a name="swhwportability" class="anchor" href="#swhwportability"><span class="octicon octicon-link"></span>
+            </a>Software to hardware portability</h4>
+          <p>
+            At Philips Healthcare we participated in the
+            <a href="http://almarvi.eu/" target="_blank">ARTEMIS ALMARVI project</a>
+            . In the context of this project we studied, among others, tools and
+            techniques to become less platform dependent when implementing high
+            performance real-time image processing algorithms. We aim to be
+            portable across CPU, GPU and FPGA platforms and have zoomed in
+            especially on enablers for portability towards FPGAs.
+          </p>
+          <p>
+            In this presentation we will talk about our experiences with tools
+            and techniques to achieve software to hardware portability, coming
+            from a software algorithm description to an FPGA implementation.
+          </p>
+          <p>
+            We have selected the Halide domain specific language and
+            specifically the Halide HLS framework which generates Xilinx High
+            Level Synthesis compatible C/C++ targeting FPGAs. As well as the new
+            SDAccel tool from Xilinx which allows us to program System On Chip
+            FPGAs at the abstraction level of OpenCL. SDAccel also uses the
+            Xilinx HLS tools underneath.
+          </p>
+          <p>
+            Halide has the advantage that algorithms are described separately
+            from the schedule for a specific platform, meaning that when moving
+            to other platforms the algorithm remains untouched. Halide can also
+            generate OpenCL or C/C++ targeting GPU and CPU platforms.
+          </p>
+          <p>
+            SDAccel has the advantage that we can use OpenCL as a common
+            implementation language, which is nowadays widely supported by CPU
+            and GPU vendors as well as both Xilinx and Intel Altera FPGAs.
+          </p>
+          <p>
+            Several selected image processing algorithms were tested with both
+            approaches and some extensions and optimizations were made to
+            improve the performance and resource utilization in the HLS output.
+          </p>
+          <h5>Presenter: <a name="steven" class="anchor" href="#steven"><span class="octicon octicon-link"></span>
+            </a>Steven van der Vlugt</h5>
+          <p>
+            Bachelor Electrical Engineering Embedded Systems 2005 - 2009 (Hogeschool Utrecht NL)
+            Master Electrical Engineering Electronic Systems 2010 - 2014 (TU Eindhoven NL), specialization in Computer Architecture, Signal Processing, (Bio-)Medical domain
+(https://nl.linkedin.com/in/steven-van-der-vlugt-2880223b)
+          </p>
+          <p>
+            I have been with Philips Healthcare Image Guided Therapy in the
+            Netherlands through Topic Embedded Systems for the last three years
+            (since 2014). First as FPGA engineer working with Xilinx High Level
+            Synthesis tools. Next during the last 1.5 years I have worked on a
+            European project (ARTEMIS ALMARVI [almarvi.eu]) on portable
+            solutions for image processing algorithms. As part of this study we
+            have used Xilinx High Level Synthesis tools to become portable from
+            C/C++ algorithms (PC based) to implementations on Xilinx FPGAs
+            (Verilog/VHDL). Later we extended this study looking for even higher
+            levels of abstraction coming from Domain Specific Languages or
+            OpenCL. I was the lead engineer, researcher and designer for Philips
+            Healthcare and Work Package leader for one of 5 technical work
+            packages in the European project.
+          </p>
+
+	  <h4>
+	    <a name="venusmars" class="anchor" href="#venusmars"><span class="octicon octicon-link"></span>
+            </a>RFC: Is open source from Venus and commercial from Mars ?</h4>
+          <p>
+            On an (impossible?) quest for an open source ASIC business model
+            tainted by my open source software heritage. There is something to
+            be learned from the successful open source business models.
+          </p>
+          <h5>Presenter: <a name="staf" class="anchor" href="#staf"><span class="octicon octicon-link"></span>
+            </a>Staf Verhaegen</h5>
+          <p>
+            Long time open source proponent and developer - with interest in
+            Linux, Python, AROS, etc. - that also would like to get that spirit
+            in the ASIC world.
+          </p>
+
+	  <h4>
+	    <a name="consistency" class="anchor" href="#consistency"><span class="octicon octicon-link"></span>
+            </a>Sequential Consistency on lowRISC</h4>
+          <p>
+            SMP systems with out-of-order processors provide sequentially
+            consistent memory operations by performing speculation and delayed
+            commit. On the other hand, implementing sequential consistency
+            increases hardware complexity on in-order SMP systems, where even a
+            small amount of area gain matters significantly. Thus, a
+            low-complexity method for sequential consistency model on low-power
+            in-order SMP systems is appealing.
+          </p>
+          <p>
+            In this work-in-progress talk, I will report the latest status of
+            implementation of a lightweight sequential consistency model on
+            lowRISC SoC with in-order Rocket processor. I will start the
+            presentation with an overview of interconnect and cache coherence
+            architecture of lowRISC, followed by sequential consistency features
+            incorporated so far. I will conclude the talk with a list of
+            remaining work and lessons learned during the work.
+          </p>
+          <h5>Presenter: <a name="mahircan" class="anchor" href="#mahircan"><span class="octicon octicon-link"></span>
+            </a>Mahircan Gul</h5>
+          <p>
+            I have received my MSc degree from Technical University of
+            Kaiserslautern, with focus on processor architecture and real-time
+            operating systems. I'm currently working as a full-time application
+            developer for computer vision/deep learning applications on FPGA/DSP
+            platforms. Aside of my work, I contribute to RISC-V based open
+            source systems.
+          </p>
+
 	  <!-- End of presentation section -->
 
 
