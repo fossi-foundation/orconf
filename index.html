@@ -835,6 +835,60 @@
           <p>
 	  </p>
 
+	  <h4>
+	    <a name="riscvformal" class="anchor" href="#riscvformal"><span class="octicon octicon-link"></span>
+            </a>End-to-end formal ISA verification of RISC-V processors with riscv-formal</h4>
+          <p>
+            Formal hardware verification (hardware model checking) can prove
+            that a design has a specified property. This is different from
+            simulation, which can only demonstrate that a property holds for
+            some concrete traces (sets of inputs). Historically only very
+            simple properties have been provable this way, but improvements in
+            model checkers over the last decade enable us to prove very
+            complex design properties nowadays.
+          </p>
+          <p>
+            riscv-formal [1] is a framework for formally verifying RISC-V
+            processors directly against a formal ISA specification. (The ISA
+            specification used in riscv-formal is itself formally verified
+            against Spike, the official RISC-V simulator and ""golden reference""
+            implementation.) riscv-formal can be made to work with any existing
+            processor design, all that is needed is to add an additional RVFI
+            (RISC-V formal interface) trace port to the core.
+          </p>
+          <p>
+            riscv-formal by default uses the open source SymbiYosys [2]
+            toolchain to perform the formal proofs, but it should be compatible
+            with all major HDL formal verification flows.
+          </p>
+          <p>
+            In this presentation I will discuss how the complex task of
+            verifying a processor against the ISA specification is broken down
+            into smaller verification problems in riscv-formal, how to implement
+            RVFI, how integrate a core with riscv-formal, and what kind of bugs
+            can be detected using our method.
+          </p>
+          <p>
+            Most of the proofs performed by riscv-formal are bounded proofs,
+            i.e. it is only proven that the properties hold for the first N
+            cycles after reset. But with a sufficiently large N we can create
+            high confidence that in fact all relevant states can be reached
+            within the bound of the proof and that therefore the bounded case
+            is a sufficient proxy for the more general unbounded case.
+            Abstractions, cut-points, and blackboxing can further help extend
+            the effective bound of the proof. The presentation also touches on
+            those techniques.
+          </p>
+          <p>
+            [1] https://github.com/cliffordwolf/riscv-formal
+            [2] http://symbiyosys.readthedocs.io/en/latest/
+          </p>
+          <h5>Presenter: <a name="clifford" class="anchor" href="#clifford"><span class="octicon octicon-link"></span>
+            </a>Clifford Wolf</h5>
+          <p>
+            Clifford Wolf is the author of riscv-formal, Yosys, and SymbiYosys.
+          </p>
+
 	  <!-- <h4> -->
 	  <!--   <a name="" class="anchor" href="#"><span class="octicon octicon-link"></span> -->
           <!--   </a>title</h4> -->
