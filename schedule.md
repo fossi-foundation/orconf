@@ -14,7 +14,8 @@ layout: default
 | 16:00-16:30  | Break |
 | 16:30-17:00  | An overview of recent RISC-V Foundation activities|
 | 17:00-17:30  | A novel technique for open-source EDA community building using technology-mediated learning|
-| 17:30-       | Pints and Pudding time |
+| 17:30-18:00  | Software to hardware portability|
+| 18:00-       | Pints and Pudding time |
 | | |
 |---------------------------------------
 | | **Saturday**
@@ -42,10 +43,9 @@ layout: default
 |  | **Sunday**
 |-----
 | | |
-| 08:30-09:00  | Room open, coffee served |
-| 09:00-09:30  | EDSAC Museum on FPGA|
-| 09:30-10:00  | Chip Hack EDSAC 2017|
-| 10:00-10:30  | Software to hardware portability|
+| 08:30-09:30  | Room open, coffee served |
+| 09:30-10:00  | EDSAC Museum on FPGA|
+| 10:00-10:30  | Chip Hack EDSAC 2017|
 | 10:30-11:00  | Break|
 | 11:00-11:30  | PULP: an Open Source Parallel Computing Platform|
 | 11:30-12:00  | Your Many-Core Future: Practical Applications of OpenPiton|
