@@ -28,6 +28,7 @@ layout: default
 | 10:30-11:00  | Poster presentations + Break
 | 11:00-11:30  | Experience report: Bringing up cycle-accurate models of RISC-V cores|
 | 11:30-12:00  | State of LibreCores CI|
+| 12:00-12:30  | Chips4Makers|
 | 12:30-14:00  | Lunch
 | 14:00-14:30  | End-to-end formal ISA verification of RISC-V processors with riscv-formal|
 | 14:30-15:00  | Open Circuit Design:  Recent and planned development of Open Source EDA tools|
