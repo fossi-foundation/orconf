@@ -9,12 +9,12 @@ layout: default
 | 13:30-14:00  | Conference Welcome   |
 | 14:00-14:30  | [An Open Source PDVL Framework](https://orconf.org/#pdvl) - [Tobias Strauch](https://orconf.org/#pdvlpresenter) (20+10)|
 | 14:30-15:00  | [Kactus2: Update on the open source IP-XACT tool](https://orconf.org/#kaktus) - [Esko Pekkarinen](https://orconf.org/#esko) (15+5)|
-| 15:00-15:15  | [Progress of the OpTiMSoC project](https://orconf.org/#optimsoc) - [Stefan Wallentowitz](https://orconf.org/#optimsocpresenter)(10+5)|
-| 15:15-16:00  | [UVVM – Universal VHDL Verification Methodology – The standardised VHDL testbench architecture](https://orconf.org/#uvvm) - [Espen Tallaksen]((https://orconf.org/#espen) (20+10)|
+| 15:00-15:15  | [Progress of the OpTiMSoC project](https://orconf.org/#optimsoc) - [Stefan Wallentowitz](https://orconf.org/#optimsocpresenter) (10+5)|
+| 15:15-16:00  | [UVVM – Universal VHDL Verification Methodology – The standardised VHDL testbench architecture](https://orconf.org/#uvvm) - [Espen Tallaksen](https://orconf.org/#espen) (20+10)|
 | 16:00-16:30  | Break |
 | 16:30-17:00  | [An overview of recent RISC-V Foundation activities](https://orconf.org/#riscv) - [Alex Bradbury](https://orconf.org/#asb2) (15+5)|
 | 17:00-17:30  | [Open-source EDA community building](https://orconf.org/#edacommunity) - [Kunal Promode Ghosh](https://orconf.org/#edacommunitypresenter) (20+10)|
-| 17:30-18:00  | [Software to hardware portability](https://orconf.org/#swhwportability) - [Steven van der Vlugt](https://orconf.org/#steven)(20+10)|
+| 17:30-18:00  | [Software to hardware portability](https://orconf.org/#swhwportability) - [Steven van der Vlugt](https://orconf.org/#steven) (20+10)|
 | 18:00-       | Pints and Pudding time |
 | | |
 |---------------------------------------
