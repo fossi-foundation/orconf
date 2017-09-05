@@ -22,7 +22,7 @@ layout: default
 |---------------------------------------
 | | |
 | 08:30  | Room open, coffee served
-| 09:00  | [AutoFPGA: An FPGA Component Aggregator](https://orconf.org/#autofpga) - [](https://orconf.org/#) (20+10)|
+| 09:00  | [AutoFPGA: An FPGA Component Aggregator](https://orconf.org/#autofpga) - [Dan Gisselquist](https://orconf.org/#gisselquist) (20+10)|
 | 09:30  | [FOSSi Foundation update](https://orconf.org/#fossiupdate) - [FOSSi Foundation](https://orconf.org/#fossiboard) (15+10)|
 | 10:00  | [LibreCores - your source for free and open digital hardware](https://orconf.org/#librecores) - [Philipp Wagner](https://orconf.org/#phil2) (15+5)|
 | 10:30  | Poster presentations + Break
@@ -34,7 +34,8 @@ layout: default
 | 14:30  | [Open Circuit Design:  Recent and planned development of Open Source EDA tools](https://orconf.org/#opencircuitdesign) - [R. Timothy Edwards](https://orconf.org/#rtimothyedwards) (15+5)|
 | 15:00  | [lowRISC project update](https://orconf.org/#lowrisc) - [Alex Bradbury](https://orconf.org/#asb) (20+10)|
 | 15:30  | [Sequential Consistency on lowRISC](https://orconf.org/#consistency) - [Mahircan Gul](https://orconf.org/#mahircan) (10+5)|
-| 16:00  | Lightning talks + Break |
+| 15:50  | Lightning talks - [ZipCPU update](https://orconf.org/#zipcpu), [What the Heck is System Hyper Pipelining?](https://orconf.org/#hyperpipelining) |
+| 16:00  | Break |
 | 16:30  | [Open SoC Debug: Reusable debug and trace components with added value](https://orconf.org/#opensocdebug) - [Philipp Wagner](https://orconf.org/#phil) (15+5)|
 | 17:00  | [Experience report: Bringing up cycle-accurate models of RISC-V cores](https://orconf.org/#cariscv) - [Graham Markall](https://orconf.org/#graham) (15+5)|
 | 17:30  | [RFC: Is open source from Venus and commercial from Mars?](https://orconf.org/#venusmars) - [Staf Verhaegen](https://orconf.org/#staf) (15+5)|
