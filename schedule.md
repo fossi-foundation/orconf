@@ -24,12 +24,13 @@ layout: default
 |---------------------------------------
 | | |
 | 08:00  | Registration open at Town Hall, coffee served  |
-| 09:00  | [AutoFPGA: An FPGA Component Aggregator](https://orconf.org/#autofpga) - [Dan Gisselquist](https://orconf.org/#gisselquist) (20+10)|
-| 09:30  | [FOSSi Foundation update](https://orconf.org/#fossiupdate) - [FOSSi Foundation](https://orconf.org/#fossiboard) (15+10)|
-| 10:00  | [LibreCores - your source for free and open digital hardware](https://orconf.org/#librecores) - [Philipp Wagner](https://orconf.org/#phil2) (15+5)|
+| 09:00  | [FOSSi Foundation update](https://orconf.org/#fossiupdate) - [FOSSi Foundation](https://orconf.org/#fossiboard) (15+10)|
+| 09:30  | [LibreCores - your source for free and open digital hardware](https://orconf.org/#librecores) - [Philipp Wagner](https://orconf.org/#phil2) (15+5)|
+| 10:00  | [State of LibreCores CI](https://orconf.org/#lcci) - [Stefan Wallentowitz and Oleg Nenashev](https://orconf.org/#lccipresenter) (20+10)|
 | 10:30  | Poster presentations + Break
 | 11:00  | [The CERN OHL v2 and copyleft licences for HDL](https://orconf.org/#cernohl) - [Andrew Katz](https://orconf.org/#andrewkatz) (20+10)|
-| 11:30  | [State of LibreCores CI](https://orconf.org/#lcci) - [Stefan Wallentowitz and Oleg Nenashev](https://orconf.org/#lccipresenter) (20+10)|
+| 11:30  | [AutoFPGA: An FPGA Component Aggregator](https://orconf.org/#autofpga) - [Dan Gisselquist](https://orconf.org/#gisselquist) (20+10)|
+
 | 12:00  | [Chips4Makers](https://orconf.org/#chips4makers) - [Staf Verhaegen](https://orconf.org/#staf) (15+5)|
 | 12:30  | Lunch
 | 14:00  | [End-to-end formal ISA verification of RISC-V processors with riscv-formal](https://orconf.org/#riscvformal) - [Clifford Wolf](https://orconf.org/#clifford) (20+10)|
