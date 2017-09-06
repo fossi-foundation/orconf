@@ -6,6 +6,8 @@ layout: default
 | | **Friday**
 | -------- | :------------------------- | :--------------
 | | |
+| 12:00  | Registration open at Town Hall   |
+| 13:00  | Room open   |
 | 13:15  | Conference Welcome   |
 | 13:30  | [An Open Source PDVL Framework](https://orconf.org/#pdvl) - [Tobias Strauch](https://orconf.org/#pdvlpresenter) (20m + 10m Q&A)|
 | 14:00  | [Kactus2: Update on the open source IP-XACT tool](https://orconf.org/#kaktus) - [Esko Pekkarinen](https://orconf.org/#esko) (15+5)|
@@ -21,7 +23,7 @@ layout: default
 | | **Saturday**
 |---------------------------------------
 | | |
-| 08:30  | Room open, coffee served
+| 08:00  | Registration open at Town Hall, coffee served  |
 | 09:00  | [AutoFPGA: An FPGA Component Aggregator](https://orconf.org/#autofpga) - [Dan Gisselquist](https://orconf.org/#gisselquist) (20+10)|
 | 09:30  | [FOSSi Foundation update](https://orconf.org/#fossiupdate) - [FOSSi Foundation](https://orconf.org/#fossiboard) (15+10)|
 | 10:00  | [LibreCores - your source for free and open digital hardware](https://orconf.org/#librecores) - [Philipp Wagner](https://orconf.org/#phil2) (15+5)|
@@ -46,7 +48,7 @@ layout: default
 |  | **Sunday**
 |-----
 | | |
-| 08:30  | Room open, coffee served |
+| 08:30  | Registration open at Town Hall, coffee served   |
 | 09:30  | [EDSAC Museum on FPGA](https://orconf.org/#edsac) - [Hatim Kanchwala](https://orconf.org/#hatim) (20+10)|
 | 10:00  | [Chip Hack EDSAC 2017](https://orconf.org/#chiphack) - [Mary Bennett, Peter Bennett, Dan Gorringe](https://orconf.org/#bennetts) (15+5)|
 | 10:30  | Break|
