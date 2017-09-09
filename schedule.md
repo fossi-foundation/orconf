@@ -41,7 +41,7 @@ layout: default
 | 16:30  | [Open SoC Debug: Reusable debug and trace components with added value](https://orconf.org/#opensocdebug) - [Philipp Wagner](https://orconf.org/#phil) (15+5)|
 | 17:00  | [Experience report: Bringing up cycle-accurate models of RISC-V cores](https://orconf.org/#cariscv) - [Graham Markall](https://orconf.org/#graham) (15+5)|
 | 17:30  | [RFC: Is open source from Venus and commercial from Mars?](https://orconf.org/#venusmars) - [Staf Verhaegen](https://orconf.org/#staf) (15+5)|
-| 17:30  | Pre-dinner break, mingle
+| 18:00  | Pre-dinner break, mingle
 | 19:00  | [Dinner](https://orconf.org/#satdinnervenue)
 | | |
 |-----
