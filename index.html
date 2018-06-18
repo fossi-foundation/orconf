@@ -34,13 +34,24 @@
 	    <a name="tagline" class="anchor" href="#tagline"><span class="octicon octicon-link"></span></a><div style="text-align:center">The open source digital design conference</div></h3>
 
 	  <hr>
+
+          <p>
+            <center>
+              <h3><a href="#registration">Registration</a> - <a href="#presentations">Presentations</a> - <a href="#venue">Venue</a>  - <a href="#sponsors">Sponsors</a>
+              </h3>
+            </center>
+          </p>
+          
+          <hr>
+          
 	  <center>
 	    <p>
-	      We're very pleased to announce that ORConf 2018 will be held from <strong>September 21st to 23rd</strong> in
+	      ORConf 2018 will be held from <strong>September 21st to 23rd</strong> in
 	      <a href="https://en.wikipedia.org/wiki/Gda%C5%84sk" target="_blank">Gdansk, Poland</a>, at the
 	      <a href="https://eti.pg.edu.pl/main-menu" target="_blank">Gdansk University of Technology</a>
 	    </p>
 	  </center>
+
 
 	  <p>
 	    <center><a href="https://lists.librecores.org/listinfo/orconf-announce" target="_blank">Sign up to the orconf-announce mailing list</a> for further details as they're announced.</center>
@@ -112,11 +123,115 @@
 	    The running order will be determined closer to the event.
 	  </p>
 
-	  <!-- <h3><a name="presentations" class="anchor" href="#presentations"><span class="octicon octicon-link"></span></a>Presentations</h3> -->
+	  <h3><a name="presentations" class="anchor" href="#presentations"><span class="octicon octicon-link"></span></a>Presentations</h3>
 	  <!-- <p> -->
-	  <!--   Below, in no particular order, are summaries of the presentations which will be made at ORConf 2017. -->
+	  <!--   Below, in no particular order, are summaries of the presentations which will be made at ORConf 2018. -->
+	  <!-- </p> -->
+          <p>
+            Below are some of the presentation submissions we've accepted so far.
+          </p>
+          
+	  <h4>
+	    <a name="verilator4" class="anchor" href="#verilator4"><span class="octicon octicon-link"></span>
+            </a>Verilator 4.0 - Open Simulation Goes Multithreaded</h4>
+          <p>
+            The primary author of <a href="https://www.veripool.org/projects/verilator/wiki/Intro" target="_blank">Verilator</a>, the open source high-speed Verilog simulator, announces fresh for this meeting Verilator 4.0
+            with multithreading, and how you can get your designs' the fast(est), free simulation.
+	  </p>
+          <h5>Presenter: <a name="wsnyder" class="anchor" href="#wsnyder"><span class="octicon octicon-link"></span>
+            </a>Wilson Snyder</h5>
+          <p>
+            Wilson is one of the primary authors of <a href="https://www.veripool.org/projects/verilator/wiki/Intro" target="_blank">Verilator</a>
+            and maintains <a href="https://www.veripool.org/" target="_blank">Veripool.org</a>.
+	  </p>
+
+
+	  <h4>
+	    <a name="spinalhdl" class="anchor" href="#spinalhdl"><span class="octicon octicon-link"></span>
+            </a>SpinalHDL : Software generated hardware</h4>
+          <p>
+            <a href="https://github.com/SpinalHDL/SpinalHDL" target="_blank">SpinalHDL</a> is a Scala based internal DSL which allow
+            describing and generating synthesizable VHDL/Verilog netlist.
+          </p>
+          <p>
+            The abstraction level of the hardware description API is close to VHDL/Verilog, but by mixing it with the general purpose
+            programming capabilities of Scala, it offer many unconventional and powerful hardware description capabilities, which are the
+            subject of this talk.
+	  </p>
+          <h5>Presenter: <a name="cpapon" class="anchor" href="#cpapon"><span class="octicon octicon-link"></span>
+            </a>Charles Papon</h5>
+          <p>
+            Bored of the hardware description languages weaknesses, I initiated the SpinalHDL project 3 years ago and currently
+            I'm working 60% of my time as independent on the development of SpinalHDL and VexRiscv.
+	  </p>
+
+	  <h4>
+	    <a name="python" class="anchor" href="#python"><span class="octicon octicon-link"></span>
+            </a>Python as a language for testing and code generation</h4>
+          <p>
+            We use Python heavily both for both code generation
+            (<a href="https://github.com/olofk/fusesoc" target="_blank">FuseSoC</a> + FuseSoC generators), and for testing
+            (<a href="https://github.com/VUnit/vunit" target="_blank">VUnit</a>,
+            <a href="https://github.com/benreynwar/slvcodec" target="_blank">slvcodec</a>,
+            <a href="https://github.com/benreynwar/axilent" target="_blank">axilent</a>,
+            <a href="https://github.com/benreynwar/pyvivado" target="_blank">pyvivado</a>).
+            I'll describe our setup and briefly introduce the open-source packages that we've created to help our workflow.
+	  </p>
+          <h5>Presenter: <a name="breynwar" class="anchor" href="#breynwar"><span class="octicon octicon-link"></span>
+            </a>Ben Reynwar</h5>
+          <p>
+            I'm been working as a RTL Engineer for the last 4 years at Codelucida in Tucson, AZ.
+            Prior to that I spent time working on web development, software-defined radio,
+            stay-at-home-parenting, molecular dynamics simulations, and polymer physics.
+            The projects I'll mention are all packages I've created outside of work hours to help me at work.
+          </p>
+          <p>
+            <a href="https://github.com/benreynwar/fusesoc_generators" target="_blank">fusesoc_generators</a> - For generating code using fusesoc where the generating functions have access to the generic parameters of the module.
+          </p>
+          <p>
+            <a href="https://github.com/benreynwar/slvcodec" target="_blank">slvcodec</a> - Use python to create input stimulus for testing, and check simulation output.  Automate creation of test benches and functions to convert to and from std_logic_vector.
+          </p>
+          <p>
+            <a href="https://github.com/benreynwar/axilent" target="_blank">axilent</a> - Write python tests for DUT with Axi4Lite interfaces, and run the test against a simulation or against the FPGA.
+	  </p>
+          
+	  <h4>
+	    <a name="openriscwifi" class="anchor" href="#openriscwifi"><span class="octicon octicon-link"></span>
+            </a>OpenRISC hardware bootloader over wi-fi</h4>
+          <p>
+            Software initialization for System-On-Chip designs
+            is essential and it must be optimal, fast and flexible further
+            be able to manage future updates in a proper way. This work
+            presents a hardware bootloader for the
+            <a href="https://openrisc.io" target="_blank">OpenRISC</a> processor
+            where processor code is sent from a central code repository
+            server and received through an ESP8266 Wi-Fi module. A
+            custom hardware module loads the code directly into system’s
+            memory before booting the processor. This approach allows
+            maximum wireless reconfiguration flexibility for a large number
+            of distributed embedded systems, as needed by the IoT and
+            related technologies.
+	  </p>
+          <h5>Presenter: <a name="quiveu" class="anchor" href="#quiveu"><span class="octicon octicon-link"></span>
+            </a>Germán Cano Quiveu</h5>
+          <p>
+            Germán is a PhD student at the
+            University of Seville's <a href="http://www.us.es/eng/centres/departments/departamento_I0A2" target="_blank">
+              Department of Electronic Technology</a>.
+	  </p>
+
+	  <!-- <h4> -->
+	  <!--   <a name="" class="anchor" href="#"><span class="octicon octicon-link"></span> -->
+          <!--   </a>title</h4> -->
+          <!-- <p> -->
+	  <!-- </p> -->
+          <!-- <h5>Presenter: <a name="presenter" class="anchor" href="#presenter"><span class="octicon octicon-link"></span> -->
+          <!--   </a>text</h5> -->
+          <!-- <p> -->
 	  <!-- </p> -->
 
+	  <!-- End of presentation section -->
+          
 	  <h3><a name="venue" class="anchor" href="#venue"><span class="octicon octicon-link"></span></a>Venue</h3>
 	  <p>
 	    ORConf 2018 is being hosted by the <a href="https://eti.pg.edu.pl/main-menu" target="_blank">Gdansk University of Technology</a>.
