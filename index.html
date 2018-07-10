@@ -237,7 +237,7 @@
           
 	  <h4>
 	    <a name="openriscwifi" class="anchor" href="#openriscwifi"><span class="octicon octicon-link"></span>
-            </a>OpenRISC hardware bootloader over wi-fi</h4>
+            </a>OpenRISC hardware bootloader over WiFi</h4>
           <p>
             Software initialization for System-On-Chip designs
             is essential and it must be optimal, fast and flexible further
@@ -245,7 +245,7 @@
             presents a hardware bootloader for the
             <a href="https://openrisc.io" target="_blank">OpenRISC</a> processor
             where processor code is sent from a central code repository
-            server and received through an ESP8266 Wi-Fi module. A
+            server and received through an ESP8266 WiFi module. A
             custom hardware module loads the code directly into system’s
             memory before booting the processor. This approach allows
             maximum wireless reconfiguration flexibility for a large number
@@ -258,6 +258,54 @@
             Germán is a PhD student at the
             University of Seville's <a href="http://www.us.es/eng/centres/departments/departamento_I0A2" target="_blank">
               Department of Electronic Technology</a>.
+	  </p>
+
+	  <h4>
+	    <a name="opensocdebug" class="anchor" href="#opensocdebug"><span class="octicon octicon-link"></span>
+            </a>Look inside your SoC with Open SoC Debug</h4>
+          <p>
+            <a href="https://opensocdebug.org/" target="_blank">Open SoC Debug</a> (OSD) is a complete solution
+            for adding debug and trace to a SoC design. It consists of a solid specification, a software and a
+            hardware implementation and supports tracing of CPU cores (RISC-V and OpenRISC currently), memory access
+            (to load your software into the chip), UART emulation, and much more.
+          </p>
+          <p>
+            Over the last year much effort has been put into the specification and the implementation.
+            New concepts (such as subnets) have been introduced, the software implementation has been fully
+            rewritten and is now more robust than ever, and the hardware has gained significant test coverage
+            (and bug fixing). In addition, run-control debugging is being worked on as part of Google Summer of Code.
+          </p>
+          <p>
+            This talk gives a quick overview over the Open SoC Debug architecture, and then dives into what changed
+            over the last year.
+          </p>
+
+          <h5>Presenter: <a name="pw" class="anchor" href="#pw"><span class="octicon octicon-link"></span>
+            </a>Philipp Wagner</h5>
+          <p>
+            For as long as he could type, <a href="https://www.philipp-wagner.com/" target="_blank">Philipp</a>
+            has been interested in software development. Being a real
+            'full stack' developer, his interests range from hardware design to web development. Making
+            things easier to understand is a recurrent theme in his work. As developer of the
+            <a href="https://librecores.org" target="_blank">LibreCores</a>
+            web site, he works on making digital hardware projects more discoverable. And by adding debug
+            and trace support to SoCs, software development becomes easier on these devices.
+	  </p>
+
+	  <h4>
+	    <a name="librecores" class="anchor" href="#librecores"><span class="octicon octicon-link"></span>
+            </a>Find better cores with LibreCores</h4>
+          <p>
+            <a href="https://librecores.org" target="_blank">LibreCores</a> helps hardware developers find
+            the pieces of code to build their project on. Within
+            the last year finding a suitable "IP Cores" (or LibreCores, as we like to call them) has
+            gotten even easier and faster. With the introduction of the new search and categorization features
+            to LibreCores developers can easily browse through similar cores, filter them and ultimately get
+            their project done faster.
+	  </p>
+          <h5>Presenter: <a name="pw2" class="anchor" href="#pw2"><span class="octicon octicon-link"></span>
+            </a><a href="#pw">Philipp Wagner</a></h5>
+          <p>
 	  </p>
 
 	  <!-- <h4> -->
