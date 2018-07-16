@@ -308,6 +308,34 @@
           <p>
 	  </p>
 
+	  <h4>
+	    <a name="zipcpu" class="anchor" href="#zipcpu"><span class="octicon octicon-link"></span>
+            </a>Lessons learned while formally verifying the ZipCPU</h4>
+          <p>
+            The <a href="http://zipcpu.com/" target="_blank">ZipCPU</a> is a three-year old CPU and ISA designed for
+            low logic FPGA's.  One of the challenges
+            of any CPU design, to include the ZipCPU, is coming up with a sufficiently robust test suite to exercise
+            all of the possible logic flows within the CPU.  While formal methods can be used for this task, they are
+            traditionally viewed as too computationally expensive to formally verify something as complex as a CPU.
+          </p>
+          <p>
+            Contrary to this view, the ZipCPU has now been formally verified using <a href="http://symbiyosys.readthedocs.io/en/latest/" target="_blank">SymbiYosys</a>.
+            As a result, many bugs have been found and fixed--bugs not found previously using canned test cases.  Not only that, it has also
+            become easier to modify the CPU as necessary to achieve lower logic performance, knowing that the formal solver
+            will find any bugs in updated implementations.
+	  </p>
+          <h5>Presenter: <a name="dang" class="anchor" href="#dang"><span class="octicon octicon-link"></span>
+            </a>Dan Gisselquist</h5>
+          <p>
+            Dr. Gisselquist is the owner of Gisselquist Technology, LLC, a services based microbusiness focused
+            on providing superior computer engineering and signal processing services to our customers.
+            Dr. Gisselquist has an M.D. in Computer Engineering and a Ph.D. in Electrical Engineering both from
+            the U.S. Air Force Institute of Technology.  His current work is focused on the ZipCPU, the environment,
+            tool-suite, and peripherals necessary to support both it and any customer applications.  He is also
+            known for the <a href="http://zipcpu.com/" target="_blank">ZipCPU blog</a>, and has recently taken up
+            training others in formal methods.
+	  </p>
+
 	  <!-- <h4> -->
 	  <!--   <a name="" class="anchor" href="#"><span class="octicon octicon-link"></span> -->
           <!--   </a>title</h4> -->
