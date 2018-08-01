@@ -146,6 +146,33 @@
             and maintains <a href="https://www.veripool.org/" target="_blank">Veripool.org</a>.
           </p>
 
+	  <h4>
+            <a name="symbioticeda" class="anchor" href="#symbioticeda"><span class="octicon octicon-link"></span>
+            </a>Symbiotic EDA</h4>
+          <p>
+	    <a href="https://github.com/SymbiFlow/nextpnr" target="_blank">nextpnr</a> is a retargetable FOSS FPGA
+	    place-and-route tool that is replacing arachne-pnr as place-and-route
+	    tool in the <a href="http://www.clifford.at/icestorm/" target="_blank">IceStorm</a> open source
+	    <a href="http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" target="_blank">iCE40</a> flow.
+	    It is retargetable, meaning it can be ported to other FPGA
+	    architectures easily, uses timing-driven algorithms, provides a python scripting API, supports complex
+	    placement and floorplanning constraints, and has a nice GUI. Python and GUI support are optional, which
+	    may be useful when deploying nextpnr on an embedded platform.
+	  </p>
+	  <p>
+	    This presentation covers nextpnr from a user perspective, but also gives a few pointers for
+	    how to port nextpnr to new FPGA architectures.
+          </p>
+          <h5>Presenter: <a name="clifford" class="anchor" href="#clifford"><span class="octicon octicon-link"></span>
+            </a><a href="https://twitter.com/oe1cxw" target="_blank">Clifford Wolf</a></h5>
+          <p>
+	    <a href="http://www.clifford.at/" target="_blank">Clifford</a> is the lead engineer of the nextpnr project.
+            He is also is the author of
+	    <a href="https://github.com/cliffordwolf/riscv-formal" target="_blank">riscv-formal</a>,
+	    <a href="http://www.clifford.at/yosys/documentation.html" target="_blank">Yosys</a>, and
+	    <a href="http://symbiyosys.readthedocs.io/en/latest/" target="_blank">SymbiYosys</a>.
+          </p>
+
           <h4>
             <a name="symbiflow" class="anchor" href="#symbiflow"><span class="octicon octicon-link"></span>
             </a>An update on SymbiFlow - a multiplatform FPGA project</h4>
@@ -166,6 +193,31 @@
             heavily involved with the development of the SymbiFlow project.
           </p>
 
+          <h4>
+            <a name="xilinx7" class="anchor" href="#xilinx7"><span class="octicon octicon-link"></span>
+            </a>Unpacking Xilinx 7-Series Bitstreams</h4>
+          <p>
+	    <a href="https://github.com/SymbiFlow/prjxray" target="_blank">Project X-Ray</a> follows in the footsteps of
+	    <a href="http://www.clifford.at/icestorm/" target="_blank">Project Icestorm</a> by documenting the low-level
+	    details of Xilinx 7-Series FPGAs. This family of devices is considerably more featureful and, correspondingly,
+	    more complicated than previously documented families. Through perseverance and a little luck, enough has been
+	    learned to configure logic cells and rewrite bitstreams.
+	  </p>
+	  <p>
+	    This talk will cover what is known about the bitstream format, programming process, device architecture,
+	    and the current state of tools and their capabilities.
+          </p>
+          <h5>Presenter: <a name="rickaltherr" class="anchor" href="#rickaltherr"><span class="octicon octicon-link"></span>
+            </a><a href="https://twitter.com/kc8apf" target="_blank">Rick Altherr</a></h5>
+          <p>
+	    Rick is a software engineer with experience ranging from ASIC debugging to UX. Before leaving Google, he led
+	    teams in the development of computing equipment for Google's data centers and worked across the computing
+	    industry to found OpenBMC, an open-source firmware stack for server management, under the Linux Foundation.
+	    Outside his day job, Rick develops <a href="https://github.com/gaffe-logic/gaffe" target="_blank">Gaffe</a>,
+	    an experimental framework for rapidly building tools for logic design, and designs electronics for race car
+	    engine control and tuning.
+          </p>
+	  
           <h4>
             <a name="orupdate" class="anchor" href="#orupdate"><span class="octicon octicon-link"></span>
             </a>OpenRISC Update</h4>
@@ -486,6 +538,44 @@
             experience and documentation, defining use cases and workflows.
           </p>
 
+          <h4>
+            <a name="cocotbintro" class="anchor" href="#cocotbintro"><span class="octicon octicon-link"></span>
+            </a>Another Introduction to Cocotb</h4>
+          <p>
+	    An introduction and tutorial on using <a href="https://github.com/potentialventures/cocotb" target="_blank">cocotb</a>
+	    and Python to verify your Verilog and VHDL designs. This presentation will cover why you should be using cocotb instead of
+	    SystemVerilog and UVM, and its growing usage inside Broadcom, plus an accompanying tutorial on github.
+          </p>
+          <h5>Presenter: <a name="luke" class="anchor" href="#luke"><span class="octicon octicon-link"></span>
+            </a><a href="https://twitter.com/luked80" target="_blank">Luke Darnell</a></h5>
+          <p>
+	    Luke is an ASIC Design Engineer with 14 years experience working in Broadcom's WCC Business designing WLAN and
+	    Bluetooth combo chips. He's based in the WLAN ASIC team and has worked on a wide variety of projects including baseband phy
+	    implementations, SOC IP integration, ARM-based CPU subsystem design, AXI/AHB/APB backplane designs,
+	    block and chip level design verification, radio modeling, silicon implementation, version control
+	    and continuous integration.
+	  </p>
+	  <p>
+	    He became interested in cocotb after a less than compelling experience with UVM and Verilog/SystemVerilog in general.
+	    He got Broadcom to sponsor a number of new features and bug fixes. He continues to use cocotb on a daily basis and
+	    evangelizes its use inside Broadcom.
+          </p>
+
+	  <h4>
+            <a name="riscvupdate" class="anchor" href="#riscvupdate"><span class="octicon octicon-link"></span>
+            </a>RISC-V ecosystem update</h4>
+          <p>
+	    The momentum in the <a href="https://riscv.org" target="_blank">RISC-V</a> ecosystem is incredible, with new
+	    implementations, ASIC and FPGA improvements and tools cropping up at an impressive pace. With the first
+	    <a href="https://riscv.org/2018/04/risc-v-foundation-and-informa-announce-first-annual-risc-v-summit-in-silicon-valley-and-2018-workshop-schedule/" target="_blank">
+	      RISC-V Summit</a> just around the corner, it's good to get an update on what's been happening and
+	    what to expect next.
+          </p>
+          <h5>Presenter: <a name="mgielda2" class="anchor" href="#mgielda2"><span class="octicon octicon-link"></span>
+            </a><a href="#mgielda">Michael Gielda</a></h5>
+	  <p>
+	  </p>
+	  
           <!-- <h4> -->
           <!--   <a name="" class="anchor" href="#"><span class="octicon octicon-link"></span> -->
           <!--   </a>title</h4> -->
