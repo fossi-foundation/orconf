@@ -86,8 +86,10 @@
 		<div class="card-body">
 		  <p class="card-text">ORConf is <strong>free to
 		  attend</strong>! Anyhow, you must register, so that
-		  we can plan better.
-		    <button type="button" class="btn btn-primary btn-lg">Register</button>
+		    we can plan better.
+		    <form action="https://goo.gl/forms/96HgBQGARX8R1Lmk2">
+		      <input type="submit" class="btn btn-primary" value="Register here" />
+		    </form>
 		  </p>
 		</div>
 	      </div><!-- card -->
@@ -99,14 +101,15 @@
 		</h5>
 		<div class="card-body">
 		  <p class="card-text">We encourage anybody involved in the open source semiconductor engineering space to come along and give share your work or experience.
-            Presentations slots as short as 3 minute lightning-talks up to 30 minute talks with Q and A are available.
-          </p>
-          <p>
-            So if you've designed, worked on or even just used open source IP cores and/or management systems, verification IP, build flows, SoCs,
+		    Presentations slots as short as 3 minute lightning-talks up to 30 minute talks with Q and A are available.
+		  </p>
+		  <p class="card-text">So if you've designed, worked on or even just used open source IP cores and/or management systems, verification IP, build flows, SoCs,
             simulators, synthesis tools, FPGA and ASIC implementation tools, languages and DSLs, compilers, or anything related we'd love to have
             you join us to share your experience.
-          </p>
-		  <button type="button" class="btn btn-primary btn-lg">Submit Talk</button>
+		  </p>
+		  <form action="https://goo.gl/forms/sP5otWAbv72gheU33">
+		    <input type="submit" class="btn btn-primary" value="Submit Talk" />
+		  </form>
 		</div>
 	      </div><!-- card -->
 	    </div><!-- col -->
@@ -251,17 +254,21 @@
 		  Stay updated!
 		</h5>
 		<div class="card-body">
-		  <form>
+		  <form method="post" action="https://lists.librecores.org/mailman/subscribe/orconf-announce">
 		    <div class="input-group mb-3">
 		      <div class="input-group-prepend">
 			<span class="input-group-text" id="basic-addon1">@</span>
 		      </div>
-		      <input type="text" class="form-control" placeholder="by E-Mail" aria-label="by E-Mail" aria-describedby="basic-addon1">
-		      <button class="btn btn-primary">Subscribe</button>
+		      <input name="email" type="text" class="form-control" placeholder="by E-Mail" aria-label="by E-Mail" aria-describedby="basic-addon1">
+		      <input name="email-button" type="submit" class="btn btn-primary" value="Subscribe"/>
 		    </div>
 		  </form>
 		  <hr/>
 		  <i class="fab fa-twitter-square fa-3x" style="color: #00aced"></i>
+		  <span style="display:inline-block; width: 5px;"></span>
+		  <i class="fab fa-youtube fa-3x" style="color: #bb0000"></i>
+		  <span style="display:inline-block; width: 5px;"></span>
+		  <i class="fab fa-linkedin fa-3x" style="color: #007bb6"></i>
 		</div><!-- card-body -->
 	      </div><!-- card -->
 	    </div><!-- col -->
@@ -277,8 +284,12 @@
 	    <div class="card-body">
 	      <h4>Schedule</h4>
 	      <p class="card-text">
-		We will announce the preliminary schedule soon.
-	      </p>
+		The conference will run from about 12:30PM on Friday the 21st until around 3PM on the Sunday, permitting people to travel
+		on the first and last day of the event and not miss any sessions.
+              </p>
+	      <p class="card-text">
+		The running order will be determined closer to the event.
+              </p>
 	      <hr/>
           <h4>
             <a name="verilator4" class="anchor" href="#verilator4"><span class="octicon octicon-link"></span>
