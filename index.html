@@ -360,6 +360,7 @@
 	    <div class="card-body">
 	      <p class="card-text">
 	      <ul>
+		<li><a href="#wdriscv">RISC-V CPU Project in Western Digital</a> by Zvonimir Z. Bandic</li>
 		<li><a href="#verilator4">Verilator 4.0 - Open Simulation Goes Multithreaded</a> by Wilson Snyder</li>
 		<li><a href="#symbioticeda">The nextpnr FOSS FPGA place-and-route tool</a> by Clifford Wolf</li>
 		<li><a href="#symbiflow">An update on SymbiFlow - a multiplatform FPGA project</a> by Tim 'mithro' Ansell</li>
@@ -389,11 +390,51 @@
 		<li><a href="#chisel">Raising the level of abstraction in digital design with Chisel3 and FIRRTL</a> by Jack Koenig</li>
 		<li><a href="#warpv">Formal Verification of WARP-V, a TL-Verilog RISC-V Core Generator</a> by Ákos Hadnagy and Steve Hoover</li>
 		<li><a href="#osvvm">Open Source VHDL Verification Methodology (OSVVM):  Methodology, Library, and Models</a> by Jim Lewis</li>
-		<li><a href="#wdriscv">RISC-V CPU Project in Western Digital</a> by Zvonimir Z. Bandic</li>
 		<!-- <li><a href=""></a> by </li> -->
 	      </ul>
 
 	      <hr/>
+
+          <h4>
+            <a name="wdriscv" href="#wdriscv"></a>RISC-V CPU Project in Western Digital</h4>
+              <p>
+		RISC-V CPU Project in Western Digital: from embedded cores for SSD Flash controllers to vision of datacenter processors with open memory and accelerator interfaces.
+              </p>
+	      <p>
+		The <a href="https://riscv.org">RISC-V</a> Instruction Set Architecture has established itself as key driver of
+		open source hardware projects across wide gamut of applications, such as the Internet of Things (IoT) segment,
+		microcontrollers for a variety of traditional embedded applications, and applications requiring capability for
+		low power operation of inference engines based on artificial neural networks.
+	      </p>
+	      <p>
+		In <a href="https://www.wdc.com/" target="_blank">Western Digital</a>, we have developed super-scalar (2-way)
+		9-stage pipeline mostly in-order, open-source core ECHX1, initially targeting in-house embedded Storage System on Chip
+		applications. In this presentation, we plan to present some of the architectural details of the core, and challenges
+		in the implementations, as well as discuss application of the core for the Flash controller. Additionally, we will
+		explain the vision for expansion of RISC-V cores into datacenter and enterprise market.
+	      </p>
+	      <p>
+		We will also discuss open interfaces for persistent memories, such as JEDEC-standardized NVDIMM-P
+		(Non-volatile dual inline memory module for persistent memories). We will also introduce exporting
+		open cache-coherence protocols (such as Tilelink) over ubiquitous fabrics such as Ethernet.
+		We plan to discuss details of the MPF4brik – memory protocol fabrik, which exposes Tilelink on
+		the Ethernet, and allows smart switching using P4-based programmable networking. We are envisioning
+		low-cost SMP (symmetric multiprocessing) architectures based on open standards, which will enable
+		hyperconvergence of processing and memory in the future datacenter, and introduce new concepts, such as
+		memory appliances.
+	      </p>
+          <h6>Presenter: Dr. Zvonimir Z. Bandic</h6>
+              <p>
+		<a href="https://www.linkedin.com/in/zvonimirbandic/" target="_blank">Zvonimir Z. Bandić</a> is the Research Staff
+		Member and Senior Director of Next Generation Platform Technologies Department
+		in a Western Digital Corporation in San Jose, California. He received his BS in electrical engineering in 1994
+		from the University of Belgrade, Yugoslavia, and his MS (1995) and PhD (1999) in applied physics from Caltech,
+		Pasadena, in the field of novel electronic devices based on wide bandgap semiconductors. He is currently focusing
+		on emerging Non-Volatile Memories (PCM, ReRAM, MRAM) applications for data center distributed computing, including
+		RISC-V based CPU technologies, in-memory compute, RDMA networking, and machine learning hardware acceleration.
+		He has been awarded over 50 patents and has published over 50 peer-reviewed papers.  Zvonimir is a member of the
+		Board of Directors of RISC-V, OpenCAPI and Rapid-IO standards organizations.
+              </p>
 
 	      <h4>
 		<a name="verilator4" href="#verilator4"></a>Verilator 4.0 - Open Simulation Goes Multithreaded</h4>
@@ -1060,47 +1101,6 @@
 	      <p>
 		In his design practice, he has created designs for print servers, networking, fighter jets, video phones,
 		and space craft.  
-              </p>
-	      
-          <h4>
-            <a name="wdriscv" href="#wdriscv"></a>RISC-V CPU Project in Western Digital</h4>
-              <p>
-		RISC-V CPU Project in Western Digital: from embedded cores for SSD Flash controllers to vision of datacenter processors with open memory and accelerator interfaces.
-              </p>
-	      <p>
-		The <a href="https://riscv.org">RISC-V</a> Instruction Set Architecture has established itself as key driver of
-		open source hardware projects across wide gamut of applications, such as the Internet of Things (IoT) segment,
-		microcontrollers for a variety of traditional embedded applications, and applications requiring capability for
-		low power operation of inference engines based on artificial neural networks.
-	      </p>
-	      <p>
-		In <a href="https://www.wdc.com/" target="_blank">Western Digital</a>, we have developed super-scalar (2-way)
-		9-stage pipeline mostly in-order, open-source core ECHX1, initially targeting in-house embedded Storage System on Chip
-		applications. In this presentation, we plan to present some of the architectural details of the core, and challenges
-		in the implementations, as well as discuss application of the core for the Flash controller. Additionally, we will
-		explain the vision for expansion of RISC-V cores into datacenter and enterprise market.
-	      </p>
-	      <p>
-		We will also discuss open interfaces for persistent memories, such as JEDEC-standardized NVDIMM-P
-		(Non-volatile dual inline memory module for persistent memories). We will also introduce exporting
-		open cache-coherence protocols (such as Tilelink) over ubiquitous fabrics such as Ethernet.
-		We plan to discuss details of the MPF4brik – memory protocol fabrik, which exposes Tilelink on
-		the Ethernet, and allows smart switching using P4-based programmable networking. We are envisioning
-		low-cost SMP (symmetric multiprocessing) architectures based on open standards, which will enable
-		hyperconvergence of processing and memory in the future datacenter, and introduce new concepts, such as
-		memory appliances.
-	      </p>
-          <h6>Presenter: Dr. Zvonimir Z. Bandic</h6>
-              <p>
-		<a href="https://www.linkedin.com/in/zvonimirbandic/" target="_blank">Zvonimir Z. Bandić</a> is the Research Staff
-		Member and Senior Director of Next Generation Platform Technologies Department
-		in a Western Digital Corporation in San Jose, California. He received his BS in electrical engineering in 1994
-		from the University of Belgrade, Yugoslavia, and his MS (1995) and PhD (1999) in applied physics from Caltech,
-		Pasadena, in the field of novel electronic devices based on wide bandgap semiconductors. He is currently focusing
-		on emerging Non-Volatile Memories (PCM, ReRAM, MRAM) applications for data center distributed computing, including
-		RISC-V based CPU technologies, in-memory compute, RDMA networking, and machine learning hardware acceleration.
-		He has been awarded over 50 patents and has published over 50 peer-reviewed papers.  Zvonimir is a member of the
-		Board of Directors of RISC-V, OpenCAPI and Rapid-IO standards organizations.
               </p>
 
 	      <!-- <h4> -->
