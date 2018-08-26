@@ -383,6 +383,13 @@
 		<li><a href="#riscvopenocd">Multicore Debug Support for RISC-V in OpenOCD: Status Update</a> by Jeremy Bennett, Craig Blackmore, Andrew Burgess</li>
 		<li><a href="#litedram">LiteDRAM vs MIG - a Viable Alternative</a> by John Sully</li>
 		<li><a href="#libresilicon">Get into your own free LibreSilicon</a> by Hagen Sankowski</li>
+		<li><a href="#pulpino">Challenges and opportunities of open source licensed HW</a> by Frank K. Gürkaynak</li>
+		<li><a href="#pyha">Pyha: Python overlay for OOP-VHDL</a> by Gaspar Karm</li>
+		<li><a href="#docker">Dockerizing your simulation/development environment</a> by Gaspar Karm</li>
+		<li><a href="#chisel">Raising the level of abstraction in digital design with Chisel3 and FIRRTL</a> by Jack Koenig</li>
+		<li><a href="#warpv">Formal Verification of WARP-V, a TL-Verilog RISC-V Core Generator</a> by Ákos Hadnagy and Steve Hoover</li>
+		<li><a href="#osvvm">Open Source VHDL Verification Methodology (OSVVM):  Methodology, Library, and Models</a> by Jim Lewis</li>
+		<li><a href="#wdriscv">RISC-V CPU Project in Western Digital</a> by Zvonimir Z. Bandic</li>
 		<!-- <li><a href=""></a> by </li> -->
 	      </ul>
 
@@ -559,10 +566,10 @@
           </p>
           <h6>Presenter: Ben Reynwar</h6>
           <p>
-            I'm been working as a RTL Engineer for the last 4 years at Codelucida in Tucson, AZ.
-            Prior to that I spent time working on web development, software-defined radio,
+            Ben has working as a RTL Engineer for the last 4 years at Codelucida in Tucson, AZ.
+            Prior to that he spent time working on web development, software-defined radio,
             stay-at-home-parenting, molecular dynamics simulations, and polymer physics.
-            The projects I'll mention are all packages I've created outside of work hours to help me at work.
+            The projects he mention are all packages created outside of work hours to help his work.
           </p>
           <p>
             <a href="https://github.com/benreynwar/fusesoc_generators" target="_blank">fusesoc_generators</a> - For generating code using fusesoc where the generating functions have access to the generic parameters of the module.
@@ -924,8 +931,179 @@
 		sometimes too much.
               </p>
 
+	      
+	      <h4>
+                <a name="pyha" href="#pyha"></a>Pyha: Python overlay for OOP-VHDL</h4>
+              <p>
+		~20 years ago Jiri Gaisler released <a href="https://www.gaisler.com/doc/vhdl2proc.pdf"
+						       target="_blank">a paper called 'A Structured VHDL Design Method'</a> -
+		which advocates the use of records for storing registers and the use of high-level functions to perform
+		operations on these records. Some years ago I came across this paper and recognized this pattern as
+		object-oriented programming (OOP), which spawned the following question:
+	      </p>
+	      <p>
+		Could some higher level OOP language, say Python, be ~directly converted into OOP-VHDL for
+		synthesis? Answer to this question has materialized as <a href="https://github.com/gasparka/pyha" target="_blank">Pyha</a>
+		, with some additional features:
+		<ul>
+		<li>Cycle-accurate and fast simulator</li>
+		<li>Debuggable in Python – very useful as Python and VHDL sources are highly correlated</li>
+		<li>Simple testing framework by pairing pytest and cocotb</li>
+		</ul>
+              </p>
+              <h6>Presenter: Gaspar Karm</h6>
+              <p>
+		<a href="https://github.com/gasparka" target="_blank">Gaspar</a> is the author of Pyha. His interests
+		include Python, VHDL, SDR and comm-cores.
+              </p>
 
-          <!-- <h4> -->
+          <h4><a name="docker" href="#docker"></a>Dockerizing your simulation/development environment</h4>
+              <p>
+		Docker is like a virtual-machine without the speed regression. Install your stuff once and use
+		the resulting image on Linux and CI environments. I’ll demo the dockerization of following components:
+		<ol>
+		<li>GHDL</li>
+		<li>Cocotb</li>
+		<li>Intel Quartus (size minimized)</li>
+		<li>Compiled ‘Intel/Altera’ libraries for netlist simulation"</li>
+		</ol>
+              </p>
+          <h6>Presenter: Gaspar Karm</h6>
+              <p>
+	      </p>
+	      
+          <h4><a name="chisel" href="#chisel"></a>Raising the level of abstraction in digital design with Chisel3 and FIRRTL</h4>
+              <p>
+		<a href="https://chisel.eecs.berkeley.edu/" target="_blank">Chisel HDL</a> was created to make hardware designers
+		more productive. As a DSL embedded in Scala, it provides designers the full power of functional and objected oriented
+		programming. This has enabled designers to raise the level abstraction and thereby construct powerful, parameterized
+		generators for digital designs.
+	      </p>
+	      <p>
+		Chisel was an important step forward, but it is only one piece of the larger puzzle. From using
+		<a href="https://github.com/freechipsproject/firrtl" target="_blank">FIRRTL</a> to decouple design from
+		implementation-specific information, to powerful parameterization with Diplomacy, this talk is about pushing the
+		envelope of digital design.
+	      </p>
+          <h6>Presenter: Jack Koenig</h6>
+              <p>
+		<a href="https://bar.eecs.berkeley.edu/people/koenig_jack.html" target="_blank">Jack</a> is a maintainer
+		of the Chisel3 and FIRRTL projects.
+              </p>
+
+          <h4> <a name="warpv" href="#warpv"></a>Formal Verification of WARP-V, a TL-Verilog RISC-V Core Generator</h4>
+              <p>
+		The presentation will briefly outline the motivation and difficulties behind designing and verifying a flexible,
+		easily configurable RISC-V based processor, while showing how is it possible to solve the problems by using
+		<a href="http://tl-x.org/" target="_blank">TL-Verilog</a> in design, and also in verification.
+	      </p>
+	      <p>
+		<a href="https://github.com/stevehoover/warp-v" target="_blank">WARP-V</a> is a flexible CPU core generator
+		written entirely in TL-Verilog using <a href="http://makerchip.com/" target="_blank">makerchip.com</a>. It supports
+		RISC-V and custom ISAs and is currently capable of producing designs ranging from a non-pipelined, slow-clock,
+		low-power microcontroller to a high-frequency, seven-stage CPU.
+	      </p>
+	      <p>
+		This talk introduces TL-Verilog and WARP-V and then describes the formal verification of WARP-V using
+		<a href="https://github.com/cliffordwolf/riscv-formal" target="_blank">riscv-formal</a>, a formal verification
+		framework for RISC-V by Clifford Wolf. Timing-abstraction and transaction-level design are showing significant
+		benefits for hardware modeling, but this is the first demonstration of their benefits for verification modeling.
+		As evidence of these benefits, the verification of all RISC-V configurations of WARP-V is accomplished in a
+		single page of code.
+              </p>
+          <h6>Presenters: Ákos Hadnagy and Steve Hoover</h6>
+              <p>
+		<a href="https://www.linkedin.com/in/akos-hadnagy/" target="_blank">Ákos Hadnagy</a> is a master’s student at
+		TU Delft. He became involved in the WARP-V project through the Google Summer of Code programme this summer.
+		His interest includes heterogenous and reconfigurable computing, FPGA and hardware development.
+	      </p>
+	      <p>
+		<a href="https://www.linkedin.com/in/steve-hoover-a44b607/" target="_blank">Steve Hoover</a> is the founder of
+		Redwood EDA, provider of Makerchip.com. He is an 18-year veteran chip designer, having led contributions to
+		DEC Alpha, and Intel Itanium, x86, and OmniPath network chips. Steve is an active driver of the TL-Verilog
+		language definition and is active in numerous TL-Verilog-related open-source projects.
+              </p>
+
+
+          <h4> <a name="forum" href="#forum"></a>Open Source silicon community forum</h4>
+              <p>
+		The Free and Open Source Silicon community is gaining more and more importance and is steadily increasing in size.
+		It'll be time to to sit back for a discussion and think about what we think important issues should be addressed
+		next to take the community to the next level. The session will consist of a brief panel discussion and engage the
+		audience to let us know their thoughts as well.
+          </p>
+          <h6>Panelists: TBD</h6>
+          <p>
+          </p>
+
+          <h4>
+            <a name="osvvm" href="#osvvm"></a>Open Source VHDL Verification Methodology (OSVVM):  Methodology, Library, and Models</h4>
+              <p>
+		Verification capability is largely a matter of programming. VHDL is a capable programming language. Like SystemVerilog,
+		writing directly in VHDL is tedious and potentially error prone.
+	      </p>
+
+	      <a href="http://osvvm.org/" target="_blank">Open Source VHDL Verification Methodology (OSVVM)</a> is a methodology and
+	      library that simplifies the creation of structured testbenches that are readable and powerful. OSVVM supports the same
+	      capabilities that other verification languages (such as SystemVerilog + UVM) support – from a structured testbench
+	      framework using transaction level modeling, to functional coverage and randomized test generation, to scoreboards and
+	      FIFOs, to error handling utilities, to synchronization utilities, to memory modeling, and to verification components -
+	      All you need is OSVVM.
+	      </p>
+          <h6>Presenter: Jim Lewis</h6>
+              <p>
+		<a href="http://www.synthworks.com/bio_jlewis.htm" target="_blank">Jim Lewis</a> has 30 plus years of design and
+		teaching experience and is well known within the VHDL community. He is the Chair of the IEEE 1076 VHDL Standards
+		Working Group.  He is a co-founder of the Open Source VHDL Verification Methodology (OSVVM) and the chief architect
+		of the packages and methodology.  He is an expert VHDL trainer for SynthWorks Design Inc.
+	      </p>
+	      <p>
+		In his design practice, he has created designs for print servers, networking, fighter jets, video phones,
+		and space craft.  
+              </p>
+	      
+          <h4>
+            <a name="wdriscv" href="#wdriscv"></a>RISC-V CPU Project in Western Digital</h4>
+              <p>
+		RISC-V CPU Project in Western Digital: from embedded cores for SSD Flash controllers to vision of datacenter processors with open memory and accelerator interfaces.
+              </p>
+	      <p>
+		The <a href="https://riscv.org">RISC-V</a> Instruction Set Architecture has established itself as key driver of
+		open source hardware projects across wide gamut of applications, such as the Internet of Things (IoT) segment,
+		microcontrollers for a variety of traditional embedded applications, and applications requiring capability for
+		low power operation of inference engines based on artificial neural networks.
+	      </p>
+	      <p>
+		In <a href="https://www.wdc.com/" target="_blank">Western Digital</a>, we have developed super-scalar (2-way)
+		9-stage pipeline mostly in-order, open-source core ECHX1, initially targeting in-house embedded Storage System on Chip
+		applications. In this presentation, we plan to present some of the architectural details of the core, and challenges
+		in the implementations, as well as discuss application of the core for the Flash controller. Additionally, we will
+		explain the vision for expansion of RISC-V cores into datacenter and enterprise market.
+	      </p>
+	      <p>
+		We will also discuss open interfaces for persistent memories, such as JEDEC-standardized NVDIMM-P
+		(Non-volatile dual inline memory module for persistent memories). We will also introduce exporting
+		open cache-coherence protocols (such as Tilelink) over ubiquitous fabrics such as Ethernet.
+		We plan to discuss details of the MPF4brik – memory protocol fabrik, which exposes Tilelink on
+		the Ethernet, and allows smart switching using P4-based programmable networking. We are envisioning
+		low-cost SMP (symmetric multiprocessing) architectures based on open standards, which will enable
+		hyperconvergence of processing and memory in the future datacenter, and introduce new concepts, such as
+		memory appliances.
+	      </p>
+          <h6>Presenter: Dr. Zvonimir Z. Bandic</h6>
+              <p>
+		<a href="https://www.linkedin.com/in/zvonimirbandic/" target="_blank">Zvonimir Z. Bandić</a> is the Research Staff
+		Member and Senior Director of Next Generation Platform Technologies Department
+		in a Western Digital Corporation in San Jose, California. He received his BS in electrical engineering in 1994
+		from the University of Belgrade, Yugoslavia, and his MS (1995) and PhD (1999) in applied physics from Caltech,
+		Pasadena, in the field of novel electronic devices based on wide bandgap semiconductors. He is currently focusing
+		on emerging Non-Volatile Memories (PCM, ReRAM, MRAM) applications for data center distributed computing, including
+		RISC-V based CPU technologies, in-memory compute, RDMA networking, and machine learning hardware acceleration.
+		He has been awarded over 50 patents and has published over 50 peer-reviewed papers.  Zvonimir is a member of the
+		Board of Directors of RISC-V, OpenCAPI and Rapid-IO standards organizations.
+              </p>
+
+	      <!-- <h4> -->
           <!--   <a name="" href="#"></a>title</h4> -->
           <!-- <p> -->
           <!-- </p> -->
