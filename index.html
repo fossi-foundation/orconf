@@ -81,6 +81,7 @@
 	  </div> <!-- row -->
 	  <div class="row">
 	    <!-- Card: Registration -->
+	    <a name="register" href="#register"></a>
 	    <div class="col-sm-12 mt-3">
 	      <div class="card">
 		<h5 class="card-header">Registration</h5>
@@ -89,6 +90,28 @@
 		  <div class="d-flex justify-content-center mb-2 mt-2">
 		    <form action="https://goo.gl/forms/96HgBQGARX8R1Lmk2">
 		      <input type="submit" class="btn btn-primary" value="Register here"/>
+		    </form>
+		  </div>
+		  <h6>Business Ticket</h6>
+		  <p class="card-text">You can also buy a business ticket if you are participating on behalf of your company and want to support us. Business tickets are &pound; 250 and can by bought here via paypal or by <a href="mailto:orconf@fossi-foundation.org?Subject=Business%20Ticket">email</a>.</p>
+		  <div class="d-flex justify-content-center mb-2 mt-2">
+		    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+		      <!-- Identify your business so that you can collect the payments. -->
+		      <input type="hidden" name="business" value="paypal@fossi-foundation.org">
+
+		      <!-- Specify a Buy Now button. -->
+		      <input type="hidden" name="cmd" value="_xclick">
+
+		      <!-- Specify details about the item that buyers will purchase. -->
+		      <input type="hidden" name="item_name" value="ORConf Business Ticket">
+		      <input type="hidden" name="amount" value="250">
+		      <input type="hidden" name="currency_code" value="GBP">
+
+		      <!-- Display the payment button. -->
+		      <input type="submit" class="btn btn-primary btn-sm" value="Buy Business Ticket"/>
+		      <img alt="" border="0" width="1" height="1"
+			   src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
 		    </form>
 		  </div>
 		</div>
@@ -128,7 +151,7 @@
 		<div class="card-body">
 		    <figure class="figure" style="width: 50%; float: right">
 		      <img src="images/gdansk_university.jpg" class="figure-img img-fluid rounded" alt="University">
-		      <figcaption class="figure-caption">A caption for the above image.</figcaption>
+		      <figcaption class="figure-caption">(c) Krzysztof Krzempek, CC BY-SA 3.0</figcaption>
 		    </figure>
 		  <p>
 		    ORConf 2018 is being hosted by the <a href="https://eti.pg.edu.pl/main-menu" target="_blank">Gdansk University of Technology</a>.
@@ -204,6 +227,10 @@
 		    <div class="col-sm-6 mx-auto mt-3">
 		      <a target="_blank" href="https://qbaylogic.com/"><img src="images/qbaylogic.png" alt="qbaylogic" class="img-fluid"/></a>
 		    </div>
+
+		    <div class="col-sm-6 mx-auto mt-3">
+		      <a target="_blank" href="https://www.janestreet.com/"><img src="https://www.janestreet.com/assets/logo_horizontal.png" alt="jane street" class="img-fluid"/></a>
+</div>
 
 		    <div class="col-sm-6 mx-auto mt-3">
 		      <a target="_blank" href="https://eti.pg.edu.pl/"><img src="images/gdansk.png" alt="university gdansk" class="img-fluid"/></a>
@@ -418,7 +445,7 @@
 		  </tr>
 		  <tr>
 		    <td>20:00</td>
-		    <td>Dinner</td>
+		    <td><a href="#dinner">Dinner</a></td>
 		  </tr>
 		  <!--<tr>
 		      <td>-</td>
@@ -472,12 +499,17 @@
 	</div>
 	<div class="col-sm-12 mt-3">
 	  <div class="card">
-	    <a name="schedule" href="#schedule"></a>
+	    <a name="dinner" href="#dinner"></a>
 	    <h5 class="card-header">Saturday Night Dinner</h5>
 	    <div class="card-body">
+	      <figure class="figure" style="width: 25%; float: right">
+		<figcaption>Sponsored by</figcaption>
+		<img src="https://www.janestreet.com/assets/logo_horizontal.png" class="figure-img img-fluid rounded" alt="University">
+	      </figure>
 	      <p class="card-text">
 		As is tradition at ORConf, a dinner will be arranged for the Saturday evening (22nd) which all conference attendees and partners are encouraged to attend.
               </p>
+	      <p>This year the dinner is sponsored by <a href="https://www.janestreet.com/">Jane Street</a> and will take place at <a href="http://www.brovarnia.pl/">Brovarnia Gdansk</a>.
 	    </div>
 	  </div>
 	</div>
