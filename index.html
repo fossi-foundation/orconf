@@ -392,7 +392,21 @@
             <h5 class="card-header">Presentations</h5>
             <div class="card-body">
               <p class="card-text">
-                Presentations will be listed here after they've been submitted.
+                <ul>
+                  <li><a href="#nextpnr">Taking nextpnr to the next level!</a> by <a href="https://twitter.com/fpga_dave" target="_blank">David Shah</a></li>
+                  <li><a href="#modelcheckers">Open-source model checkers: ready for industry?</a> by Sergey Smolov</li>
+                  <li><a href="#vhdltool">Continuous VHDL inspection with open source software</a> by Florent Manni</li>
+                  <li><a href="#librecores">What's new in LibreCores CI?</a> by <a href="https://twitter.com/oleg_nenashev" target="_blank">Oleg Nenashev</a></li>
+                  <li><a href="#pulp">What has the PULP team been working on lately?</a> by <a href="https://iis-people.ee.ethz.ch/~kgf/" target="_blank">Frank K. Gürkaynak</a></li>
+                  <li><a href="#rudolv">RudolV: from the RISC-V SoftCPU contest to a timing predictable core</a> by <a href="https://mische.eu/joerg/" target="_blank">Jörg Mische</a></li>
+                  <li><a href="#netlistpaths">netlist-paths: A command line tool for querying paths in a Verilog design</a> by <a href="www.jameswhanlon.com" target="_blank">Jamie Hanlon</a></li>
+                  <li><a href="#poke">GNU poke, an extensible editor for structured binary data</a> by <a href="http://www.jemarch.net" target="_blank">Jose E. Marchesi</a></li>
+                  <li><a href="#formalaxi">Formally Verifying AXI Interfaces</a> by <a href="https://twitter.com/ZipCPU" target="_blank">Dan Gisselquist</a></li>
+                  <li><a href="#chips4makers">The state of Chips4Makers; an ASIC service for makers and hobbyists</a> by Staf Verhaegen</li>
+                  <li><a href="#idealhdl">On a quest for the ideal HDL(s) for makers and hobbyists</a> by <a href="#staf">Staf Verhaegen</a></li>
+                  <li><a href="#dpi">DPI protected Verilog instead of encryption</a> by Todd Strader</li>
+                  <li><a href="#locoforcoco">#LocoForCoco</a> by <a href="http://juliusbaxter.net" target="_blank">Julius Baxter</a></li>
+                </ul>
               </p>
 
               <hr/>
@@ -405,7 +419,297 @@
           <!-- <p> -->
           <!-- </p> -->
 
-          <!-- End of presentation section -->
+          <h4>
+            <a name="nextpnr" href="#nextpnr"></a>Taking nextpnr to the next level!</h4>
+              <p>
+                <a href="https://github.com/YosysHQ/nextpnr" target="_blank">nextpnr</a>, a
+                next-generation multi-architecture FPGA place-and-route tool was presented at
+                <a href="https://orconf.org/2018/#symbioticeda" target="_blank">ORConf 2018</a>
+                with both iCE40 and highly experimental ECP5 support. Over the past year, we have taken the
+                ECP5 support from proof-of-concept to production-ready, and opened up the possibility to use nextpnr
+                to build large and complex designs. This has included augmenting the existing simulated annealing
+                placer with a significantly faster analytical placer (HeAP), adding multi-threaded timing analysis,
+                and adding support for the nitty-gritty hardware details needed for high-speed IO interfaces.
+              </p>
+              <p>
+                The end result is the capability to build large designs quickly, such as
+                Linux-capable <a href="https://github.com/SpinalHDL/VexRiscv"
+                                 target="_blank">VexRiscv</a> and
+                <a href="https://github.com/chipsalliance/rocket-chip" target="_blank">Rocket</a>
+                processors with DDR3 memory and Gigabit Ethernet. A live demo of this
+                collaborative open gateware and toolchain project will be given.
+              </p>
+              <p>
+                This talk will introduce some of the improvements made to nextpnr, as well as a
+                roadmap to improved support for even bigger and better FPGAs in the future – and how
+                you can get involved!
+              </p>
+          <h6>Presenter: <a href="https://twitter.com/fpga_dave" target="_blank">David Shah</a></h6>
+              <p>
+                David is an engineer at <a href="https://www.symbioticeda.com/"
+                                           target="_blank">Symbiotic EDA</a>,
+                working on <a href="http://www.clifford.at/yosys/" target="_blank">Yosys</a> (open
+                source synthesis) and
+                nextpnr. He documented the bitstream of the Lattice ECP5 FPGAs in
+                <a href="https://github.com/SymbiFlow/prjtrellis" target="_blank">Project Trellis</a>
+                and used this to build an end-to-end open-source flow for these parts using Yosys
+                and nextpnr.
+              </p>
+          
+          <h4>
+            <a name="modelcheckers" href="#modelcheckers"></a>Open-source model checkers: ready for industry?</h4>
+              <p>
+                Open source penetrates the microelectronics design, making hardware development more accessible. 
+                To leverage this effect, one needs open CAD tools, including formal verification facilities. 
+                The talk is concentrated on an experimental comparison of several open-source model checkers 
+                for Verilog modules on open benchmarks. For selected tools Verilog support and property checking
+                facilities were evaluated on typical designs and industrial-scale modules. This talk also 
+                briefly describes <a href="https://forge.ispras.ru/projects/retrascope"
+                                     target="_blank">Retrascope</a>
+                - a new open-source model checker that verifies Verilog descriptions
+                against SVA properties. The toolkit allows analyzing of HDL descriptions, 
+                reconstructing and visualization of the underlying models and using the derived models 
+                for test generation and property checking.
+              </p>
+          <h6>Presenter: Sergey Smolov</h6>
+              <p>
+                Sergey Smolov is junior researcher of Programming Technology Department of Ivannikov
+                Institute for System Programming of the Russian Academy of Sciences. He received the
+                bachelor's degree in 2008 and master's degree in 2010 both from Moscow Institute of
+                Physics and Technology (MIPT). His research interests include microprocessors
+                modeling and functional verification.
+              </p>
+
+              
+          <h4>
+            <a name="vhdltool" href="#vhdltool"></a>Continuous VHDL inspection with open source software</h4>
+              <p>
+                <a href="https://github.com/VHDLTool" target="_blank">VHDLTool</a> is an opensource
+                project founded by CNES to help people writing cleaner and safer VHDL code.
+                
+                
+                It is based on several tools like:
+                <ul>
+                  <li>VHDL Handbook toolchain: which gathers customizable VHDL good practices
+                    written in XML and a toolchain to convert it to PDF</li>
+                  <li>Zamiacad: which is a modular and extensible platform for advanced hardware design, analysis,
+                    and research.</li>
+                  <li>Rulechecker: which use Zamiacad to parser handbook VHDL rules</li>
+                  <li>Sonarqube-rulechecker: which is a plugin for Sonarqube which is a GUI for debt identification and
+                    management. Sonarqube will display the errors based on VHDL handbook and
+                    evaluated by Zamiacad-Rulechecker. It will display also code coverage coming
+                    from GCOV. </li>
+                </ul>
+          </p>
+          <h6>Presenter: Florent Manni</h6>
+              <p>
+                Florent is a SOC designer at the French Space agency (CNES).
+              </p>
+
+          <h4>
+            <a name="librecores" href="#librecores"></a>What's new in LibreCores CI?</h4>
+              <p>
+                There were significant changes in
+                <a href="https://www.librecores.org/static/librecores-ci" target="_blank">LibreCores
+                  CI</a> over the past year. Let's take a
+                look at what's new available to hardware projects: Docker images for EDA tools, new
+                Jenkins server bundles, and SaaS for projects. And how was Google Summer of Code in
+                LibreCores CI this year?
+          </p>
+          <h6>Presenter: <a href="https://twitter.com/oleg_nenashev" target="_blank">Oleg Nenashev</a></h6>
+              <p>
+                Oleg is an R&amp;D and Automation engineer with Hardware/Embedded background. He
+                contributes to the LibreCores project and works on the continuous integration
+                service there. He is also a Jenkins core maintainer and a leader of Hardware/EDA SIG
+                there. Nowadays Oleg lives in Switzerland and works for CloudBees.
+          </p>
+
+          <h4>
+            <a name="pulp" href="#pulp"></a>What has the PULP team been working on lately?</h4>
+              <p>
+                The <a href="https://pulp-platform.org/" target="_blank">PULP project</a> has been
+                actively working on new ideas over the summer. In this
+                talk I will briefly introduce the latest projects and chips the group has worked
+                on. PULP project is committed to release all proven hardware with a permissive open
+                source license (Solderpad) and we hope that ideas that we developed in the latest
+                chips will also prove themselves useful and can become part of our releases.
+              </p>
+          <h6>Presenter: <a href="https://iis-people.ee.ethz.ch/~kgf/" target="_blank">Frank K. Gürkaynak</a></h6>
+              <p>
+                Frank has been involved in the PULP project since the beginning in 2013. His
+                background is in digital IC design but these days he is only allowed to talk about
+                the projects, leaving the real work to younger (and more capable) colleagues
+              </p>
+
+          <h4>
+            <a name="rudolv" href="#rudolv"></a>RudolV: from the RISC-V SoftCPU contest to a timing predictable core</h4>
+              <p>
+                <a href="https://github.com/bobbl/rudolv/" target="_blank">RudolV</a> is yet another
+                5-stage in-order RISC-V core. In contrast to other
+                implementations it focuses on timing predictability by avoiding speculative
+                components like out-of-order execution, dynamic branch prediction or caches.
+                Without affecting the predictability, techniques like instruction fusion, 
+                in-order dual issue and decoupled fetching can improve its throughput.
+          </p>
+          <h6>Presenter: <a href="https://mische.eu/joerg/" target="_blank">Jörg Mische</a></h6>
+              <p>
+                Jörg Mische is a researcher on real-time capable manycore systems and
+                networks-on-chip. He presented the Reduced Complexity ManyCore (RC/MC) and its
+                predictable PaterNoster NoC at earlier ORCONFs. After leaving university, he is
+                now a freelancer in the area of real-time FPGA systems.
+          </p>
+
+          <h4>
+            <a name="netlistpaths" href="#netlistpaths"></a>netlist-paths: A command line tool for querying paths in a Verilog design</h4>
+              <p>
+                In a complex Verilog design, it can be difficult to relate timing reports for
+                critical paths back to the the source code because of the way a design is flattened
+                and optimised in a physical design flow. Being able to quickly correspond a timing
+                path to the source code is useful in determining causes and potential fixes. This
+                talk describes <a href="https://github.com/jameshanlon/netlist-paths"
+                target="_blank">a simple command-line tool</a> to do this. It uses a modified
+                version of
+                Verilator to obtain a netlist from Verilog source code and provides options to query
+                paths and cones of logic by specifying start, end and through points in the design,
+                similar to what you find with EDA tooling.
+              </p>
+          <h6>Presenter: <a href="www.jameswhanlon.com" target="_blank">Jamie Hanlon</a></h6>
+              <p>
+                Jamie Hanlon works as an Engineer at Graphcore in Bristol (UK), a company building
+                silicon processors for machine intelligence. He is part of the Silicon team, working
+                on the logical and physical design of the a processor, replicated thousands of time
+                over the chip. Previously he has worked on compiler and toolchain software,
+                specifically LLVM, and completed a PhD at the University of Bristol in computer
+                architecture.
+              </p>
+
+          <h4>
+            <a name="poke" href="#poke"></a>GNU poke, an extensible editor for structured binary data</h4>
+              <p>
+                GNU poke is a new interactive editor for binary data.  Not limited to editing basic
+                entities such as bits and bytes, it provides a full-fledged procedural, interactive
+                programming language designed to describe data structures and to operate on them.
+              </p>
+              <p>
+                GNU poke is useful in many domains.  It is very well suited to aid in the
+                development of programs that operate on binary files, such as assemblers and
+                linkers. It is also good for the fast development of prototypes for programs like
+              linkers,
+                compressors or filters, and it provides a convenient foundation to write other
+                utilities such as diff and patch tools for binary files.  I reckon GNU poke could be
+                useful for people working on the software stack for open source hardware systems.
+              </p>
+              <p>
+                First I will introduce the program and show what it does: from simple bits/bytes
+                editing to user-defined structures and then, very very quickly due to time
+                limitations,  will cover how to describe user data, which is to say the art of
+                writing "pickles".
+              </p>
+          <h6>Presenter: <a href="http://www.jemarch.net" target="_blank">Jose E. Marchesi</a></h6>
+              <p>
+                Jose E. Marchesi is a GNU hacker and maintainer. Currently making a life as the
+                teach lead of the Oracle Toolchain Team.
+              </p>
+
+          <h4>
+            <a name="formalaxi" href="#formalaxi"></a>Formally Verifying AXI Interfaces</h4>
+              <p>
+                <a href="http://zipcpu.com" target="_blank">Gisselquist Technology, LLC</a>, has
+                recently developed a set of formal properties for
+                verifying both AXI and AXI-lite interactions.  The properties were then applied to
+                many open source projects.  In this talk, Dr. Gisselquist will discuss both how the
+                property set works and some of the bugs he has found using it.
+          </p>
+          <h6>Presenter: <a href="https://twitter.com/ZipCPU" target="_blank">Dan Gisselquist</a></h6>
+              <p>
+                Dr. Gisselquist is the owner of Gisselquist Technology, LLC, a services based
+                microbusiness focused on providing superior computer engineering and signal
+                processing services to our customers. Dr. Gisselquist has an M.D. in Computer
+                Engineering and a Ph.D. in Electrical Engineering both from the U.S. Air Force
+                Institute of Technology. His most recent work has involved formally verifying bus
+                components using <a href="https://github.com/YosysHQ/SymbiYosys" target="_blank">SymbiYosys</a>.
+          </p>
+
+          <h4>
+            <a name="chips4makers" href="#chips4makers"></a>The state of Chips4Makers; an ASIC service for makers and hobbyists</h4>
+              <p>
+                The Chips4Maker service was first brought forward on ORConf two years ago. At that
+                time it was mostly a dream. In the mean time much progress has been made on the
+                design flow front and a few test tape-outs have been performed. The progress will be
+                reported during this presentation.
+              </p>
+              <p>
+                If moon, earth and sun are forming the right constellation even some more concrete
+                announcements may be made on the Chips4Makers service.
+              </p>
+          <h6>Presenter: Staf Verhaegen</h6>
+              <p>
+                Staf Verhaegen is an open source software enthusiast that is dreaming of open source
+                driving hardware innovation as it did for software.
+              </p>
+
+          <h4>
+            <a name="idealhdl" href="#idealhdl"></a>On a quest for the ideal HDL(s) for makers and hobbyists</h4>
+              <p>
+                With a software background I stumbled in the hardware 'programming' languages beginning of this decade.
+                Since the beginning I had a love/hate relationship with the common RTL languages at best. In the
+                beginning I thought it was just the normal rookie feeling and some persistence would
+                solve it. After almost a decade I am convinced some fundamental shortcomings in the
+                common RTL languages are holding back hardware development productivity and the
+                usability by non-experts like makers.
+              </p>
+              <p>
+                There is hope though, as I will also highlight some recent developments which in my
+                opinion are a big step in the right direction.
+              </p>
+          <h6><a name="staf" href="#staf"></a>Presenter: <a href="#staf">Staf Verhaegen</a></h6>
+          <p>
+          </p>
+          
+              
+          <h4>
+            <a name="dpi" href="#dpi"></a>DPI protected Verilog instead of encryption</h4>
+              <p>
+                Encrypted Verilog is unusable to open source tools like
+                <a href="https://www.veripool.org/wiki/verilator" target="_blank">Verilator</a>. Beyond that, the
+                Verilog encryption scheme is basically worthless. See
+                <a href="https://acmccs.github.io/papers/p1533-chhotarayA.pdf"
+                target="_blank">https://acmccs.github.io/papers/p1533-chhotarayA.pdf</a> for futher
+                details. Or if you prefer more practical evidence, spend a little while researching
+                actual attacks on encrypted RTL.
+              </p>
+              <p>
+                <a href="https://github.com/toddstrader/dpi-compile" target="_blank">This
+                project</a> is a proof of concept for a utility which would use Verilator to compile
+                a protected Verilog module into a DPI-accessible shared object. While the compiled
+                object could be analyzed, this approach provides little to no opportunity for the
+                plaintext Verilog to be exposed.
+              </p>
+          <h6>Presenter: Todd Strader</h6>
+              <p>
+                Todd Strader is an engineer at Hudson River Trading and is involved with the Verilator project
+              </p>
+          
+
+          <h4>
+            <a name="locoforcoco" href="#locoforcoco"></a>#LocoForCoco</h4>
+              <p>
+                This is a talk about why I love to use <a href="https://github.com/cocotb/cocotb"
+                                                          target="_blank">cocotb</a>
+                for my day-to-day verification tasks, and I'll briefly discuss a couple neat uses
+                                                          I've found for it, and how it
+                fits into our development and verification flow.
+              </p>
+          <h6>Presenter: <a href="http://juliusbaxter.net" target="_blank">Julius Baxter</a></h6>
+              <p>
+                Julius is a digital design engineer at <a href="https://morsemicro.com"
+                                                          target="_blank">Morse Micro</a>, a startup based in Sydney,
+                Australia, making mixed-signal WiFi chips. I'm also a founding director of the
+                <a href="https://fossi-foundation.org" target="_blank">FOSSi
+                Foundation</a> and a lapsed contributor to the <a href="https://openrisc.io" target="_blank"OpenRISC project</a>.
+              </p>
+              
+              <!-- End of presentation section -->
 
             </div><!-- card-body -->
           </div><!-- card -->
