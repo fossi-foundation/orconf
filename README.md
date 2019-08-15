@@ -1,6 +1,6 @@
 # ORCONF web page
 
-This page is served through GitHub pages, which is in turn powered by the
+This page is served through https://hosting.librecores.org, which is in turn powered by the
 static site generator Jekyll.
 Essentially, this means the page content can be written in Markdown, and is
 then processed into static HTML pages by GitHub after each push, and then
