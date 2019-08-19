@@ -413,6 +413,13 @@
                   <li><a href="#dpi">DPI protected Verilog instead of encryption</a> by Todd Strader</li>
                   <li><a href="#locoforcoco">#LocoForCoco</a> by <a href="http://juliusbaxter.net" target="_blank">Julius Baxter</a></li>
                   <li><a href="#artix">Status of Xilinx Artix 7 support in Symbiflow</a> by <a href="https://twitter.com/mithro" target="_blank">Tim 'mithro' Ansell</a></li>
+                  <li><a href="#teroshdl">TerosHDL: an open source IDE for FPGA developers</a> by Ismael Pérez, Carlos Alberto, Alfredo Sáez</li>
+                  <li><a href="#asicone">ASICone, from Verilog to GDSII with open source tools only, Status and Challenges</a> by Luis Eduardo Rueda Guerrero</li>
+                  <li><a href="#embench">Embench™ 0.5: A Free Benchmark Suite for  IoT from an Academic-Industry Cooperative</a> by <a href="https://www.twitter.com/jeremypbennett" target="_blank">Jeremy Bennett</a></li>
+                  <li><a href="#ghdl">Open Source Formal Verification in VHDL</a> by <a href="https://www.twitter.com/pepijndevos" target="_blank">Pepijn de Vos</a></li>
+                  <li><a href="#vpr">Improving VPR I/O</a> by <a href="duck2.lt" target="_blank">Fahrican Koşar</a></li>
+                  <!-- <li><a href="#"></a> by </li> -->
+                  <!-- <li><a href="#"></a> by </li> -->
                 </ul>
               </p>
 
@@ -492,7 +499,6 @@
             existing meetings in CHIPS alliance.
           </p>
 
-          </p>
           <h6>Presenter: <a href="https://twitter.com/zbandic" target="_blank">Zvonimir Z Bandic</a></h6>
           <p>
             Zvonimir Z. Bandić is the Research Staff Member and Senior Director of Next Generation
@@ -528,7 +534,7 @@
           <h6>Presenter: <a href="https://www.linkedin.com/in/rickoco/" target="_blank">Rick O'Connor</a></h6>
 
             <p>
-
+              
 	      Rick O'Connor is Founder and serves as President & CEO
 	      of the OpenHW Group a not-for-profit, global
 	      organization driven by its members and individual
@@ -844,7 +850,155 @@
             heavily involved with the development of the SymbiFlow project.
           </p>
 
-           <!-- End of presentation section -->
+          <h4>
+            <a name="teroshdl" href="#teroshdl"></a>TerosHDL: an open source IDE for FPGA developers</h4>
+          <p>
+            <a href="https://github.com/TerosTechnology/terosHDL" target="_blank">TerosHDL</a>
+            (<a href="https://twitter.com/@terostech" target="_blank">Twitter</a>) is an open source project
+            focused in the development and integration of EDA tools (ghdl, VUnit...) in an IDE. 
+            It is currently based on Atom, but in the future it will be extended to other code editors such as Visual Studio Code.
+          </p>
+          <p>
+          The goal of TerosHDL is bringing all facilities of software code tools to the HDL development: linter, code completion,
+          simulators management, automate documentation, snippets. <a href="https://youtu.be/tgr1KGIitIQ" target="_blank">https://youtu.be/tgr1KGIitIQ</a>.
+          </p>
+          <p>
+            We will introduce TerosHDL 2.0 with multiple features. In the new release the architecture has been completely
+            rebuild in order to support more tools, reduce some dependencies and clarify the code. Some of the new features include
+            Verilog support, additional simulators: Verilator, Icarus, additional tools like cocotb, Edalize, a linter and more beautiful documentation.
+          </p>
+
+          <h6>Presenters: Ismael Pérez, Carlos Alberto, Alfredo Sáez</h6>
+          <p>
+            <a href="https://github.com/smgl9" target="_blank">Ismael Perez</a> is an FPGA engineer who usually use open source tools at work.
+            When the homemade automation scripts started to be a just a bit serious he started TerosHDL project with some coworkers to ease
+            their development task and integrate different tools.
+          </p>
+
+           <p>
+             <a href="https://github.com/qarlosalberto" target="_blank">Carlos Alberto</a> is passionate about open source. He works in high
+             performance and low latency systems with FPGA. He is interested in implementing software quality methodologies in HDL languages:
+             code coverage, continuous integration... He sais that hw can be effective, scalable and reliable like sw!
+           </p>
+           <p>
+             <a href="https://github.com/asaezper" target="_blank">Alfredo Sáez</a> is a software engineer who has worked from backend to
+             frontend. He is a truly enthusiast of development tools that help us to code better. And when he discovered that HDL mates don't
+             have so many facilities as SW developers, he decided to join TerosHDL team!
+           </p>
+
+          <h4>
+            <a name="asicone" href="#asicone"></a>ASICone, from Verilog to GDSII with open source tools only, Status and Challenges</h4>
+            <p>
+              Last year, Symbiotic EDA announced ASICone, an experiment to tape-out an entire ASIC
+              with a RISC-V 32bit processor, using only open source tools on X-Fab 180nm COMS
+              3.3V. As expected, ASICone had been a very difficult project. The team around
+              Prof. Elkim Roa (OnChip) believes that they have found some of the most important gaps
+              between a typical tape-out (with commercial EDA tools) and a tape-out with open-source
+              tools. Taking this into account, in this talk, team member Luis Rueda will present the
+              status of ASICone: what have been done and achieved so far, what have been the
+              learning's, what is needed to close the feature gaps in the current available open
+              source ASIC toolchain and what should be the next steps.
+          </p>
+          <h6>Presenter: Luis Eduardo Rueda Guerrero</h6>
+          <p>
+            Luis E. Rueda G. is a PhD student and professor at Universidad Industrial de Santander
+            (Colombia). His current research focuses in analog accelerators for machine learning
+            system-on-edge applications. Luis did his master of science in TU Delft (the
+            Netherlands), and in the past, he worked in projects for NXP (the Netherlands), IMEC
+            (Belgium) and Freescale (Brazil), mainly in mixed-signal and analog IC design. Luis is
+            also part of the OnChip group, responsible for Onchip-V, the world's first open source
+            RISC-V-based 32-bit microcontroller (2016), where he was in charge of the analog IP
+            blocks design.
+          </p>
+
+          <h4>
+          <a name="embench" href="#embench"></a>Embench™ 0.5: A Free Benchmark Suite for  IoT from an Academic-Industry Cooperative</h4>
+          <p>
+            In June we announced <a href="https://embench.org/" target="_blank">Embench</a>™ (for
+            Embedded Benchmark), a benchmark for embedded IoT devices created by experts from both
+            academia and industry. We first looked at past benchmark efforts to try to incorporate
+            their good ideas and to avoid their mistakes, and drew the following seven lessons:
+            <ol>
+              <li>Embench must be free (no cost).</li>
+              <li>Embench must be easy to port and run.</li>
+              <li>Embench must be a suite of real programs.  </li>
+              <li>Embench must have a supporting organization that maintains its relevance over time.  </li>
+              <li>Embench must report a single summarizing performance score.  </li>
+              <li>Embench should report geometric mean and standard deviation as the summarizing score. </li>
+              <li>Embench must involve both academia and industry.</li>
+            </ol>
+          </p>
+          <p>
+            Our plan is to follow “Agile Benchmark Development” by bringing out an initial 0.5
+            version for evaluation and feedback,  with a 1.0 version to be released after a few
+            iterations of preliminary Embench versions (0.5, 0.6, 0.7,...) to debug both the suite
+            and the ground rules. We initially aim to evaluate microcontrollers that support ≤64KiB
+            of code and read only data—which would typically be stored in Flash or ROM—and ≤16KiB of
+            data.
+          </p>
+          <p>
+            In this talk we describe Embench 0.5. Unlike the popular Dhrystone and CoreMark
+            benchmarks that are single synthetic programs, Embench 0.5 suite has 20 real
+            programs. They do little or no floating point computation, but some are branch
+            intensive, some memory intensive, and some integer compute intensive. Like SPEC, the
+            single performance number that people will promote is the geometric mean of performance
+            relative to a reference platform of the 20 programs plus the geometric standard
+            deviation to indicate the significance of differences between processors. Novel features
+            of Embench include reporting code size as well as program performance and to measure
+            interrupt latency and context switching. These novel features play an important role in
+            embedded computing but have not yet appeared in embedded benchmarks. The Free and Open
+            Source Silicon (FOSSi) Foundation organization is the official sponsor of Embench. The
+            Embench organizing committee now has more than 10 volunteers to evolve the benchmark.
+          </p>
+          <p>
+            In addition to announcing Embench 0.5, we will demonstrate its value by contrasting its
+            performance evaluation of several embedded systems to Dhrystone and CoreMark.
+          </p>
+          <p>
+            Our hope is that henceforth is that publications of performance for embedded computers
+            will include Embench along with Dhrystone and CoreMark, and that Embench will eventually
+            retire these much older, single, synthetic benchmarks to the dustbin of history.
+          </p>
+          <h6>Presenter: <a href="https://www.twitter.com/jeremypbennett" target="_blank">Jeremy Bennett</a></h6>
+          <p>
+            Jeremy Bennett is Vice-chair and convener of the Embench working group, which is
+            developing a new set of benchmarks for Embedded systems.
+          </p>
+
+
+          <h4>
+            <a name="ghdl" href="#ghdl"></a>Open Source Formal Verification in VHDL</h4>
+          <p>
+            Due to recent work by Tristan Gingold and some contributions from Pepijn de Vos, it is
+            now possible to use GHDL for synthesis with Yosys. Furthermore, improvements in support
+            for PSL and VHDL-2008 make it possible to
+            <a href="http://pepijndevos.nl/2019/08/15/open-source-formal-verification-in-vhdl.html"
+               target="_blank">use GHDL with SymbiYosys for formal
+            verification</a>. This talk will give an overview of the state of open source VHDL
+            synthesis, and introduce formal verification using these tools.
+          </p>
+          <h6>Presenter: <a href="https://www.twitter.com/pepijndevos" target="_blank">Pepijn de Vos</a></h6>
+          <p>
+            Pepijn is a software developer and electrical engineer who got in touch with FPGA
+            development during his electrical engineering bachelor at the University of
+            Twente. Pepijn prefers vim and makefiles over clunky commercial EDA tools, and is trying
+            to make his future career more pleasant by contributing to open source tools.
+          </p>
+
+          <h4>
+            <a name="vpr" href="#vpr"></a>Improving VPR I/O</h4>
+          <p>
+            verilog-to-routing's P&amp;R tool VPR, which is used in
+            <a href="https://symbiflow.github.io/" target="_blank">SymbiFlow</a>'s Artix 7 flow, can accept
+            FPGA architecture and routing resources as file inputs. I have worked on the speed and
+            correctness of this process as part of this year's GSoC.
+          </p>
+          <h6>Presenter: <a href="duck2.lt" target="_blank">Fahrican Koşar</a></h6>
+          <p>
+            Fahrican is GSoC'2019 student for SymbiFlow.
+          </p>
+
+          <!-- End of presentation section -->
 
             </div><!-- card-body -->
           </div><!-- card -->
