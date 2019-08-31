@@ -426,7 +426,10 @@
                   <li><a href="#embench">Embench™ 0.5: A Free Benchmark Suite for  IoT from an Academic-Industry Cooperative</a> by <a href="https://www.twitter.com/jeremypbennett" target="_blank">Jeremy Bennett</a></li>
                   <li><a href="#ghdl">Open Source Formal Verification in VHDL</a> by <a href="https://www.twitter.com/pepijndevos" target="_blank">Pepijn de Vos</a></li>
                   <li><a href="#vpr">Improving VPR I/O</a> by <a href="duck2.lt" target="_blank">Fahrican Koşar</a></li>
-                  <!-- <li><a href="#"></a> by </li> -->
+                  <li><a href="#hiventivesim">One simulator to rule them all, and on a distributed infrastructure run them</a> by Benjamin Barrois</li>
+                  <li><a href="#gals">Beating the SoC's clock with FLOSS libraries & tools for FPGAs</a> by Javier D. Garcia-Lasheras</li>
+                  <li><a href="#syntacore">Open Source SCR1 core</a> by Ekaterina Berezina, Ivan Piatak</li>
+                  <li><a href="#bsc">Open Source computer architecture research at the Barcelona Supercomputer Center</a> by Guillem Cabo</li>
                   <!-- <li><a href="#"></a> by </li> -->
                 </ul>
               </p>
@@ -1005,6 +1008,131 @@
           <p>
             Fahrican is GSoC'2019 student for SymbiFlow.
           </p>
+
+          <h4>
+            <a name="hiventivesim" href="#hiventivesim"></a>One simulator to rule them all, and on a distributed infrastructure run them</h4>
+              <p>
+                The rise of open hardware pushed by open architectures such as RISC-V must be
+                accompanied by open tool suites making it accessible to the largest number. Today,
+                two distinct profiles are required to produce an electronic device: hardware
+                designers and software developers. Hardware designers often work on close-source,
+                expensive tool suites with only a small degree of freedom, to produce a suitable
+                hardware prototype. Once low-level software produced (kernel, drivers...) from the
+                hardware specification, software developers then use the prototype as a support for
+                their developments and testing, with other tools. This long, sequential process
+                could be dramatically shortened by using a unique collaborative tool, centered
+                around a software representation of the hardware: a virtual platform.
+              </p>
+              <p>
+                In this talk, we will present <a href="https://www.hiventive.com/"
+                                                 target="_blank">Hiventive</a>'s multi-simulator virtual platform engine
+                                running a RISC-V virtual platform embedding a Linux distribution. Compare to
+                existing solutions, Hiventive's multi-simulator doesn't focus on only one simulator,
+                but instead take advantage of existing great simulators like QEMU, GEM5, and more.
+              </p>
+
+          <h6>Presenter: Benjamin Barrois</h6>
+              <p>
+                Benjamin Barrois is the CTO and one of the co-founders of Hiventive, a young startup
+                aiming to revolutionize the way electronics products are designed. He joined the
+                adventure after getting a PhD about low-power computer arithmetics.
+              </p>
+
+          <h4>
+            <a name="gals" href="#gals"></a>Beating the SoC's clock with FLOSS libraries & tools for FPGAs</h4>
+              <p>
+                A Globally Asynchronous, Locally Synchronous (GALS) circuit consists of a set of
+                locally synchronous modules with isolated clock domains communicating with each
+                other via asynchronous wrappers. Because of the reduced EM interference and lower
+                power requirements, the GALS approach is one of the most promising techniques for
+                building the next generation of System-on-Chip (SoC) devices, being specially fitted
+                for Network-on-Chip (NoC) based architectures.
+              </p>
+              <p>
+                Obscurity and lack of proper fine-grained control in proprietary toolchains has
+                historically supposed a very limiting factor for any asynchronous logic design
+                research effort related with FPGAs. In this talk, we will demonstrate with a
+                reproducible demo how the basic asynchronous NoC circuitry involved in a GALS based
+                SoC can be efficiently built by using the Free & Open Source libraries from the
+                <a href="https://www.ohwr.org/project/asyncart" target="_blank">AsyncArt project</a>
+                and a 100% FLOSS toolchain for FPGAs.
+          </p>
+          <h6>Presenter: <a href="https://twitter.com/garcialasheras" target="_blank">Javier D. Garcia-Lasheras</a></h6>
+              <p>
+                Javier D. Garcia-Lasheras is a researcher and entrepreneur specialized in
+                high-performance Cyber-Physical Systems. He is an early pioneer on implementing
+                asynchronous NoCs on FPGAs and ASICs and he created the AsyncArt project in 2012 to
+                share his previous research on the topic. In addition, he has made other
+                contributions to the Free & Open Source community related with software, as a
+                participant in Linux Foundation's Yocto Project, and with hardware, as a former
+                project manager for CERN's HDLMake tool.
+            </p>
+
+          <h4>
+            <a name="syntacore" href="#syntacore"></a>Open Source SCR1 core</h4>
+          <p>
+            <a href="https://github.com/syntacore/scr1" target="_blank">SCR1</a> is an open-source
+            MCU-class RISC-V core for deeply embedded applications and
+            accelerator control, developed and maintained by Syntacore. Over the three years of its
+            existence, the processor has found significant traction both in industry and in academia
+            around the world.
+          </p>
+          <p>
+            in our brief presentation, we will talk about the SCR1 key features and the latest updates, as well
+            as invite you to our demo, where we show the use of SCR1 both for educational purposes
+            and for commercial projects.
+          </p>
+          <h6>Presenters: <a href="https://www.linkedin.com/in/kate-berezina/" target="_blank">Ekaterina Berezina</a>,
+            <a href="https://www.linkedin.com/in/ivan-piatak-64351b123/" target="_blank">Ivan Piatak</a></h6>
+              <p>
+                Ekaterina Berezina is a Senior HW Engineer at Syntacore, where she contributes to
+                the SCRx core family development and maintenance. Ekaterina has more than 6 years of
+                experience in CPU IP development including architecture and microarchitecture
+                definition, RTL design, testing and verification, area/timing/power optimization for
+                ASIC and FPGA. She received her Master’s degree in Computer Science at
+                Saint-Petersburg ITMO University and teaches Computer Architecture classes there.
+              </p>
+              <p>
+                Ivan Piatak is an ASIC design engineer at Syntacore. He received his MS and PhD
+                degrees from the Peter the Great St.Petersburg Polytechnic University where he also
+                currently serves in the research assistant position at the Higher school of applied
+                physics and space technologies. His research interests are in the low power data
+                acquisition methods with a specific focus on the digitally-assisted pipelined ADCs
+                design. At Syntacore, he is responsible for the ASIC digital backend and layout in
+                the customer projects, and also contributes to FPGA prototyping."
+              </p>
+
+          <h4>
+            <a name="bsc" href="#bsc"></a>Open Source computer architecture research at the Barcelona Supercomputer Center</h4>
+              <p>
+                Barcelona Supercomputer Center - Centro Nacional de Supercomputación (BSC-CNS) is
+                the leading supercomputing center in Spain. It houses MareNostrum, one of the most
+                powerful supercomputers in Europe, and is a hosting member of the PRACE European
+                distributed supercomputing infrastructure. The mission of BSC is to research,
+                develop, and manage information technologies to facilitate scientific progress. We
+                have a long history of developing software stacks for HPC. Over the years, We have
+                released many open source tools for instrumentation, visualization, and analysis of
+                software and architectures, but RTL design has been a research area quite limited
+                until now. The growth of an Open Digital design ecosystem has enabled BSC to explore
+                computer architecture at a deeper level, closing the gap between academia and
+                industry.
+              </p>
+              <p>
+                Last May BSC, along Universitat Politècnica de Barcelona (UPC), Centro Nacional de
+                Microelectrònica (CNM) and Centro de Investigación en Computación del Instituto
+                Politécnico Nacional de México (CIC) summited for manufacturing the preDRAC
+                processor, our first RISC-V ASIC design. In this presentation, We will talk about
+                the compromise of BSC with RISC-V, show an overview of preDRAC, and describe the
+                role of Open Source IP and tools in the project.
+          </p>
+          <h6>Presenter: <a href="https://www.bsc.es/cabo-guillem" target="_blank">Guillem Cabo</a></h6>
+              <p>
+                 Guillem Cabo is a research engineer at BSC-CNS. He was involved in the tape out of
+                 preDRAC. He is currently working on RTL design, mainly designing and integrating
+                 control mechanisms for real-time multi-core processors in several H2020 projects,
+                 at the CAOS group.
+          </p>
+          
 
           <!-- End of presentation section -->
 
