@@ -444,6 +444,12 @@
                   <li><a href="#gals">Beating the SoC's clock with FLOSS libraries & tools for FPGAs</a> by Javier D. Garcia-Lasheras</li>
                   <li><a href="#syntacore">Open Source SCR1 core</a> by Ekaterina Berezina, Ivan Piatak</li>
                   <li><a href="#bsc">Open Source computer architecture research at the Barcelona Supercomputer Center</a> by Guillem Cabo</li>
+                  <li><a href="#licensing">Open Hardware Licensing</a> by Andrew Katz</li>
+                  <li><a href="#openrisc">OpenRISC update</a> by Stafford Horne</li>
+                  <li><a href="#cocotbnews">News from cocotb land</a> by Philipp Wagner</li>
+                  <li><a href="#debug">A Unified Debug Server for Deeply Embedded Systems and GDB/LLDB</a> by Simon Cook</li>
+                  <li><a href="#vprv2x">Versatile Place and Route (VPR) device models generation from Verilog with V2X</a> by Karol Gugala</li>
+                  
                   <!-- <li><a href="#"></a> by </li> -->
                 </ul>
               </p>
@@ -1053,7 +1059,7 @@
               </p>
 
           <h4>
-            <a name="gals" href="#gals"></a>Beating the SoC's clock with FLOSS libraries & tools for FPGAs</h4>
+            <a name="gals" href="#gals"></a>Beating the SoC's clock with FLOSS libraries &amp; tools for FPGAs</h4>
               <p>
                 A Globally Asynchronous, Locally Synchronous (GALS) circuit consists of a set of
                 locally synchronous modules with isolated clock domains communicating with each
@@ -1067,7 +1073,7 @@
                 historically supposed a very limiting factor for any asynchronous logic design
                 research effort related with FPGAs. In this talk, we will demonstrate with a
                 reproducible demo how the basic asynchronous NoC circuitry involved in a GALS based
-                SoC can be efficiently built by using the Free & Open Source libraries from the
+                SoC can be efficiently built by using the Free &amp; Open Source libraries from the
                 <a href="https://www.ohwr.org/project/asyncart" target="_blank">AsyncArt project</a>
                 and a 100% FLOSS toolchain for FPGAs.
           </p>
@@ -1077,7 +1083,7 @@
                 high-performance Cyber-Physical Systems. He is an early pioneer on implementing
                 asynchronous NoCs on FPGAs and ASICs and he created the AsyncArt project in 2012 to
                 share his previous research on the topic. In addition, he has made other
-                contributions to the Free & Open Source community related with software, as a
+                contributions to the Free &amp; Open Source community related with software, as a
                 participant in Linux Foundation's Yocto Project, and with hardware, as a former
                 project manager for CERN's HDLMake tool.
             </p>
@@ -1146,7 +1152,130 @@
                  control mechanisms for real-time multi-core processors in several H2020 projects,
                  at the CAOS group.
           </p>
+
+          <h4>
+            <a name="licensing" href="#licensing"></a>Open Hardware Licensing</h4>
+            <p>
+              Presenting the latest updates in open source hardware licensing, including
+              <a href="https://www.ohwr.org/project/cernohl/wikis/CERN-OHL-v2-draft" target="_blank">CERN OHL v2</a>
+              and the future governance of <a href="https://solderpad.org/licenses/" target="_blank">Solderpad</a>.
+              
+            </p>
+          <h6>Presenter: Andrew Katz</h6>
+          <p>
+	    Andrew Katz is a partner at <a href="https://www.moorcrofts.com/"
+					   target="_blank">Moorcrofts LLP</a>, a boutique
+	    law firm in England's
+	    Thames Valley and advises a wide range of businesses on free and open source
+	    related issues. He has lectured and published widely on the subject and is a
+	    founder editor of the International Free and Open Source Software Law Review.
+	    Before becoming a solicitor, he trained as a barrister, and moonlighted as a
+	    programmer during his studies at Bar School, programming in Turbo Pascal. He
+	    has released software under the GPL.
+          </p>
+
+          <h4>
+            <a name="openrisc" href="#openrisc"></a>OpenRISC update</h4>
+          <p>
+            An update on all that is happening this year
+            with <a href="https://openrisc.io">OpenRISC</a>.  I would like to go over the
+            interesting things happening this year in
+            OpenRISC. <a href="https://www.librecores.org/static/librecores-ci" target="_blank">
+              LibreCores continuous integration</a>
+            setup for IP cores.  Releasing the <a href="https://github.com/openrisc/or1k_marocchino"
+            target="_blank">Marocchino CPU</a>.  Incorporating proposals into and
+            publishing <a href="https://openrisc.io/2019/06/04/openrisc-arch1.3"
+                          target="_blnk">OpenRISC spec 1.3</a>.
+            Working on the glibc port and finding some interesting bugs.
+            
+          </p>
+          <h6>Presenter: <a href="https://twitter.com/stffrdhrn" target="_blank">Stafford Horne</a></h6>
+          <p>
+            Stafford is an software engineer as SMBC Nikko Japan working on algorithmic trading
+            systems.  He has been working on and maintaining OpenRISC for the better part of 5
+            years.
+          </p>
+
+          <h4>
+            <a name="cocotbnews" href="#cocotbnews"></a>News from cocotb land</h4>
+          <p>
+            <a href="https://www.cocotb.org" target="_blank">cocotb</a> is a COroutine
+            based COsimulation TestBench environment for verifying
+            VHDL/Verilog RTL using Python. It is an alternative to UVM and other verification
+            approaches, and has been gaining an increasing number of followers over the last years.
+          </p>
+          <p>
+            In 2019, we already released cocotb
+            <a href="https://lists.librecores.org/pipermail/cocotb/2019-January/000053.html"
+               target="_blank">1.1</a>
+            and <a href="https://lists.librecores.org/pipermail/cocotb/2019-July/000065.html"
+                   target="_blank">1.2</a>, and more releases are upcoming. This
+            talk will show what's new and exciting in cocotb land, and outline areas where we're
+            looking for more contributors!
+          </p>
+          <h6>Presenter: <a href="https://philipp-wagner.com" target="_blank">Philipp Wagner</a></h6>
+          <p>
+            Philipp is an engineer at lowRISC doing Open Source hardware design, and a director at
+            FOSSi Foundation. He has been a long-time open source enthusiast, working on software,
+            hardware, automation, and outreach.
+          </p>
+
+          <h4>
+            <a name="debug" href="#debug"></a>A Unified Debug Server for Deeply Embedded Systems and GDB/LLDB</h4>
+          <p>
+            When debugging C applications, whilst the debugger handles high level operations, it
+            abstracts and offloads lower level operations to a debug server which is responsible for
+            controlling the process or hardware. The debug server is capable of very simple
+            operations, such as reading/writing registers and memory, starting and single-stepping
+            the processor and reporting back when the processor halts. The two communicate with each
+            other using a very simple text based serial protocol.
+          </p>
+          <p>
+            GDB has long been served by a number of debug server options, for Linux class systems
+            the gdbserver application provides this functionality, and for embedded systems the
+            gdbserver built into OpenOCD is commonly used, but support for some targets (such as RTL
+            simulation) we can do better. In this talk, we present a new open source debug server
+            that supports these usecases. It is capable of controlling the simplest hardware,
+            through to complex multicore heterogenous architectures. I present the aims of this
+            project and what we want to achieve as this progresses.
+          </p>
+          <h6>Presenter: <a href="https://twitter.com/simonpcook" target="_blank">Simon Cook</a></h6>
+          <p>
+            Simon is a tool chain engineer at <a href="https://www.embecosm.com"
+                                                 target="_blank">Embecosm</a>, at which he focuses on the LLVM compiler and
+            tools for debugging embedded applications.
+          </p>
+
+          <h4>
+            <a name="vprv2x" href="#vprv2x"></a>Versatile Place and Route (VPR) device models generation from Verilog with V2X</h4>
+          <p>
+            <a href="https://docs.verilogtorouting.org/en/latest/arch/" target="_blank">VPR</a>, an
+            open source Place&amp;Route tool developed primarily by the University of Toronto,
+            describes the FPGA devices architecture using model and pb_type XML files
+            . The XML files can be really complex depending on the device architecture.
+          </p>
+          <p>
+            V2X is an open source tool for generating FPGA architecture description XML files from
+            Verilog models. The models can be reused as device simulation modes.
+          </p>
+          <p>
+            Currently V2X supports the following features:
+            <ul>
+              <li>Black box models and architecture description definition</li>
+              <li>Complex block aggregation other complex blocks and/or black boxes</li>
+              <li>Routing components</li>
+              <li>FASM (FPGA Assembly) annotations</li>
+            </ul>
+          </p>
+          <h6>Presenter: <a href="https://twitter.com/KGugala" target="_blank">Karol Gugala</a></h6>
+          <p>
+            Karol Gugala is Engineering Manager at <a target="_blank"
+                                                      href="http://www.antmicro.com/">Antmicro</a>, where he is working with open source in
+            various contexts - primarily FPGA and embedded software. Open source enthusiast -
+            involved in a wide variety of FOSS projects.
+          </p>
           
+              
 
           <!-- End of presentation section -->
 
