@@ -435,6 +435,7 @@
                   <li><a href="#omniextend">OmniXtend cache coherence protocol for datacenter CPUs</a> by Zvonimir Bandic</li>
                   <li><a href="#renode">Renode - open source simulation for rapid development of complex systems, coming to a cloud near you</a> by Michael Gielda</li>
                   <li><a href="#minrv32"></a>RISC-V without a Register File by David Hossack</li>
+                  <li><a href="#duh">Reusing HW components with DUH flow</a> by Aliaksei Chapyzhenka</li>
 
                   <!-- <li><a href="#"></a> by </li> -->
                 </ul>
@@ -1418,6 +1419,29 @@
           <p>
 	    David Hossack is a design engineer at Analog Devices in Boston MA,
 	    USA.  This project occupies some of his limited spare time.
+          </p>
+
+          <h4>
+            <a name="duh" href="#duh"></a>Reusing HW components with DUH flow</h4>
+          <p>
+	    <a href="https://duh.run">DUH</a> is an opensource data format designed to capture information
+	    about reusable HW components. It provides a standard way of capturing:
+	    ports, bus interfaces, memory maps, registers, generator parameters,
+	    clocks, resets, etc. DUH format supported with a variety of tools.
+	  </p>
+	  <p>
+	    Import tools help to import available information from Verilog,
+	    IPXACT, SystemRDL sources. Inference tools do the guesswork finding
+	    standard bus interfaces. DUH document can be opened and inspected
+	    in the web browser. DUH document has a standard JSON schema and can
+	    be validated. DUH export tools provide Verilog, IPXACT, Chisel-Scala
+	    output. The goal of DUH project is to make HW IP more reusable and
+	    enable more SoC automation tools.
+          </p>
+          <h6>Presenter: <a href=="https://twitter.com/wavedrom" target="_blank">Aliaksei Chapyzhenka</a></h6>
+          <p>
+	    Aliaksei Chapyzhenka is an engineer at SiFive Inc., author of the
+	    WaveDrom project and OSS contributor since 2011.
           </p>
 
           <!-- End of presentation section -->
