@@ -434,6 +434,7 @@
                   <li><a href="#claas">Unleashing the Potential of Cloud FPGAs</a> by Ákos Hadnagy</li>
                   <li><a href="#omniextend">OmniXtend cache coherence protocol for datacenter CPUs</a> by Zvonimir Bandic</li>
                   <li><a href="#renode">Renode - open source simulation for rapid development of complex systems, coming to a cloud near you</a> by Michael Gielda</li>
+                  <li><a href="#minrv32"></a>RISC-V without a Register File by David Hossack</li>
 
                   <!-- <li><a href="#"></a> by </li> -->
                 </ul>
@@ -1397,6 +1398,26 @@
 	    humanities, he is an ardent believer in using open source to advance
 	    entire industries. Michael is vice-chair of Marketing in the RISC-V
 	    Foundation and Chair of Marketing and Outreach in CHIPS Alliance.
+          </p>
+
+          <h4>
+            <a name="minrv32" href="#minrv32"></a>RISC-V without a Register File</h4>
+          <p>
+	    The RISC-V ISA specifies a register file of 31 registers of 32 bits
+	    each. <a href="https://github.com/arghhhh/minrv32">This project</a>
+	    aims to eliminate this requirement by memory
+	    mapping the register file into the same memory as used for program
+	    and data.  The resulting architectural state consists of only the
+	    program counter, with instructions that read arguments and write
+	    results to memory over multiple cycles.  This is reminiscent of old
+	    processors such as the 6502. As an optimization, the internal
+	    state can be considered as a register-file cache, leading to some
+	    interesting design considerations.
+          </p>
+          <h6>Presenter: David Hossack</h6>
+          <p>
+	    David Hossack is a design engineer at Analog Devices in Boston MA,
+	    USA.  This project occupies some of his limited spare time.
           </p>
 
           <!-- End of presentation section -->
