@@ -6,7 +6,7 @@
     "affiliation": "",
     "title": "FOSSi Foundation AGM (FOSSi Foundation Members only)",
     "category": "fri",
-    "abstract": ""
+    "abstract": "Annual General Meeting of the FOSSi Foundation. This will take place in the ORConf main lecture theatre prior to the event."
   },
   {
     "start": "2019-09-27 12:00",
@@ -285,7 +285,7 @@
     "affiliation": "",
     "title": "RISC-V without a Register File",
     "category": "",
-    "abstract": "The RISC-V ISA specifies a register file of 31 registers of 32 bits each. This project aims to eliminate this requirement by memory mapping the register file into the same memory as used for program and data. The resulting architectural state consists of only the program counter, with instructions that read arguments and write results to memory over multiple cycles. This is reminiscent of old processors such as the 6502. As an optimization, the internal state can be considered as a register-file cache, leading to some interesting design considerations.\nPresenter: David Hossack\n\nDavid Hossack is a design engineer at Analog Devices in Boston MA, USA. This project occupies some of his limited spare time. "
+    "abstract": "<p>The RISC-V ISA specifies a register file of 31 registers of 32 bits each. <a href=\"https://github.com/arghhhh/minrv32\" target=\"_blank\">This project</a> aims to eliminate this requirement by memory mapping the register file into the same memory as used for program and data. The resulting architectural state consists of only the program counter, with instructions that read arguments and write results to memory over multiple cycles. This is reminiscent of old processors such as the 6502. As an optimization, the internal state can be considered as a register-file cache, leading to some interesting design considerations.\n</p>\n\n<h4>Presenter: David Hossack</h4>\n<p>\nDavid Hossack is a design engineer at Analog Devices in Boston MA, USA. This project occupies some of his limited spare time.\n</p>"
   },
   {
     "start": "2019-09-28 16:00",
