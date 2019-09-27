@@ -249,8 +249,8 @@ Saturday Sept 28,,,,,,,,
 
 Presenter: Rick O'Connor
 Rick O'Connor is Founder and serves as President & CEO of the OpenHW Group a not-for-profit, global organization driven by its members and individual contributors where hardware and software designers collaborate on open source cores, related IP, tools and software projects. The OpenHW Group Core-V Family is a series of RISC-V based open-source cores with associated processor subsystem IP, tools and software for electronic system designers. ",yes
-00:10:00,2019-09-28 10:10,2019-09-28 10:20,,,Break,sat,,
-00:20:00,2019-09-28 10:20,2019-09-28 10:40,Philipp Wagner,FOSSi Foundation,News from cocotb land,sat,"          <p>
+00:20:00,2019-09-28 10:10,2019-09-28 10:30,,,Break,sat,,
+00:20:00,2019-09-28 10:30,2019-09-28 10:50,Philipp Wagner,FOSSi Foundation,News from cocotb land,sat,"          <p>
             <a href=""https://www.cocotb.org"" target=""_blank"">cocotb</a> is a COroutine
             based COsimulation TestBench environment for verifying
             VHDL/Verilog RTL using Python. It is an alternative to UVM and other verification
@@ -272,24 +272,7 @@ Rick O'Connor is Founder and serves as President & CEO of the OpenHW Group a not
             hardware, automation, and outreach.
           </p>
 ",yes
-00:20:00,2019-09-28 10:40,2019-09-28 11:00,Julius Baxter,Morse Micro,#locoforcoco,sat,"              <p>
-                This is a talk about why I love to use <a href=""https://github.com/cocotb/cocotb""
-                                                          target=""_blank"">cocotb</a>
-                for my day-to-day verification tasks, and I'll briefly discuss a couple neat uses
-                                                          I've found for it, and how it
-                fits into our development and verification flow.
-              </p>
-          <h6>Presenter: <a href=""http://juliusbaxter.net"" target=""_blank"">Julius Baxter</a></h6>
-              <p>
-                Julius is a digital design engineer at <a href=""https://morsemicro.com""
-                                                          target=""_blank"">Morse Micro</a>, a startup based in Sydney,
-                Australia, making mixed-signal WiFi chips. He is also a founding director of the
-                <a href=""https://fossi-foundation.org"" target=""_blank"">FOSSi
-                Foundation</a> and a lapsed contributor to the <a href=""https://openrisc.io"" target=""_blank"">OpenRISC project</a>.
-              </p>
-",
-0:30:00,2019-09-28 11:00,2019-09-28 11:30,,,Break,sat,,
-0:20:00,2019-09-28 11:30,2019-09-28 11:50,Michael Gielda,Antmicro / Renode,"Renode - open source simulation for rapid development of complex systems, coming to a cloud near you",sat,"Renode has been available as a permissively licensed desktop simulation framework for (unmodified) software development and HW/SW co-development in complex systems - including multi-node, heterogeneous multi-core and multi-architecture ones - for some years now, gaining momentum especially with the advent of RISC-V and open ISAs in general.
+0:20:00,2019-09-28 10:50,2019-09-28 11:10,Michael Gielda,Antmicro / Renode,"Renode - open source simulation for rapid development of complex systems, coming to a cloud near you",sat,"Renode has been available as a permissively licensed desktop simulation framework for (unmodified) software development and HW/SW co-development in complex systems - including multi-node, heterogeneous multi-core and multi-architecture ones - for some years now, gaining momentum especially with the advent of RISC-V and open ISAs in general.
 
 Besides a host of awesome recent developments in version 1.8 such as physical FPGA and Verilator co-simulation, enhanced multi-core debug, support for many new RISC-V platforms, Renode has also some big changes to announce.
 
@@ -298,7 +281,7 @@ The collaborative nature of virtual development - with features such as state sa
 Presenter: Michael Gielda
 
 Michael is VP Business Development at Antmicro and one of the creators of Renode. With a background in both computer science and the humanities, he is an ardent believer in using open source to advance entire industries. Michael is vice-chair of Marketing in the RISC-V Foundation and Chair of Marketing and Outreach in CHIPS Alliance. ",
-0:20:00,2019-09-28 11:50,2019-09-28 12:10,"David Patterson, Jeremy Bennett (speaker), Palmer Dabbelt, Cesare Garlati",Embecosm,Embench™ 0.5: A Free Benchmark Suite for  IoT from an Academic-Industry Cooperative,sat,"          <p>
+0:20:00,2019-09-28 11:10,2019-09-28 11:30,"David Patterson, Jeremy Bennett (speaker), Palmer Dabbelt, Cesare Garlati",Embecosm,Embench™ 0.5: A Free Benchmark Suite for  IoT from an Academic-Industry Cooperative,sat,"          <p>
             In June we announced <a href=""https://embench.org/"" target=""_blank"">Embench</a>™ (for
             Embedded Benchmark), a benchmark for embedded IoT devices created by experts from both
             academia and industry. We first looked at past benchmark efforts to try to incorporate
@@ -350,8 +333,8 @@ Michael is VP Business Development at Antmicro and one of the creators of Renode
             developing a new set of benchmarks for Embedded systems.
           </p>
 ",yes
-0:10:00,2019-09-28 12:10,2019-09-28 12:20,,,Break,sat,,
-0:20:00,2019-09-28 12:20,2019-09-28 12:40,"Ismael Pérez, Carlos Alberto, Alfredo Sáez",TerosHDL,TerosHDL: an open source IDE for FPGA developers.,sat,"          <p>
+00:20:00,2019-09-28 11:30,2019-09-28 11:50,,,Break,sat,,
+0:20:00,2019-09-28 11:50,2019-09-28 12:10,"Ismael Pérez, Carlos Alberto, Alfredo Sáez",TerosHDL,TerosHDL: an open source IDE for FPGA developers.,sat,"          <p>
             <a href=""https://github.com/TerosTechnology/terosHDL"" target=""_blank"">TerosHDL</a>
             (<a href=""https://twitter.com/@terostech"" target=""_blank"">Twitter</a>) is an open source project
             focused in the development and integration of EDA tools (ghdl, VUnit...) in an IDE. 
@@ -385,7 +368,7 @@ Michael is VP Business Development at Antmicro and one of the creators of Renode
              have so many facilities as SW developers, he decided to join TerosHDL team!
            </p>
 ",
-0:20:00,2019-09-28 12:40,2019-09-28 13:00,Zvonimir Bandic,Western Digital Corporation,OmniXtend cache coherence protocol for datacenter CPUs,sat,"OmniXtend cache coherence protocol is open source protocol based on mapping of TileLink cache coherence messages on the top of standard Ethernet 802.3 L1 frames. The protocol takes advantage of availability of programmable Ethernet switches - using P4 programming language.
+0:20:00,2019-09-28 12:10,2019-09-28 12:30,Zvonimir Bandic,Western Digital Corporation,OmniXtend cache coherence protocol for datacenter CPUs,sat,"OmniXtend cache coherence protocol is open source protocol based on mapping of TileLink cache coherence messages on the top of standard Ethernet 802.3 L1 frames. The protocol takes advantage of availability of programmable Ethernet switches - using P4 programming language.
 
 We have recently published the specification of OmniXtend, and open-sourced P4 code for the programmable Barefoot Networks switch. We will present the design philosophy of OmniXtend, present the latency measurement in the implemented system and show of first 8-core RISC-V cluster consisting of two RISC-V 4-core nodes, connected via OmniXtend switch.
 
@@ -397,7 +380,7 @@ He is currently focusing on emerging Non-Volatile Memories (PCM, ReRAM, MRAM) ap
 
 Zvonimir is Chairman of CHIPS Alliance, Chair of OpenCAPI org, and Board of Directors member of RISC-V standards organization.
 ",
-01:00:00,2019-09-28 13:00,2019-09-28 14:00,,,Lunch,sat,,yes
+01:30:00,2019-09-28 12:30,2019-09-28 14:00,,,Lunch,sat,,yes
 0:20:00,2019-09-28 14:00,2019-09-28 14:20,Karol Gugala,Antmicro,Versatile Place and Route (VPR) device models generation from Verilog with V2X,sat,"          <p>
             <a href=""https://docs.verilogtorouting.org/en/latest/arch/"" target=""_blank"">VPR</a>, an
             open source Place&amp;Route tool developed primarily by the University of Toronto,
