@@ -74,11 +74,11 @@
   {
     "start": "2019-09-27 16:00",
     "end": "2019-09-27 16:20",
-    "speaker": "Oleg Nenashev",
-    "affiliation": "LibreCores",
-    "title": "What's new in LibreCores CI?",
+    "speaker": "Sergey Smolov",
+    "affiliation": "ISP RAS",
+    "title": "Open-source model checkers: Ready for the industry?",
     "category": "fri",
-    "abstract": "            <a name=\"librecores\" href=\"#librecores\"></a>What's new in LibreCores CI?</h4>\n              <p>\n                There were significant changes in\n                <a href=\"https://www.librecores.org/static/librecores-ci\" target=\"_blank\">LibreCores\n                  CI</a> over the past year. Let's take a\n                look at what's new available to hardware projects: Docker images for EDA tools, new\n                Jenkins server bundles, and SaaS for projects. And how was Google Summer of Code in\n                LibreCores CI this year?\n          </p>\n          <h6>Presenter: <a href=\"https://twitter.com/oleg_nenashev\" target=\"_blank\">Oleg Nenashev</a></h6>\n              <p>\n                Oleg is an R&amp;D and Automation engineer with Hardware/Embedded background. He\n                contributes to the LibreCores project and works on the continuous integration\n                service there. He is also a Jenkins core maintainer and a leader of Hardware/EDA SIG\n                there. Nowadays Oleg lives in Switzerland and works for CloudBees.\n          </p>\n"
+    "abstract": "              <p>\n                Open source penetrates the microelectronics design, making hardware development more accessible.\n                To leverage this effect, one needs open CAD tools, including formal verification facilities.\n                The talk is concentrated on an experimental comparison of several open-source model checkers\n                for Verilog modules on open benchmarks. For selected tools Verilog support and property checking\n                facilities were evaluated on typical designs and industrial-scale modules. This talk also\n                briefly describes <a href=\"https://forge.ispras.ru/projects/retrascope\"\n                                     target=\"_blank\">Retrascope</a>\n                - a new open-source model checker that verifies Verilog descriptions\n                against SVA properties. The toolkit allows analyzing of HDL descriptions,\n                reconstructing and visualization of the underlying models and using the derived models\n                for test generation and property checking.\n              </p>\n          <h6>Presenter: Sergey Smolov</h6>\n              <p>\n                Sergey Smolov is junior researcher of Programming Technology Department of Ivannikov\n                Institute for System Programming of the Russian Academy of Sciences. He received the\n                bachelor's degree in 2008 and master's degree in 2010 both from Moscow Institute of\n                Physics and Technology (MIPT). His research interests include microprocessors\n                modeling and functional verification.\n              </p>\n"
   },
   {
     "start": "2019-09-27 16:20",
@@ -101,11 +101,11 @@
   {
     "start": "2019-09-27 17:10",
     "end": "2019-09-27 17:30",
-    "speaker": "Sergey Smolov",
-    "affiliation": "ISP RAS",
-    "title": "Open-source model checkers: Ready for the industry?",
+    "speaker": "Oleg Nenashev",
+    "affiliation": "LibreCores",
+    "title": "What's new in LibreCores CI?",
     "category": "fri",
-    "abstract": "              <p>\n                Open source penetrates the microelectronics design, making hardware development more accessible.\n                To leverage this effect, one needs open CAD tools, including formal verification facilities.\n                The talk is concentrated on an experimental comparison of several open-source model checkers\n                for Verilog modules on open benchmarks. For selected tools Verilog support and property checking\n                facilities were evaluated on typical designs and industrial-scale modules. This talk also\n                briefly describes <a href=\"https://forge.ispras.ru/projects/retrascope\"\n                                     target=\"_blank\">Retrascope</a>\n                - a new open-source model checker that verifies Verilog descriptions\n                against SVA properties. The toolkit allows analyzing of HDL descriptions,\n                reconstructing and visualization of the underlying models and using the derived models\n                for test generation and property checking.\n              </p>\n          <h6>Presenter: Sergey Smolov</h6>\n              <p>\n                Sergey Smolov is junior researcher of Programming Technology Department of Ivannikov\n                Institute for System Programming of the Russian Academy of Sciences. He received the\n                bachelor's degree in 2008 and master's degree in 2010 both from Moscow Institute of\n                Physics and Technology (MIPT). His research interests include microprocessors\n                modeling and functional verification.\n              </p>\n"
+    "abstract": "            <a name=\"librecores\" href=\"#librecores\"></a>What's new in LibreCores CI?</h4>\n              <p>\n                There were significant changes in\n                <a href=\"https://www.librecores.org/static/librecores-ci\" target=\"_blank\">LibreCores\n                  CI</a> over the past year. Let's take a\n                look at what's new available to hardware projects: Docker images for EDA tools, new\n                Jenkins server bundles, and SaaS for projects. And how was Google Summer of Code in\n                LibreCores CI this year?\n          </p>\n          <h6>Presenter: <a href=\"https://twitter.com/oleg_nenashev\" target=\"_blank\">Oleg Nenashev</a></h6>\n              <p>\n                Oleg is an R&amp;D and Automation engineer with Hardware/Embedded background. He\n                contributes to the LibreCores project and works on the continuous integration\n                service there. He is also a Jenkins core maintainer and a leader of Hardware/EDA SIG\n                there. Nowadays Oleg lives in Switzerland and works for CloudBees.\n          </p>\n"
   },
   {
     "start": "2019-09-27 17:40",
