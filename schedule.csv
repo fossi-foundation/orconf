@@ -589,8 +589,8 @@ This talk will introduce some of the improvements made to nextpnr, as well as a 
 Presenter: David Shah
 David is the owner of Griffith Research Ltd and a developer of open source FPGA toolchains including nextpnr and Yosys. He documented the bitstream of the Lattice ECP5 FPGAs in Project Trellis and used this to build an end-to-end open-source flow for these parts using Yosys and nextpnr.
 ",
-0:20:00,2019-09-28 17:30,2019-09-28 17:50,,,Go to dinner,sat,,
-0:20:00,2019-09-28 17:50,2019-09-28 18:10,,,Dinner @ Alriq,sat,,
+01:30:00,2019-09-28 17:30,2019-09-28 19:00,,,Go to dinner,sat,,
+2:00:00,2019-09-28 19:00,2019-09-28 22:00,,,Dinner @ Alriq,sat,,
 Sunday Sept 29,,,,,,,,
 0:30:00,2019-09-29 09:00,2019-09-29 09:30,,,"Room open, coffee",sun,,
 0:20:00,2019-09-29 09:30,2019-09-29 09:50,Guillem Cabo,Barcelona Supercomputer Center - Centro Nacional de Supercomputación (BSC-CNS), Open Source computer architecture research at the Barcelona Supercomputer Center,sun,"Barcelona Supercomputer Center - Centro Nacional de Supercomputación (BSC-CNS) is the leading supercomputing center in Spain. It houses MareNostrum, one of the most powerful supercomputers in Europe, and is a hosting member of the PRACE European distributed supercomputing infrastructure. The mission of BSC is to research, develop, and manage information technologies to facilitate scientific progress. We have a long history of developing software stacks for HPC. Over the years, We have released many open source tools for instrumentation, visualization, and analysis of software and architectures, but RTL design has been a research area quite limited until now. The growth of an Open Digital design ecosystem has enabled BSC to explore computer architecture at a deeper level, closing the gap between academia and industry.
