@@ -209,11 +209,11 @@
   {
     "start": "2019-09-28 14:00",
     "end": "2019-09-28 14:20",
-    "speaker": "Karol Gugala",
-    "affiliation": "Antmicro",
-    "title": "Versatile Place and Route (VPR) device models generation from Verilog with V2X",
+    "speaker": "Staf Verhaegen",
+    "affiliation": "Chips4Makers",
+    "title": "The state of Chips4Makers; an ASIC service for makers and hobbyists",
     "category": "sat",
-    "abstract": "          <p>\n            <a href=\"https://docs.verilogtorouting.org/en/latest/arch/\" target=\"_blank\">VPR</a>, an\n            open source Place&amp;Route tool developed primarily by the University of Toronto,\n            describes the FPGA devices architecture using model and pb_type XML files\n            . The XML files can be really complex depending on the device architecture.\n          </p>\n          <p>\n            V2X is an open source tool for generating FPGA architecture description XML files from\n            Verilog models. The models can be reused as device simulation modes.\n          </p>\n          <p>\n            Currently V2X supports the following features:\n            <ul>\n              <li>Black box models and architecture description definition</li>\n              <li>Complex block aggregation other complex blocks and/or black boxes</li>\n              <li>Routing components</li>\n              <li>FASM (FPGA Assembly) annotations</li>\n            </ul>\n          </p>\n          <h6>Presenter: <a href=\"https://twitter.com/KGugala\" target=\"_blank\">Karol Gugala</a></h6>\n          <p>\n            Karol Gugala is Engineering Manager at <a target=\"_blank\"\n                                                      href=\"http://www.antmicro.com/\">Antmicro</a>, where he is working with open source in\n            various contexts - primarily FPGA and embedded software. Open source enthusiast -\n            involved in a wide variety of FOSS projects.\n          </p>\n"
+    "abstract": "              <p>\n                The Chips4Maker service was first brought forward on ORConf two years ago. At that\n                time it was mostly a dream. In the mean time much progress has been made on the\n                design flow front and a few test tape-outs have been performed. The progress will be\n                reported during this presentation.\n              </p>\n              <p>\n                If moon, earth and sun are forming the right constellation even some more concrete\n                announcements may be made on the Chips4Makers service.\n              </p>\n          <h6>Presenter: Staf Verhaegen</h6>\n              <p>\n                Staf Verhaegen is an open source software enthusiast that is dreaming of open source\n                driving hardware innovation as it did for software.\n              </p>\n"
   },
   {
     "start": "2019-09-28 14:20",
@@ -227,24 +227,15 @@
   {
     "start": "2019-09-28 14:50",
     "end": "2019-09-28 15:10",
-    "speaker": "Staf Verhaegen",
-    "affiliation": "Chips4Makers",
-    "title": "The state of Chips4Makers; an ASIC service for makers and hobbyists",
+    "speaker": "Karol Gugala",
+    "affiliation": "Antmicro",
+    "title": "Versatile Place and Route (VPR) device models generation from Verilog with V2X",
     "category": "sat",
-    "abstract": "              <p>\n                The Chips4Maker service was first brought forward on ORConf two years ago. At that\n                time it was mostly a dream. In the mean time much progress has been made on the\n                design flow front and a few test tape-outs have been performed. The progress will be\n                reported during this presentation.\n              </p>\n              <p>\n                If moon, earth and sun are forming the right constellation even some more concrete\n                announcements may be made on the Chips4Makers service.\n              </p>\n          <h6>Presenter: Staf Verhaegen</h6>\n              <p>\n                Staf Verhaegen is an open source software enthusiast that is dreaming of open source\n                driving hardware innovation as it did for software.\n              </p>\n"
+    "abstract": "          <p>\n            <a href=\"https://docs.verilogtorouting.org/en/latest/arch/\" target=\"_blank\">VPR</a>, an\n            open source Place&amp;Route tool developed primarily by the University of Toronto,\n            describes the FPGA devices architecture using model and pb_type XML files\n            . The XML files can be really complex depending on the device architecture.\n          </p>\n          <p>\n            V2X is an open source tool for generating FPGA architecture description XML files from\n            Verilog models. The models can be reused as device simulation modes.\n          </p>\n          <p>\n            Currently V2X supports the following features:\n            <ul>\n              <li>Black box models and architecture description definition</li>\n              <li>Complex block aggregation other complex blocks and/or black boxes</li>\n              <li>Routing components</li>\n              <li>FASM (FPGA Assembly) annotations</li>\n            </ul>\n          </p>\n          <h6>Presenter: <a href=\"https://twitter.com/KGugala\" target=\"_blank\">Karol Gugala</a></h6>\n          <p>\n            Karol Gugala is Engineering Manager at <a target=\"_blank\"\n                                                      href=\"http://www.antmicro.com/\">Antmicro</a>, where he is working with open source in\n            various contexts - primarily FPGA and embedded software. Open source enthusiast -\n            involved in a wide variety of FOSS projects.\n          </p>\n"
   },
   {
     "start": "2019-09-28 15:10",
     "end": "2019-09-28 15:13",
-    "speaker": "Jamie Hanlon",
-    "affiliation": "",
-    "title": "netlist-paths: A command line tool for querying paths in a Verilog design (Lightning Talk)",
-    "category": "sat",
-    "abstract": "              <p>\n                In a complex Verilog design, it can be difficult to relate timing reports for\n                critical paths back to the the source code because of the way a design is flattened\n                and optimised in a physical design flow. Being able to quickly correspond a timing\n                path to the source code is useful in determining causes and potential fixes. This\n                talk describes <a href=\"https://github.com/jameshanlon/netlist-paths\"\n                target=\"_blank\">a simple command-line tool</a> to do this. It uses a modified\n                version of\n                Verilator to obtain a netlist from Verilog source code and provides options to query\n                paths and cones of logic by specifying start, end and through points in the design,\n                similar to what you find with EDA tooling.\n              </p>\n          <h6>Presenter: <a href=\"www.jameswhanlon.com\" target=\"_blank\">Jamie Hanlon</a></h6>\n              <p>\n                Jamie Hanlon works as an Engineer at Graphcore in Bristol (UK), a company building\n                silicon processors for machine intelligence. He is part of the Silicon team, working\n                on the logical and physical design of the a processor, replicated thousands of time\n                over the chip. Previously he has worked on compiler and toolchain software,\n                specifically LLVM, and completed a PhD at the University of Bristol in computer\n                architecture.\n              </p>\n"
-  },
-  {
-    "start": "2019-09-28 15:13",
-    "end": "2019-09-28 15:16",
     "speaker": "Tim 'mithro' Ansell",
     "affiliation": "",
     "title": "Status of Xilinx Artix 7 support in Symbiflow",
@@ -252,8 +243,8 @@
     "abstract": "              <p>\n                Come find out the current status of Xilinx Artix 7 support in the\n                <a href=\"https://symbiflow.github.io/\" target=\"_blank\">SymbiFlow project</a>.\n          </p>\n          <h6>Presenter: <a href=\"https://twitter.com/mithro\" target=\"_blank\">Tim 'mithro' Ansell</a></h6>\n          <p>\n            Tim is the founder of <a href=\"https://github.com/timvideos\" target=\"_blank\">TimVideos</a> and is currently\n            heavily involved with the development of the SymbiFlow project.\n          </p>\n"
   },
   {
-    "start": "2019-09-28 15:16",
-    "end": "2019-09-28 15:19",
+    "start": "2019-09-28 15:13",
+    "end": "2019-09-28 15:16",
     "speaker": "Fahrican Ko\u015far",
     "affiliation": "",
     "title": "Improving VPR I/O",
@@ -261,8 +252,26 @@
     "abstract": "          <p>\n            verilog-to-routing's P&amp;R tool VPR, which is used in\n            <a href=\"https://symbiflow.github.io/\" target=\"_blank\">SymbiFlow</a>'s Artix 7 flow, can accept\n            FPGA architecture and routing resources as file inputs. I have worked on the speed and\n            correctness of this process as part of this year's GSoC.\n          </p>\n          <h6>Presenter: <a href=\"duck2.lt\" target=\"_blank\">Fahrican Ko\u015far</a></h6>\n          <p>\n            Fahrican is GSoC'2019 student for SymbiFlow.\n          </p>\n"
   },
   {
+    "start": "2019-09-28 15:16",
+    "end": "2019-09-28 15:19",
+    "speaker": "Henner Zeller",
+    "affiliation": "",
+    "title": "SystemVerilog compatibility Test-Suite",
+    "category": "sat",
+    "abstract": "<p>\n  For a language as large and complex as SystemVerilog, having a\n  tool-independent test suite dedicated to grading against the\n  language standard is essential for measuring quality of\n  implementation.  Hallmarks of a quality test suite for a\n  programming language are: 1) high coverage of syntax and\n  semantic concepts in accordance with the standard, 2)\n  independence from any particular implementation, 3) universal\n  access and availability. Previously, no test suite has existed\n  which fits all three criteria. The existence of an open-source\n  test suite will benefit the tool development community by\n  establishing an objectively measurable common goal.  Publishing\n  test results has several benefits: 1) raising community\n  awareness about alternative implementations, 2) identifying\n  gaps and differences, 3) fueling collaboration among language\n  experts and tool developers.  We present our initial effort to\n  amass and organize a SystemVerilog test suite whose purpose is\n  to qualify tools against the language standard.\n</p>\n<h6>Presenter: Henner Zeller</h6>"
+  },
+  {
     "start": "2019-09-28 15:19",
     "end": "2019-09-28 15:22",
+    "speaker": "Jamie Hanlon",
+    "affiliation": "",
+    "title": "netlist-paths: A command line tool for querying paths in a Verilog design (Lightning Talk)",
+    "category": "sat",
+    "abstract": "              <p>\n                In a complex Verilog design, it can be difficult to relate timing reports for\n                critical paths back to the the source code because of the way a design is flattened\n                and optimised in a physical design flow. Being able to quickly correspond a timing\n                path to the source code is useful in determining causes and potential fixes. This\n                talk describes <a href=\"https://github.com/jameshanlon/netlist-paths\"\n                target=\"_blank\">a simple command-line tool</a> to do this. It uses a modified\n                version of\n                Verilator to obtain a netlist from Verilog source code and provides options to query\n                paths and cones of logic by specifying start, end and through points in the design,\n                similar to what you find with EDA tooling.\n              </p>\n          <h6>Presenter: <a href=\"www.jameswhanlon.com\" target=\"_blank\">Jamie Hanlon</a></h6>\n              <p>\n                Jamie Hanlon works as an Engineer at Graphcore in Bristol (UK), a company building\n                silicon processors for machine intelligence. He is part of the Silicon team, working\n                on the logical and physical design of the a processor, replicated thousands of time\n                over the chip. Previously he has worked on compiler and toolchain software,\n                specifically LLVM, and completed a PhD at the University of Bristol in computer\n                architecture.\n              </p>\n"
+  },
+  {
+    "start": "2019-09-28 15:22",
+    "end": "2019-09-28 15:25",
     "speaker": "Ekaterina Berezina, Ivan Piatak",
     "affiliation": "Syntacore",
     "title": "Open Source SCR1 core",
@@ -270,13 +279,22 @@
     "abstract": "          <p>\n            <a href=\"https://github.com/syntacore/scr1\" target=\"_blank\">SCR1</a> is an open-source\n            MCU-class RISC-V core for deeply embedded applications and\n            accelerator control, developed and maintained by Syntacore. Over the three years of its\n            existence, the processor has found significant traction both in industry and in academia\n            around the world.\n          </p>\n          <p>\n            in our brief presentation, we will talk about the SCR1 key features and the latest updates, as well\n            as invite you to our demo, where we show the use of SCR1 both for educational purposes\n            and for commercial projects.\n          </p>\n          <h6>Presenters: <a href=\"https://www.linkedin.com/in/kate-berezina/\" target=\"_blank\">Ekaterina Berezina</a>,\n            <a href=\"https://www.linkedin.com/in/ivan-piatak-64351b123/\" target=\"_blank\">Ivan Piatak</a></h6>\n              <p>\n                Ekaterina Berezina is a Senior HW Engineer at Syntacore, where she contributes to\n                the SCRx core family development and maintenance. Ekaterina has more than 6 years of\n                experience in CPU IP development including architecture and microarchitecture\n                definition, RTL design, testing and verification, area/timing/power optimization for\n                ASIC and FPGA. She received her Master\u2019s degree in Computer Science at\n                Saint-Petersburg ITMO University and teaches Computer Architecture classes there.\n              </p>\n              <p>\n                Ivan Piatak is an ASIC design engineer at Syntacore. He received his MS and PhD\n                degrees from the Peter the Great St.Petersburg Polytechnic University where he also\n                currently serves in the research assistant position at the Higher school of applied\n                physics and space technologies. His research interests are in the low power data\n                acquisition methods with a specific focus on the digitally-assisted pipelined ADCs\n                design. At Syntacore, he is responsible for the ASIC digital backend and layout in\n                the customer projects, and also contributes to FPGA prototyping.\"\n              </p>\n"
   },
   {
-    "start": "2019-09-28 15:22",
-    "end": "2019-09-28 15:25",
+    "start": "2019-09-28 15:25",
+    "end": "2019-09-28 15:28",
     "speaker": "David Hossack",
     "affiliation": "",
     "title": "RISC-V without a Register File",
-    "category": "",
+    "category": "sat",
     "abstract": "<p>The RISC-V ISA specifies a register file of 31 registers of 32 bits each. <a href=\"https://github.com/arghhhh/minrv32\" target=\"_blank\">This project</a> aims to eliminate this requirement by memory mapping the register file into the same memory as used for program and data. The resulting architectural state consists of only the program counter, with instructions that read arguments and write results to memory over multiple cycles. This is reminiscent of old processors such as the 6502. As an optimization, the internal state can be considered as a register-file cache, leading to some interesting design considerations.\n</p>\n\n<h4>Presenter: David Hossack</h4>\n<p>\nDavid Hossack is a design engineer at Analog Devices in Boston MA, USA. This project occupies some of his limited spare time.\n</p>"
+  },
+  {
+    "start": "2019-09-28 15:28",
+    "end": "2019-09-28 15:31",
+    "speaker": "Christiaan Baaij",
+    "affiliation": "QBayLogic",
+    "title": "Visions of the future",
+    "category": "sat",
+    "abstract": "<p>\n\n  Functional languages and beyond for circuit design and\n  alternative architectures.\n\n</p>\n<h6>Presenter: Christiaan Baaij</h6>"
   },
   {
     "start": "2019-09-28 16:00",

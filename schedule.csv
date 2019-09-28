@@ -381,7 +381,44 @@ He is currently focusing on emerging Non-Volatile Memories (PCM, ReRAM, MRAM) ap
 Zvonimir is Chairman of CHIPS Alliance, Chair of OpenCAPI org, and Board of Directors member of RISC-V standards organization.
 ",
 01:30:00,2019-09-28 12:30,2019-09-28 14:00,,,Lunch,sat,,yes
-0:20:00,2019-09-28 14:00,2019-09-28 14:20,Karol Gugala,Antmicro,Versatile Place and Route (VPR) device models generation from Verilog with V2X,sat,"          <p>
+0:20:00,2019-09-28 14:00,2019-09-28 14:20,Staf Verhaegen,Chips4Makers,The state of Chips4Makers; an ASIC service for makers and hobbyists,sat,"              <p>
+                The Chips4Maker service was first brought forward on ORConf two years ago. At that
+                time it was mostly a dream. In the mean time much progress has been made on the
+                design flow front and a few test tape-outs have been performed. The progress will be
+                reported during this presentation.
+              </p>
+              <p>
+                If moon, earth and sun are forming the right constellation even some more concrete
+                announcements may be made on the Chips4Makers service.
+              </p>
+          <h6>Presenter: Staf Verhaegen</h6>
+              <p>
+                Staf Verhaegen is an open source software enthusiast that is dreaming of open source
+                driving hardware innovation as it did for software.
+              </p>
+",
+0:20:00,2019-09-28 14:20,2019-09-28 14:40,Stafford Horne,OpenRISC,OpenRISC update,sat,"          <p>
+            An update on all that is happening this year
+            with <a href=""https://openrisc.io"">OpenRISC</a>.  I would like to go over the
+            interesting things happening this year in
+            OpenRISC. <a href=""https://www.librecores.org/static/librecores-ci"" target=""_blank"">
+              LibreCores continuous integration</a>
+            setup for IP cores.  Releasing the <a href=""https://github.com/openrisc/or1k_marocchino""
+            target=""_blank"">Marocchino CPU</a>.  Incorporating proposals into and
+            publishing <a href=""https://openrisc.io/2019/06/04/openrisc-arch1.3""
+                          target=""_blnk"">OpenRISC spec 1.3</a>.
+            Working on the glibc port and finding some interesting bugs.
+            
+          </p>
+          <h6>Presenter: <a href=""https://twitter.com/stffrdhrn"" target=""_blank"">Stafford Horne</a></h6>
+          <p>
+            Stafford is an software engineer as SMBC Nikko Japan working on algorithmic trading
+            systems.  He has been working on and maintaining OpenRISC for the better part of 5
+            years.
+          </p>
+",
+0:10:00,2019-09-28 14:40,2019-09-28 14:50,,,Break,sat,,
+0:20:00,2019-09-28 14:50,2019-09-28 15:10,Karol Gugala,Antmicro,Versatile Place and Route (VPR) device models generation from Verilog with V2X,sat,"          <p>
             <a href=""https://docs.verilogtorouting.org/en/latest/arch/"" target=""_blank"">VPR</a>, an
             open source Place&amp;Route tool developed primarily by the University of Toronto,
             describes the FPGA devices architecture using model and pb_type XML files
@@ -408,44 +445,48 @@ Zvonimir is Chairman of CHIPS Alliance, Chair of OpenCAPI org, and Board of Dire
             involved in a wide variety of FOSS projects.
           </p>
 ",
-0:20:00,2019-09-28 14:20,2019-09-28 14:40,Stafford Horne,OpenRISC,OpenRISC update,sat,"          <p>
-            An update on all that is happening this year
-            with <a href=""https://openrisc.io"">OpenRISC</a>.  I would like to go over the
-            interesting things happening this year in
-            OpenRISC. <a href=""https://www.librecores.org/static/librecores-ci"" target=""_blank"">
-              LibreCores continuous integration</a>
-            setup for IP cores.  Releasing the <a href=""https://github.com/openrisc/or1k_marocchino""
-            target=""_blank"">Marocchino CPU</a>.  Incorporating proposals into and
-            publishing <a href=""https://openrisc.io/2019/06/04/openrisc-arch1.3""
-                          target=""_blnk"">OpenRISC spec 1.3</a>.
-            Working on the glibc port and finding some interesting bugs.
-            
+00:03:00,2019-09-28 15:10,2019-09-28 15:13,Tim 'mithro' Ansell,,Status of Xilinx Artix 7 support in Symbiflow,sat,"              <p>
+                Come find out the current status of Xilinx Artix 7 support in the
+                <a href=""https://symbiflow.github.io/"" target=""_blank"">SymbiFlow project</a>.
           </p>
-          <h6>Presenter: <a href=""https://twitter.com/stffrdhrn"" target=""_blank"">Stafford Horne</a></h6>
+          <h6>Presenter: <a href=""https://twitter.com/mithro"" target=""_blank"">Tim 'mithro' Ansell</a></h6>
           <p>
-            Stafford is an software engineer as SMBC Nikko Japan working on algorithmic trading
-            systems.  He has been working on and maintaining OpenRISC for the better part of 5
-            years.
+            Tim is the founder of <a href=""https://github.com/timvideos"" target=""_blank"">TimVideos</a> and is currently
+            heavily involved with the development of the SymbiFlow project.
           </p>
 ",
-0:10:00,2019-09-28 14:40,2019-09-28 14:50,,,Break,sat,,
-0:20:00,2019-09-28 14:50,2019-09-28 15:10,Staf Verhaegen,Chips4Makers,The state of Chips4Makers; an ASIC service for makers and hobbyists,sat,"              <p>
-                The Chips4Maker service was first brought forward on ORConf two years ago. At that
-                time it was mostly a dream. In the mean time much progress has been made on the
-                design flow front and a few test tape-outs have been performed. The progress will be
-                reported during this presentation.
-              </p>
-              <p>
-                If moon, earth and sun are forming the right constellation even some more concrete
-                announcements may be made on the Chips4Makers service.
-              </p>
-          <h6>Presenter: Staf Verhaegen</h6>
-              <p>
-                Staf Verhaegen is an open source software enthusiast that is dreaming of open source
-                driving hardware innovation as it did for software.
-              </p>
+0:03:00,2019-09-28 15:13,2019-09-28 15:16,Fahrican Koşar,,Improving VPR I/O,sat,"          <p>
+            verilog-to-routing's P&amp;R tool VPR, which is used in
+            <a href=""https://symbiflow.github.io/"" target=""_blank"">SymbiFlow</a>'s Artix 7 flow, can accept
+            FPGA architecture and routing resources as file inputs. I have worked on the speed and
+            correctness of this process as part of this year's GSoC.
+          </p>
+          <h6>Presenter: <a href=""duck2.lt"" target=""_blank"">Fahrican Koşar</a></h6>
+          <p>
+            Fahrican is GSoC'2019 student for SymbiFlow.
+          </p>
 ",
-00:03:00,2019-09-28 15:10,2019-09-28 15:13,Jamie Hanlon,,netlist-paths: A command line tool for querying paths in a Verilog design (Lightning Talk),sat,"              <p>
+0:03:00,2019-09-28 15:16,2019-09-28 15:19,Henner Zeller,,SystemVerilog compatibility Test-Suite,sat,"<p>
+  For a language as large and complex as SystemVerilog, having a
+  tool-independent test suite dedicated to grading against the
+  language standard is essential for measuring quality of
+  implementation.  Hallmarks of a quality test suite for a
+  programming language are: 1) high coverage of syntax and
+  semantic concepts in accordance with the standard, 2)
+  independence from any particular implementation, 3) universal
+  access and availability. Previously, no test suite has existed
+  which fits all three criteria. The existence of an open-source
+  test suite will benefit the tool development community by
+  establishing an objectively measurable common goal.  Publishing
+  test results has several benefits: 1) raising community
+  awareness about alternative implementations, 2) identifying
+  gaps and differences, 3) fueling collaboration among language
+  experts and tool developers.  We present our initial effort to
+  amass and organize a SystemVerilog test suite whose purpose is
+  to qualify tools against the language standard.
+</p>
+<h6>Presenter: Henner Zeller</h6>",
+0:03:00,2019-09-28 15:19,2019-09-28 15:22,Jamie Hanlon,,netlist-paths: A command line tool for querying paths in a Verilog design (Lightning Talk),sat,"              <p>
                 In a complex Verilog design, it can be difficult to relate timing reports for
                 critical paths back to the the source code because of the way a design is flattened
                 and optimised in a physical design flow. Being able to quickly correspond a timing
@@ -467,28 +508,7 @@ Zvonimir is Chairman of CHIPS Alliance, Chair of OpenCAPI org, and Board of Dire
                 architecture.
               </p>
 ",
-0:03:00,2019-09-28 15:13,2019-09-28 15:16,Tim 'mithro' Ansell,,Status of Xilinx Artix 7 support in Symbiflow,sat,"              <p>
-                Come find out the current status of Xilinx Artix 7 support in the
-                <a href=""https://symbiflow.github.io/"" target=""_blank"">SymbiFlow project</a>.
-          </p>
-          <h6>Presenter: <a href=""https://twitter.com/mithro"" target=""_blank"">Tim 'mithro' Ansell</a></h6>
-          <p>
-            Tim is the founder of <a href=""https://github.com/timvideos"" target=""_blank"">TimVideos</a> and is currently
-            heavily involved with the development of the SymbiFlow project.
-          </p>
-",
-0:03:00,2019-09-28 15:16,2019-09-28 15:19,Fahrican Koşar,,Improving VPR I/O,sat,"          <p>
-            verilog-to-routing's P&amp;R tool VPR, which is used in
-            <a href=""https://symbiflow.github.io/"" target=""_blank"">SymbiFlow</a>'s Artix 7 flow, can accept
-            FPGA architecture and routing resources as file inputs. I have worked on the speed and
-            correctness of this process as part of this year's GSoC.
-          </p>
-          <h6>Presenter: <a href=""duck2.lt"" target=""_blank"">Fahrican Koşar</a></h6>
-          <p>
-            Fahrican is GSoC'2019 student for SymbiFlow.
-          </p>
-",
-0:03:00,2019-09-28 15:19,2019-09-28 15:22,"Ekaterina Berezina, Ivan Piatak",Syntacore,Open Source SCR1 core,sat,"          <p>
+0:03:00,2019-09-28 15:22,2019-09-28 15:25,"Ekaterina Berezina, Ivan Piatak",Syntacore,Open Source SCR1 core,sat,"          <p>
             <a href=""https://github.com/syntacore/scr1"" target=""_blank"">SCR1</a> is an open-source
             MCU-class RISC-V core for deeply embedded applications and
             accelerator control, developed and maintained by Syntacore. Over the three years of its
@@ -520,14 +540,21 @@ Zvonimir is Chairman of CHIPS Alliance, Chair of OpenCAPI org, and Board of Dire
                 the customer projects, and also contributes to FPGA prototyping.""
               </p>
 ",
-0:03:00,2019-09-28 15:22,2019-09-28 15:25,David Hossack,,RISC-V without a Register File,,"<p>The RISC-V ISA specifies a register file of 31 registers of 32 bits each. <a href=""https://github.com/arghhhh/minrv32"" target=""_blank"">This project</a> aims to eliminate this requirement by memory mapping the register file into the same memory as used for program and data. The resulting architectural state consists of only the program counter, with instructions that read arguments and write results to memory over multiple cycles. This is reminiscent of old processors such as the 6502. As an optimization, the internal state can be considered as a register-file cache, leading to some interesting design considerations.
+0:03:00,2019-09-28 15:25,2019-09-28 15:28,David Hossack,,RISC-V without a Register File,sat,"<p>The RISC-V ISA specifies a register file of 31 registers of 32 bits each. <a href=""https://github.com/arghhhh/minrv32"" target=""_blank"">This project</a> aims to eliminate this requirement by memory mapping the register file into the same memory as used for program and data. The resulting architectural state consists of only the program counter, with instructions that read arguments and write results to memory over multiple cycles. This is reminiscent of old processors such as the 6502. As an optimization, the internal state can be considered as a register-file cache, leading to some interesting design considerations.
 </p>
 
 <h4>Presenter: David Hossack</h4>
 <p>
 David Hossack is a design engineer at Analog Devices in Boston MA, USA. This project occupies some of his limited spare time.
 </p>",
-00:35:00,2019-09-28 15:25,2019-09-28 16:00,,,Break,sat,,
+0:03:00,2019-09-28 15:28,2019-09-28 15:31,Christiaan Baaij,QBayLogic,Visions of the future,sat,"<p>
+
+  Functional languages and beyond for circuit design and
+  alternative architectures.
+
+</p>
+<h6>Presenter: Christiaan Baaij</h6>",
+00:29:00,2019-09-28 15:31,2019-09-28 16:00,,,Break,sat,,
 0:20:00,2019-09-28 16:00,2019-09-28 16:20,Aliaksei Chapyzhenka,SiFive,Reusing HW components with DUH flow,sat,"DUH is an opensource data format designed to capture information about reusable HW components. It provides a standard way of capturing: ports, bus interfaces, memory maps, registers, generator parameters, clocks, resets, etc. DUH format supported with a variety of tools.
 
 Import tools help to import available information from Verilog, IPXACT, SystemRDL sources. Inference tools do the guesswork finding standard bus interfaces. DUH document can be opened and inspected in the web browser. DUH document has a standard JSON schema and can be validated. DUH export tools provide Verilog, IPXACT, Chisel-Scala output. The goal of DUH project is to make HW IP more reusable and enable more SoC automation tools.
