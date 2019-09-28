@@ -333,8 +333,7 @@ Michael is VP Business Development at Antmicro and one of the creators of Renode
             developing a new set of benchmarks for Embedded systems.
           </p>
 ",yes
-00:20:00,2019-09-28 11:30,2019-09-28 11:50,,,Break,sat,,
-0:20:00,2019-09-28 11:50,2019-09-28 12:10,"Ismael Pérez, Carlos Alberto, Alfredo Sáez",TerosHDL,TerosHDL: an open source IDE for FPGA developers.,sat,"          <p>
+0:20:00,2019-09-28 11:30,2019-09-28 11:50,"Ismael Pérez, Carlos Alberto, Alfredo Sáez",TerosHDL,TerosHDL: an open source IDE for FPGA developers.,sat,"          <p>
             <a href=""https://github.com/TerosTechnology/terosHDL"" target=""_blank"">TerosHDL</a>
             (<a href=""https://twitter.com/@terostech"" target=""_blank"">Twitter</a>) is an open source project
             focused in the development and integration of EDA tools (ghdl, VUnit...) in an IDE. 
@@ -368,7 +367,8 @@ Michael is VP Business Development at Antmicro and one of the creators of Renode
              have so many facilities as SW developers, he decided to join TerosHDL team!
            </p>
 ",
-0:20:00,2019-09-28 12:10,2019-09-28 12:30,Zvonimir Bandic,Western Digital Corporation,OmniXtend cache coherence protocol for datacenter CPUs,sat,"OmniXtend cache coherence protocol is open source protocol based on mapping of TileLink cache coherence messages on the top of standard Ethernet 802.3 L1 frames. The protocol takes advantage of availability of programmable Ethernet switches - using P4 programming language.
+01:40:00,2019-09-28 11:50,2019-09-28 13:30,,,Lunch,sat,,yes
+0:20:00,2019-09-28 13:30,2019-09-28 13:50,Zvonimir Bandic,Western Digital Corporation,OmniXtend cache coherence protocol for datacenter CPUs,sat,"OmniXtend cache coherence protocol is open source protocol based on mapping of TileLink cache coherence messages on the top of standard Ethernet 802.3 L1 frames. The protocol takes advantage of availability of programmable Ethernet switches - using P4 programming language.
 
 We have recently published the specification of OmniXtend, and open-sourced P4 code for the programmable Barefoot Networks switch. We will present the design philosophy of OmniXtend, present the latency measurement in the implemented system and show of first 8-core RISC-V cluster consisting of two RISC-V 4-core nodes, connected via OmniXtend switch.
 
@@ -380,8 +380,7 @@ He is currently focusing on emerging Non-Volatile Memories (PCM, ReRAM, MRAM) ap
 
 Zvonimir is Chairman of CHIPS Alliance, Chair of OpenCAPI org, and Board of Directors member of RISC-V standards organization.
 ",
-01:30:00,2019-09-28 12:30,2019-09-28 14:00,,,Lunch,sat,,yes
-0:20:00,2019-09-28 14:00,2019-09-28 14:20,Staf Verhaegen,Chips4Makers,The state of Chips4Makers; an ASIC service for makers and hobbyists,sat,"              <p>
+0:20:00,2019-09-28 13:50,2019-09-28 14:10,Staf Verhaegen,Chips4Makers,The state of Chips4Makers; an ASIC service for makers and hobbyists,sat,"              <p>
                 The Chips4Maker service was first brought forward on ORConf two years ago. At that
                 time it was mostly a dream. In the mean time much progress has been made on the
                 design flow front and a few test tape-outs have been performed. The progress will be
@@ -397,7 +396,7 @@ Zvonimir is Chairman of CHIPS Alliance, Chair of OpenCAPI org, and Board of Dire
                 driving hardware innovation as it did for software.
               </p>
 ",
-0:20:00,2019-09-28 14:20,2019-09-28 14:40,Stafford Horne,OpenRISC,OpenRISC update,sat,"          <p>
+0:20:00,2019-09-28 14:10,2019-09-28 14:30,Stafford Horne,OpenRISC,OpenRISC update,sat,"          <p>
             An update on all that is happening this year
             with <a href=""https://openrisc.io"">OpenRISC</a>.  I would like to go over the
             interesting things happening this year in
@@ -417,7 +416,7 @@ Zvonimir is Chairman of CHIPS Alliance, Chair of OpenCAPI org, and Board of Dire
             years.
           </p>
 ",
-0:10:00,2019-09-28 14:40,2019-09-28 14:50,,,Break,sat,,
+0:20:00,2019-09-28 14:30,2019-09-28 14:50,,,Break,sat,,
 0:20:00,2019-09-28 14:50,2019-09-28 15:10,Karol Gugala,Antmicro,Versatile Place and Route (VPR) device models generation from Verilog with V2X,sat,"          <p>
             <a href=""https://docs.verilogtorouting.org/en/latest/arch/"" target=""_blank"">VPR</a>, an
             open source Place&amp;Route tool developed primarily by the University of Toronto,
