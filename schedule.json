@@ -297,6 +297,24 @@
     "abstract": "<p>\n\n  Functional languages and beyond for circuit design and\n  alternative architectures.\n\n</p>\n<h6>Presenter: Christiaan Baaij</h6>"
   },
   {
+    "start": "2019-09-28 15:31",
+    "end": "2019-09-28 15:34",
+    "speaker": "Pepijn de Vos",
+    "affiliation": "",
+    "title": "Synthesize HDL to 7400 logic",
+    "category": "sat",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-28 15:34",
+    "end": "2019-09-28 15:37",
+    "speaker": "Jack Koenig",
+    "affiliation": "SiFive",
+    "title": "What's new in Chisel",
+    "category": "sat",
+    "abstract": ""
+  },
+  {
     "start": "2019-09-28 16:00",
     "end": "2019-09-28 16:20",
     "speaker": "Aliaksei Chapyzhenka",

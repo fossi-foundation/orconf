@@ -553,7 +553,9 @@ David Hossack is a design engineer at Analog Devices in Boston MA, USA. This pro
 
 </p>
 <h6>Presenter: Christiaan Baaij</h6>",
-00:29:00,2019-09-28 15:31,2019-09-28 16:00,,,Break,sat,,
+00:03:00,2019-09-28 15:31,2019-09-28 15:34,Pepijn de Vos,,Synthesize HDL to 7400 logic,sat,,
+00:03:00,2019-09-28 15:34,2019-09-28 15:37,Jack Koenig,SiFive,What's new in Chisel,sat,,
+00:23:00,2019-09-28 15:37,2019-09-28 16:00,,,Break,sat,,
 0:20:00,2019-09-28 16:00,2019-09-28 16:20,Aliaksei Chapyzhenka,SiFive,Reusing HW components with DUH flow,sat,"DUH is an opensource data format designed to capture information about reusable HW components. It provides a standard way of capturing: ports, bus interfaces, memory maps, registers, generator parameters, clocks, resets, etc. DUH format supported with a variety of tools.
 
 Import tools help to import available information from Verilog, IPXACT, SystemRDL sources. Inference tools do the guesswork finding standard bus interfaces. DUH document can be opened and inspected in the web browser. DUH document has a standard JSON schema and can be validated. DUH export tools provide Verilog, IPXACT, Chisel-Scala output. The goal of DUH project is to make HW IP more reusable and enable more SoC automation tools.
