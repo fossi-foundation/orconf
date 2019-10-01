@@ -148,7 +148,7 @@
     "end": "2019-09-28 10:10",
     "speaker": "Rick O'Connor",
     "affiliation": "OpenHW Group",
-    "title": "OpenHW Group Announces CORE-V Family of Open-Source RISC-V Cores",
+    "title": "Open Source Processor IP - for High Volume SoCs",
     "category": "sat",
     "abstract": "This talk will detail the creation of the OpenHW Group, a not-for-profit, global organization driven by its members and individual contributors where hardware and software designers collaborate in the development of open-source cores, related IP, tools and software. The talk will also cover the launch of the CORE-V Family of open-source RISC-V cores.\n\nPresenter: Rick O'Connor\nRick O'Connor is Founder and serves as President & CEO of the OpenHW Group a not-for-profit, global organization driven by its members and individual contributors where hardware and software designers collaborate on open source cores, related IP, tools and software projects. The OpenHW Group Core-V Family is a series of RISC-V based open-source cores with associated processor subsystem IP, tools and software for electronic system designers. "
   },
