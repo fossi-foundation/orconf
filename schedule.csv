@@ -45,7 +45,7 @@ Friday Sept 27 Afternoon,,,,,,,,
           </p>
 ",yes
 0:20:00,2019-09-27 13:40,2019-09-27 14:00,,,Break,fri,,yes
-0:20:00,2019-09-27 14:00,2019-09-27 14:20,Andrew Katz,Moorcrofts LLP/CERN,Open Hardware Licensing,fri,"            <p>
+0:20:00,2019-09-27 14:00,2019-09-27 14:20,"Andrew Katz, Javier Serrano",Moorcrofts LLP/CERN,Open Hardware Licensing,fri,"            <p>
               Presenting the latest updates in open source hardware licensing, including
               <a href=""https://www.ohwr.org/project/cernohl/wikis/CERN-OHL-v2-draft"" target=""_blank"">CERN OHL v2</a>
               and the future governance of <a href=""https://solderpad.org/licenses/"" target=""_blank"">Solderpad</a>.
@@ -62,6 +62,23 @@ Friday Sept 27 Afternoon,,,,,,,,
 	    Before becoming a solicitor, he trained as a barrister, and moonlighted as a
 	    programmer during his studies at Bar School, programming in Turbo Pascal. He
 	    has released software under the GPL.
+          </p>
+          <h6>Presenter: Javier Serrano</h6>
+          <p>
+	    Javier Serrano is the leader of the Hardware and Timing section in the Beams
+	    Department at CERN. He is also the initiator and leader of the White Rabbit
+	    project, which focuses on the development of a set of IEEE-1588 compliant
+	    components for distributed synchronization in the nanosecond realm. Javier
+	    is also an ardent advocate of open source as a way to maximise the impact of
+	    technological developments. The creation of the Open Hardware Repository
+	    (ohwr.org) was his initiative, and he is co-author of the CERN Open Hardware
+	    Licence, which aims at providing an efficient mechanism for sharing hardware
+	    designs, similar to what existing free and open source licences do in the
+	    software domain. All the basic building blocks of White Rabbit, including
+	    software, firmware, gateware and hardware, are open source. In 2017, he
+	    received the ICALEPCS Lifetime Achievement Award, meant to honour individuals
+	    who, throughout their careers, have made invaluable and lasting contributions
+	    to the field of control systems for large experimental physics facilities.
           </p>
 ",
 0:20:00,2019-09-27 14:20,2019-09-27 14:40,Audience participation,,Open Hardware Licensing,fri,,yes
