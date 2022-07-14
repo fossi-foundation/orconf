@@ -1,0 +1,30 @@
+.figure-caption {
+    font-size: 60%;
+    color: #6c757d;
+}
+
+/* schedule javascript */
+.event {
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+.event-time {
+  font-size: small;
+}
+
+.event-title {
+  font-weight: bold;
+}
+
+.event-affiliation {
+  color: gray;
+  font-size: 90%;
+}
+
+.event-abstract {
+  padding-left: 5px;
+  margin-left: 5px;
+  border-left: 3px solid gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,470 @@
+[
+  {
+    "start": "2019-09-27 11:00",
+    "end": "2019-09-27 12:00",
+    "speaker": "",
+    "affiliation": "",
+    "title": "FOSSi Foundation AGM (FOSSi Foundation Members only)",
+    "category": "fri",
+    "abstract": "Annual General Meeting of the FOSSi Foundation. This will take place in the ORConf main lecture theatre prior to the event."
+  },
+  {
+    "start": "2019-09-27 12:00",
+    "end": "2019-09-27 12:30",
+    "speaker": "",
+    "affiliation": "",
+    "title": "Room open, snacks",
+    "category": "fri",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-27 12:30",
+    "end": "2019-09-27 13:00",
+    "speaker": "ORConf organizers",
+    "affiliation": "",
+    "title": "Official welcome - FOSSi Foundation update",
+    "category": "fri",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-27 13:00",
+    "end": "2019-09-27 13:40",
+    "speaker": "Zvonimir Z Bandic",
+    "affiliation": "Western Digital Corporation",
+    "title": "Chips Alliance Project",
+    "category": "fri",
+    "abstract": "          <p>\n            We have recently launched the <a href=\"https://github.com/chipsalliance\"\n                                             target=\"_blank\">CHIPS Alliance project</a>: CHIPS (Common Hardware for\n            Interfaces, Processors and Systems) Alliance harnesses the energy of open source\n            collaboration to accelerate hardware development. The organization was created to host\n            and curate high-quality, open source hardware design relevant to the design of silicon\n            devices. By creating a neutral and collaborative environment, CHIPS Alliance intends to\n            share resources to lower the cost of development and accelerate the creation of more\n            efficient and innovative chip designs \u2013 covering the span from small IoT devices to\n            large datacenter silicon solutions.\n          </p>\n          <p>\n            As an independent entity, companies and individuals can work together and contribute\n            resources to help make open source chips, complex IP blocks and system-on-a-chip (SoC)\n            design more accessible to the market.\n          </p>\n          <p>\n            We will describe some of our initial projects, focused on RISC-V cores, design and\n            design verification tools and analog IPs, as well as structure of workgroups and\n            existing meetings in CHIPS alliance.\n          </p>\n\n          <h6>Presenter: <a href=\"https://twitter.com/zbandic\" target=\"_blank\">Zvonimir Z Bandic</a></h6>\n          <p>\n            Zvonimir Z. Bandi\u0107 is the Research Staff Member and Senior Director of Next Generation\n            Platform Technologies Department in a Western Digital Corporation in San Jose,\n            California. He received his BS in electrical engineering in 1994 from the University of\n            Belgrade, Yugoslavia, and his MS (1995) and PhD (1999) in applied physics from Caltech,\n            Pasadena, in the field of novel electronic devices based on wide bandgap\n            semiconductors. He is currently focusing on emerging Non-Volatile Memories (PCM, ReRAM,\n            MRAM) applications for data center distributed computing, including RISC-V based CPU\n            technologies , in-memory compute, RDMA networking, and machine learning hardware\n            acceleration. He has been awarded over 50 patents in the fields of solid state\n            electronics, solid state disk controller technology, security architecture and storage\n            systems and has published over 50 peer-reviewed papers. Zvonimir is Chair of CHIPS\n            Alliance, Chair of OpenCAPI org, and Board of Directors member of RISC-V standards\n            organization.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-27 14:00",
+    "end": "2019-09-27 14:20",
+    "speaker": "Andrew Katz, Javier Serrano",
+    "affiliation": "Moorcrofts LLP/CERN",
+    "title": "Open Hardware Licensing",
+    "category": "fri",
+    "abstract": "            <p>\n              Presenting the latest updates in open source hardware licensing, including\n              <a href=\"https://www.ohwr.org/project/cernohl/wikis/CERN-OHL-v2-draft\" target=\"_blank\">CERN OHL v2</a>\n              and the future governance of <a href=\"https://solderpad.org/licenses/\" target=\"_blank\">Solderpad</a>.\n              \n            </p>\n          <h6>Presenter: Andrew Katz</h6>\n          <p>\n\t    Andrew Katz is a partner at <a href=\"https://www.moorcrofts.com/\"\n\t\t\t\t\t   target=\"_blank\">Moorcrofts LLP</a>, a boutique\n\t    law firm in England's\n\t    Thames Valley and advises a wide range of businesses on free and open source\n\t    related issues. He has lectured and published widely on the subject and is a\n\t    founder editor of the International Free and Open Source Software Law Review.\n\t    Before becoming a solicitor, he trained as a barrister, and moonlighted as a\n\t    programmer during his studies at Bar School, programming in Turbo Pascal. He\n\t    has released software under the GPL.\n          </p>\n          <h6>Presenter: Javier Serrano</h6>\n          <p>\n\t    Javier Serrano is the leader of the Hardware and Timing section in the Beams\n\t    Department at CERN. He is also the initiator and leader of the White Rabbit\n\t    project, which focuses on the development of a set of IEEE-1588 compliant\n\t    components for distributed synchronization in the nanosecond realm. Javier\n\t    is also an ardent advocate of open source as a way to maximise the impact of\n\t    technological developments. The creation of the Open Hardware Repository\n\t    (ohwr.org) was his initiative, and he is co-author of the CERN Open Hardware\n\t    Licence, which aims at providing an efficient mechanism for sharing hardware\n\t    designs, similar to what existing free and open source licences do in the\n\t    software domain. All the basic building blocks of White Rabbit, including\n\t    software, firmware, gateware and hardware, are open source. In 2017, he\n\t    received the ICALEPCS Lifetime Achievement Award, meant to honour individuals\n\t    who, throughout their careers, have made invaluable and lasting contributions\n\t    to the field of control systems for large experimental physics facilities.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-27 14:20",
+    "end": "2019-09-27 14:40",
+    "speaker": "Audience participation",
+    "affiliation": "",
+    "title": "Open Hardware Licensing",
+    "category": "fri",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-27 14:50",
+    "end": "2019-09-27 15:10",
+    "speaker": "Calista Redmond",
+    "affiliation": "RISC-V Foundation",
+    "title": "The Momentum and Opportunity of Custom, Open Source Processing",
+    "category": "fri",
+    "abstract": "           <p>\n\n             The growth of human and business interaction with\n             technology continues to explode. At the literal heart of\n             that technology sits a silicon core, combined with\n             general and specific instructions and connections. The\n             insane cost, risk, development time, necessary volumes,\n             and limited computing demands kept the lucrative chip\n             opportunity within reach of just a handful of companies\n             -- focused mostly on general purpose processors. New\n             computing needs in various power and performance\n             dimensions have increased demand and competition for\n             custom processors. This pressure is quietly and rapidly\n             disrupting the processor industry. An Open source\n             approach to processors now reduces risk and investment,\n             with accelerated time to market, and opens the\n             opportunity to thousands of possible custom\n             processors. Learn about the trends, opportunities, and\n             examples -- from smart watches to supercomputers -- as\n             well as the global momentum of RISC-V!\n\n           </p>\n\t   <h6>Presenter: <a href=\"https://twitter.com/calista_redmond\" target=\"_blank\">Calista Redmond</a></h6>\n\t   <p>\n\n\t     Calista Redmond is the CEO of\n\t     the <a href=\"https://riscv.org\">RISC-V Foundation</a>\n\t     with a mission to expand and engage RISC-V stakeholders,\n\t     compel industry adoption, and increase visibility and\n\t     opportunity for RISC-V within and beyond the\n\t     Foundation. Prior to the RISC-V Foundation, Calista held\n\t     a variety of roles at IBM, including Vice President of\n\t     IBM Z Ecosystem where she led strategic relationships\n\t     across software vendors, system integrators, business\n\t     partners, developer communities, and broader engagement\n\t     across the industry.\n\n\t   </p>\n"
+  },
+  {
+    "start": "2019-09-27 15:10",
+    "end": "2019-09-27 15:30",
+    "speaker": "Anton Blanchard",
+    "affiliation": "IBM",
+    "title": "Microwatt - A simple Open POWER soft processor",
+    "category": "fri",
+    "abstract": "Microwatt is a simple Open POWER soft processor released on github in late August. It grew out of a desire to show something interesting at a recent announcement by IBM regarding the opening up of the POWER ISA.\n\nBy the time of the conference, it will have been in the open for just over a month. This talk will detail a bit of the history behind Microwatt, recent progress, some of the challenges as well as future plans.\n\nPresenter: Anton Blanchard\n\nAnton Blanchard works at IBM where he spends his time on Linux and Open Source software, and very recently Open Source hardware.\n"
+  },
+  {
+    "start": "2019-09-27 16:00",
+    "end": "2019-09-27 16:20",
+    "speaker": "Sergey Smolov",
+    "affiliation": "ISP RAS",
+    "title": "Open-source model checkers: Ready for the industry?",
+    "category": "fri",
+    "abstract": "              <p>\n                Open source penetrates the microelectronics design, making hardware development more accessible.\n                To leverage this effect, one needs open CAD tools, including formal verification facilities.\n                The talk is concentrated on an experimental comparison of several open-source model checkers\n                for Verilog modules on open benchmarks. For selected tools Verilog support and property checking\n                facilities were evaluated on typical designs and industrial-scale modules. This talk also\n                briefly describes <a href=\"https://forge.ispras.ru/projects/retrascope\"\n                                     target=\"_blank\">Retrascope</a>\n                - a new open-source model checker that verifies Verilog descriptions\n                against SVA properties. The toolkit allows analyzing of HDL descriptions,\n                reconstructing and visualization of the underlying models and using the derived models\n                for test generation and property checking.\n              </p>\n          <h6>Presenter: Sergey Smolov</h6>\n              <p>\n                Sergey Smolov is junior researcher of Programming Technology Department of Ivannikov\n                Institute for System Programming of the Russian Academy of Sciences. He received the\n                bachelor's degree in 2008 and master's degree in 2010 both from Moscow Institute of\n                Physics and Technology (MIPT). His research interests include microprocessors\n                modeling and functional verification.\n              </p>\n"
+  },
+  {
+    "start": "2019-09-27 16:20",
+    "end": "2019-09-27 16:40",
+    "speaker": "Pepijn de Vos",
+    "affiliation": "GHDL",
+    "title": "Open Source Formal Verification in VHDL",
+    "category": "fri",
+    "abstract": "          <p>\n            Due to recent work by Tristan Gingold and some contributions from Pepijn de Vos, it is\n            now possible to use GHDL for synthesis with Yosys. Furthermore, improvements in support\n            for PSL and VHDL-2008 make it possible to\n            <a href=\"http://pepijndevos.nl/2019/08/15/open-source-formal-verification-in-vhdl.html\"\n               target=\"_blank\">use GHDL with SymbiYosys for formal\n            verification</a>. This talk will give an overview of the state of open source VHDL\n            synthesis, and introduce formal verification using these tools.\n          </p>\n          <h6>Presenter: <a href=\"https://www.twitter.com/pepijndevos\" target=\"_blank\">Pepijn de Vos</a></h6>\n          <p>\n            Pepijn is a software developer and electrical engineer who got in touch with FPGA\n            development during his electrical engineering bachelor at the University of\n            Twente. Pepijn prefers vim and makefiles over clunky commercial EDA tools, and is trying\n            to make his future career more pleasant by contributing to open source tools.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-27 16:50",
+    "end": "2019-09-27 17:10",
+    "speaker": "Florent Manni",
+    "affiliation": "VHDLTOOL",
+    "title": "Continuous VHDL inspection with opensource software",
+    "category": "fri",
+    "abstract": "              <p>\n                <a href=\"https://github.com/VHDLTool\" target=\"_blank\">VHDLTool</a> is an opensource\n                project founded by CNES to help people writing cleaner and safer VHDL code.\n\n\n                It is based on several tools like:\n                <ul>\n                  <li>VHDL Handbook toolchain: which gathers customizable VHDL good practices\n                    written in XML and a toolchain to convert it to PDF</li>\n                  <li>Zamiacad: which is a modular and extensible platform for advanced hardware design, analysis,\n                    and research.</li>\n                  <li>Rulechecker: which use Zamiacad to parser handbook VHDL rules</li>\n                  <li>Sonarqube-rulechecker: which is a plugin for Sonarqube which is a GUI for debt identification and\n                    management. Sonarqube will display the errors based on VHDL handbook and\n                    evaluated by Zamiacad-Rulechecker. It will display also code coverage coming\n                    from GCOV. </li>\n                </ul>\n          </p>\n          <h6>Presenter: Florent Manni</h6>\n              <p>\n                Florent is a SOC designer at the French Space agency (CNES).\n              </p>\n"
+  },
+  {
+    "start": "2019-09-27 17:10",
+    "end": "2019-09-27 17:30",
+    "speaker": "Oleg Nenashev",
+    "affiliation": "LibreCores",
+    "title": "What's new in LibreCores CI?",
+    "category": "fri",
+    "abstract": "            <a name=\"librecores\" href=\"#librecores\"></a>What's new in LibreCores CI?</h4>\n              <p>\n                There were significant changes in\n                <a href=\"https://www.librecores.org/static/librecores-ci\" target=\"_blank\">LibreCores\n                  CI</a> over the past year. Let's take a\n                look at what's new available to hardware projects: Docker images for EDA tools, new\n                Jenkins server bundles, and SaaS for projects. And how was Google Summer of Code in\n                LibreCores CI this year?\n          </p>\n          <h6>Presenter: <a href=\"https://twitter.com/oleg_nenashev\" target=\"_blank\">Oleg Nenashev</a></h6>\n              <p>\n                Oleg is an R&amp;D and Automation engineer with Hardware/Embedded background. He\n                contributes to the LibreCores project and works on the continuous integration\n                service there. He is also a Jenkins core maintainer and a leader of Hardware/EDA SIG\n                there. Nowadays Oleg lives in Switzerland and works for CloudBees.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-27 17:40",
+    "end": "2019-09-27 18:10",
+    "speaker": "Luis Eduardo Rueda Guerrero",
+    "affiliation": "Symbiotic EDA, Universidad Industrial de Santander",
+    "title": "ASICone, from Verilog to GDSII with open source tools only, Status and Challenges.",
+    "category": "fri",
+    "abstract": "            <p>\n              Last year, Symbiotic EDA announced ASICone, an experiment to tape-out an entire ASIC\n              with a RISC-V 32bit processor, using only open source tools on X-Fab 180nm COMS\n              3.3V. As expected, ASICone had been a very difficult project. The team around\n              Prof. Elkim Roa (OnChip) believes that they have found some of the most important gaps\n              between a typical tape-out (with commercial EDA tools) and a tape-out with open-source\n              tools. Taking this into account, in this talk, team member Luis Rueda will present the\n              status of ASICone: what have been done and achieved so far, what have been the\n              learning's, what is needed to close the feature gaps in the current available open\n              source ASIC toolchain and what should be the next steps.\n          </p>\n          <h6>Presenter: Luis Eduardo Rueda Guerrero</h6>\n          <p>\n            Luis E. Rueda G. is a PhD student and professor at Universidad Industrial de Santander\n            (Colombia). His current research focuses in analog accelerators for machine learning\n            system-on-edge applications. Luis did his master of science in TU Delft (the\n            Netherlands), and in the past, he worked in projects for NXP (the Netherlands), IMEC\n            (Belgium) and Freescale (Brazil), mainly in mixed-signal and analog IC design. Luis is\n            also part of the OnChip group, responsible for Onchip-V, the world's first open source\n            RISC-V-based 32-bit microcontroller (2016), where he was in charge of the analog IP\n            blocks design.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-27 18:10",
+    "end": "2019-09-27 18:30",
+    "speaker": "",
+    "affiliation": "",
+    "title": "Au revoir",
+    "category": "fri",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-28 09:00",
+    "end": "2019-09-28 09:30",
+    "speaker": "",
+    "affiliation": "",
+    "title": "Room open, coffee",
+    "category": "sat",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-28 09:30",
+    "end": "2019-09-28 09:50",
+    "speaker": "Simon Cook",
+    "affiliation": "Embecosm",
+    "title": "A Unified Debug Server for Deeply Embedded Systems and GDB/LLDB",
+    "category": "sat",
+    "abstract": "          <p>\n            When debugging C applications, whilst the debugger handles high level operations, it\n            abstracts and offloads lower level operations to a debug server which is responsible for\n            controlling the process or hardware. The debug server is capable of very simple\n            operations, such as reading/writing registers and memory, starting and single-stepping\n            the processor and reporting back when the processor halts. The two communicate with each\n            other using a very simple text based serial protocol.\n          </p>\n          <p>\n            GDB has long been served by a number of debug server options, for Linux class systems\n            the gdbserver application provides this functionality, and for embedded systems the\n            gdbserver built into OpenOCD is commonly used, but support for some targets (such as RTL\n            simulation) we can do better. In this talk, we present a new open source debug server\n            that supports these usecases. It is capable of controlling the simplest hardware,\n            through to complex multicore heterogenous architectures. I present the aims of this\n            project and what we want to achieve as this progresses.\n          </p>\n          <h6>Presenter: <a href=\"https://twitter.com/simonpcook\" target=\"_blank\">Simon Cook</a></h6>\n          <p>\n            Simon is a tool chain engineer at <a href=\"https://www.embecosm.com\"\n                                                 target=\"_blank\">Embecosm</a>, at which he focuses on the LLVM compiler and\n            tools for debugging embedded applications.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-28 09:50",
+    "end": "2019-09-28 10:10",
+    "speaker": "Rick O'Connor",
+    "affiliation": "OpenHW Group",
+    "title": "Open Source Processor IP - for High Volume SoCs",
+    "category": "sat",
+    "abstract": "This talk will detail the creation of the OpenHW Group, a not-for-profit, global organization driven by its members and individual contributors where hardware and software designers collaborate in the development of open-source cores, related IP, tools and software. The talk will also cover the launch of the CORE-V Family of open-source RISC-V cores.\n\nPresenter: Rick O'Connor\nRick O'Connor is Founder and serves as President & CEO of the OpenHW Group a not-for-profit, global organization driven by its members and individual contributors where hardware and software designers collaborate on open source cores, related IP, tools and software projects. The OpenHW Group Core-V Family is a series of RISC-V based open-source cores with associated processor subsystem IP, tools and software for electronic system designers. "
+  },
+  {
+    "start": "2019-09-28 10:30",
+    "end": "2019-09-28 10:50",
+    "speaker": "Philipp Wagner",
+    "affiliation": "FOSSi Foundation",
+    "title": "News from cocotb land",
+    "category": "sat",
+    "abstract": "          <p>\n            <a href=\"https://www.cocotb.org\" target=\"_blank\">cocotb</a> is a COroutine\n            based COsimulation TestBench environment for verifying\n            VHDL/Verilog RTL using Python. It is an alternative to UVM and other verification\n            approaches, and has been gaining an increasing number of followers over the last years.\n          </p>\n          <p>\n            In 2019, we already released cocotb\n            <a href=\"https://lists.librecores.org/pipermail/cocotb/2019-January/000053.html\"\n               target=\"_blank\">1.1</a>\n            and <a href=\"https://lists.librecores.org/pipermail/cocotb/2019-July/000065.html\"\n                   target=\"_blank\">1.2</a>, and more releases are upcoming. This\n            talk will show what's new and exciting in cocotb land, and outline areas where we're\n            looking for more contributors!\n          </p>\n          <h6>Presenter: <a href=\"https://philipp-wagner.com\" target=\"_blank\">Philipp Wagner</a></h6>\n          <p>\n            Philipp is an engineer at lowRISC doing Open Source hardware design, and a director at\n            FOSSi Foundation. He has been a long-time open source enthusiast, working on software,\n            hardware, automation, and outreach.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-28 10:50",
+    "end": "2019-09-28 11:10",
+    "speaker": "Michael Gielda",
+    "affiliation": "Antmicro / Renode",
+    "title": "Renode - open source simulation for rapid development of complex systems, coming to a cloud near you",
+    "category": "sat",
+    "abstract": "Renode has been available as a permissively licensed desktop simulation framework for (unmodified) software development and HW/SW co-development in complex systems - including multi-node, heterogeneous multi-core and multi-architecture ones - for some years now, gaining momentum especially with the advent of RISC-V and open ISAs in general.\n\nBesides a host of awesome recent developments in version 1.8 such as physical FPGA and Verilator co-simulation, enhanced multi-core debug, support for many new RISC-V platforms, Renode has also some big changes to announce.\n\nThe collaborative nature of virtual development - with features such as state saving, event storing/replaying, synchronous debug of multi-node environments and simply being able to share your work with colleagues using a bunch of files - is best experienced in a cloud environment, where resources can be truly shared and easily scaled. In this talk, we\u2019re announcing the Renode Cloud Environment, an open source design, testing and CI system that builds on and integrates with Renode.\n\nPresenter: Michael Gielda\n\nMichael is VP Business Development at Antmicro and one of the creators of Renode. With a background in both computer science and the humanities, he is an ardent believer in using open source to advance entire industries. Michael is vice-chair of Marketing in the RISC-V Foundation and Chair of Marketing and Outreach in CHIPS Alliance. "
+  },
+  {
+    "start": "2019-09-28 11:10",
+    "end": "2019-09-28 11:30",
+    "speaker": "David Patterson, Jeremy Bennett (speaker), Palmer Dabbelt, Cesare Garlati",
+    "affiliation": "Embecosm",
+    "title": "Embench\u2122 0.5: A Free Benchmark Suite for  IoT from an Academic-Industry Cooperative",
+    "category": "sat",
+    "abstract": "          <p>\n            In June we announced <a href=\"https://embench.org/\" target=\"_blank\">Embench</a>\u2122 (for\n            Embedded Benchmark), a benchmark for embedded IoT devices created by experts from both\n            academia and industry. We first looked at past benchmark efforts to try to incorporate\n            their good ideas and to avoid their mistakes, and drew the following seven lessons:\n            <ol>\n              <li>Embench must be free (no cost).</li>\n              <li>Embench must be easy to port and run.</li>\n              <li>Embench must be a suite of real programs.  </li>\n              <li>Embench must have a supporting organization that maintains its relevance over time.  </li>\n              <li>Embench must report a single summarizing performance score.  </li>\n              <li>Embench should report geometric mean and standard deviation as the summarizing score. </li>\n              <li>Embench must involve both academia and industry.</li>\n            </ol>\n          </p>\n          <p>\n            Our plan is to follow \u201cAgile Benchmark Development\u201d by bringing out an initial 0.5\n            version for evaluation and feedback,  with a 1.0 version to be released after a few\n            iterations of preliminary Embench versions (0.5, 0.6, 0.7,...) to debug both the suite\n            and the ground rules. We initially aim to evaluate microcontrollers that support \u226464KiB\n            of code and read only data\u2014which would typically be stored in Flash or ROM\u2014and \u226416KiB of\n            data.\n          </p>\n          <p>\n            In this talk we describe Embench 0.5. Unlike the popular Dhrystone and CoreMark\n            benchmarks that are single synthetic programs, Embench 0.5 suite has 20 real\n            programs. They do little or no floating point computation, but some are branch\n            intensive, some memory intensive, and some integer compute intensive. Like SPEC, the\n            single performance number that people will promote is the geometric mean of performance\n            relative to a reference platform of the 20 programs plus the geometric standard\n            deviation to indicate the significance of differences between processors. Novel features\n            of Embench include reporting code size as well as program performance and to measure\n            interrupt latency and context switching. These novel features play an important role in\n            embedded computing but have not yet appeared in embedded benchmarks. The Free and Open\n            Source Silicon (FOSSi) Foundation organization is the official sponsor of Embench. The\n            Embench organizing committee now has more than 10 volunteers to evolve the benchmark.\n          </p>\n          <p>\n            In addition to announcing Embench 0.5, we will demonstrate its value by contrasting its\n            performance evaluation of several embedded systems to Dhrystone and CoreMark.\n          </p>\n          <p>\n            Our hope is that henceforth is that publications of performance for embedded computers\n            will include Embench along with Dhrystone and CoreMark, and that Embench will eventually\n            retire these much older, single, synthetic benchmarks to the dustbin of history.\n          </p>\n          <h6>Presenter: <a href=\"https://www.twitter.com/jeremypbennett\" target=\"_blank\">Jeremy Bennett</a></h6>\n          <p>\n            Jeremy Bennett is Vice-chair and convener of the Embench working group, which is\n            developing a new set of benchmarks for Embedded systems.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-28 11:30",
+    "end": "2019-09-28 11:50",
+    "speaker": "Ismael P\u00e9rez, Carlos Alberto, Alfredo S\u00e1ez",
+    "affiliation": "TerosHDL",
+    "title": "TerosHDL: an open source IDE for FPGA developers.",
+    "category": "sat",
+    "abstract": "          <p>\n            <a href=\"https://github.com/TerosTechnology/terosHDL\" target=\"_blank\">TerosHDL</a>\n            (<a href=\"https://twitter.com/@terostech\" target=\"_blank\">Twitter</a>) is an open source project\n            focused in the development and integration of EDA tools (ghdl, VUnit...) in an IDE. \n            It is currently based on Atom, but in the future it will be extended to other code editors such as Visual Studio Code.\n          </p>\n          <p>\n          The goal of TerosHDL is bringing all facilities of software code tools to the HDL development: linter, code completion,\n          simulators management, automate documentation, snippets. <a href=\"https://youtu.be/tgr1KGIitIQ\" target=\"_blank\">https://youtu.be/tgr1KGIitIQ</a>.\n          </p>\n          <p>\n            We will introduce TerosHDL 2.0 with multiple features. In the new release the architecture has been completely\n            rebuild in order to support more tools, reduce some dependencies and clarify the code. Some of the new features include\n            Verilog support, additional simulators: Verilator, Icarus, additional tools like cocotb, Edalize, a linter and more beautiful documentation.\n          </p>\n\n          <h6>Presenters: Ismael P\u00e9rez, Carlos Alberto, Alfredo S\u00e1ez</h6>\n          <p>\n            <a href=\"https://github.com/smgl9\" target=\"_blank\">Ismael Perez</a> is an FPGA engineer who usually use open source tools at work.\n            When the homemade automation scripts started to be a just a bit serious he started TerosHDL project with some coworkers to ease\n            their development task and integrate different tools.\n          </p>\n\n           <p>\n             <a href=\"https://github.com/qarlosalberto\" target=\"_blank\">Carlos Alberto</a> is passionate about open source. He works in high\n             performance and low latency systems with FPGA. He is interested in implementing software quality methodologies in HDL languages:\n             code coverage, continuous integration... He sais that hw can be effective, scalable and reliable like sw!\n           </p>\n           <p>\n             <a href=\"https://github.com/asaezper\" target=\"_blank\">Alfredo S\u00e1ez</a> is a software engineer who has worked from backend to\n             frontend. He is a truly enthusiast of development tools that help us to code better. And when he discovered that HDL mates don't\n             have so many facilities as SW developers, he decided to join TerosHDL team!\n           </p>\n"
+  },
+  {
+    "start": "2019-09-28 11:50",
+    "end": "2019-09-28 13:30",
+    "speaker": "",
+    "affiliation": "",
+    "title": "Lunch",
+    "category": "sat",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-28 13:30",
+    "end": "2019-09-28 13:50",
+    "speaker": "Zvonimir Bandic",
+    "affiliation": "Western Digital Corporation",
+    "title": "OmniXtend cache coherence protocol for datacenter CPUs",
+    "category": "sat",
+    "abstract": "OmniXtend cache coherence protocol is open source protocol based on mapping of TileLink cache coherence messages on the top of standard Ethernet 802.3 L1 frames. The protocol takes advantage of availability of programmable Ethernet switches - using P4 programming language.\n\nWe have recently published the specification of OmniXtend, and open-sourced P4 code for the programmable Barefoot Networks switch. We will present the design philosophy of OmniXtend, present the latency measurement in the implemented system and show of first 8-core RISC-V cluster consisting of two RISC-V 4-core nodes, connected via OmniXtend switch.\n\nPresenter: Zvonimir Bandic\n\nZvonimir Z. Bandi\u0107 is the Research Staff Member and Senior Director of Next Generation Platform Technologies Department in a Western Digital Corporation in San Jose, California. He received his BS in electrical engineering in 1994 from the University of Belgrade, Yugoslavia, and his MS (1995) and PhD (1999) in applied physics from Caltech, Pasadena, in the field of novel electronic devices based on wide bandgap semiconductors.\n\nHe is currently focusing on emerging Non-Volatile Memories (PCM, ReRAM, MRAM) applications for data center distributed computing, including RISC-V based CPU technologies , in-memory compute, RDMA networking, and machine learning hardware acceleration. He has been awarded over 50 patents in the fields of solid state electronics, solid state disk controller technology, security architecture and storage systems and has published over 50 peer-reviewed papers.\n\nZvonimir is Chairman of CHIPS Alliance, Chair of OpenCAPI org, and Board of Directors member of RISC-V standards organization.\n"
+  },
+  {
+    "start": "2019-09-28 13:50",
+    "end": "2019-09-28 14:10",
+    "speaker": "Staf Verhaegen",
+    "affiliation": "Chips4Makers",
+    "title": "The state of Chips4Makers; an ASIC service for makers and hobbyists",
+    "category": "sat",
+    "abstract": "              <p>\n                The Chips4Maker service was first brought forward on ORConf two years ago. At that\n                time it was mostly a dream. In the mean time much progress has been made on the\n                design flow front and a few test tape-outs have been performed. The progress will be\n                reported during this presentation.\n              </p>\n              <p>\n                If moon, earth and sun are forming the right constellation even some more concrete\n                announcements may be made on the Chips4Makers service.\n              </p>\n          <h6>Presenter: Staf Verhaegen</h6>\n              <p>\n                Staf Verhaegen is an open source software enthusiast that is dreaming of open source\n                driving hardware innovation as it did for software.\n              </p>\n"
+  },
+  {
+    "start": "2019-09-28 14:10",
+    "end": "2019-09-28 14:30",
+    "speaker": "Stafford Horne",
+    "affiliation": "OpenRISC",
+    "title": "OpenRISC update",
+    "category": "sat",
+    "abstract": "          <p>\n            An update on all that is happening this year\n            with <a href=\"https://openrisc.io\">OpenRISC</a>.  I would like to go over the\n            interesting things happening this year in\n            OpenRISC. <a href=\"https://www.librecores.org/static/librecores-ci\" target=\"_blank\">\n              LibreCores continuous integration</a>\n            setup for IP cores.  Releasing the <a href=\"https://github.com/openrisc/or1k_marocchino\"\n            target=\"_blank\">Marocchino CPU</a>.  Incorporating proposals into and\n            publishing <a href=\"https://openrisc.io/2019/06/04/openrisc-arch1.3\"\n                          target=\"_blnk\">OpenRISC spec 1.3</a>.\n            Working on the glibc port and finding some interesting bugs.\n            \n          </p>\n          <h6>Presenter: <a href=\"https://twitter.com/stffrdhrn\" target=\"_blank\">Stafford Horne</a></h6>\n          <p>\n            Stafford is a software engineer at SMBC Nikko Japan working on algorithmic trading\n            systems.  He has been working on and maintaining OpenRISC for the better part of 5\n            years.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-28 14:50",
+    "end": "2019-09-28 15:10",
+    "speaker": "Karol Gugala",
+    "affiliation": "Antmicro",
+    "title": "Versatile Place and Route (VPR) device models generation from Verilog with V2X",
+    "category": "sat",
+    "abstract": "          <p>\n            <a href=\"https://docs.verilogtorouting.org/en/latest/arch/\" target=\"_blank\">VPR</a>, an\n            open source Place&amp;Route tool developed primarily by the University of Toronto,\n            describes the FPGA devices architecture using model and pb_type XML files\n            . The XML files can be really complex depending on the device architecture.\n          </p>\n          <p>\n            V2X is an open source tool for generating FPGA architecture description XML files from\n            Verilog models. The models can be reused as device simulation modes.\n          </p>\n          <p>\n            Currently V2X supports the following features:\n            <ul>\n              <li>Black box models and architecture description definition</li>\n              <li>Complex block aggregation other complex blocks and/or black boxes</li>\n              <li>Routing components</li>\n              <li>FASM (FPGA Assembly) annotations</li>\n            </ul>\n          </p>\n          <h6>Presenter: <a href=\"https://twitter.com/KGugala\" target=\"_blank\">Karol Gugala</a></h6>\n          <p>\n            Karol Gugala is Engineering Manager at <a target=\"_blank\"\n                                                      href=\"http://www.antmicro.com/\">Antmicro</a>, where he is working with open source in\n            various contexts - primarily FPGA and embedded software. Open source enthusiast -\n            involved in a wide variety of FOSS projects.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-28 15:10",
+    "end": "2019-09-28 15:13",
+    "speaker": "Tim 'mithro' Ansell",
+    "affiliation": "",
+    "title": "Status of Xilinx Artix 7 support in Symbiflow",
+    "category": "sat",
+    "abstract": "              <p>\n                Come find out the current status of Xilinx Artix 7 support in the\n                <a href=\"https://symbiflow.github.io/\" target=\"_blank\">SymbiFlow project</a>.\n          </p>\n          <h6>Presenter: <a href=\"https://twitter.com/mithro\" target=\"_blank\">Tim 'mithro' Ansell</a></h6>\n          <p>\n            Tim is the founder of <a href=\"https://github.com/timvideos\" target=\"_blank\">TimVideos</a> and is currently\n            heavily involved with the development of the SymbiFlow project.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-28 15:13",
+    "end": "2019-09-28 15:16",
+    "speaker": "Fahrican Ko\u015far",
+    "affiliation": "",
+    "title": "Improving VPR I/O",
+    "category": "sat",
+    "abstract": "          <p>\n            verilog-to-routing's P&amp;R tool VPR, which is used in\n            <a href=\"https://symbiflow.github.io/\" target=\"_blank\">SymbiFlow</a>'s Artix 7 flow, can accept\n            FPGA architecture and routing resources as file inputs. I have worked on the speed and\n            correctness of this process as part of this year's GSoC.\n          </p>\n          <h6>Presenter: <a href=\"duck2.lt\" target=\"_blank\">Fahrican Ko\u015far</a></h6>\n          <p>\n            Fahrican is GSoC'2019 student for SymbiFlow.\n          </p>\n"
+  },
+  {
+    "start": "2019-09-28 15:16",
+    "end": "2019-09-28 15:19",
+    "speaker": "Henner Zeller",
+    "affiliation": "",
+    "title": "SystemVerilog compatibility Test-Suite",
+    "category": "sat",
+    "abstract": "<p>\n  For a language as large and complex as SystemVerilog, having a\n  tool-independent test suite dedicated to grading against the\n  language standard is essential for measuring quality of\n  implementation.  Hallmarks of a quality test suite for a\n  programming language are: 1) high coverage of syntax and\n  semantic concepts in accordance with the standard, 2)\n  independence from any particular implementation, 3) universal\n  access and availability. Previously, no test suite has existed\n  which fits all three criteria. The existence of an open-source\n  test suite will benefit the tool development community by\n  establishing an objectively measurable common goal.  Publishing\n  test results has several benefits: 1) raising community\n  awareness about alternative implementations, 2) identifying\n  gaps and differences, 3) fueling collaboration among language\n  experts and tool developers.  We present our initial effort to\n  amass and organize a SystemVerilog test suite whose purpose is\n  to qualify tools against the language standard.\n</p>\n<h6>Presenter: Henner Zeller</h6>"
+  },
+  {
+    "start": "2019-09-28 15:19",
+    "end": "2019-09-28 15:22",
+    "speaker": "Jamie Hanlon",
+    "affiliation": "",
+    "title": "netlist-paths: A command line tool for querying paths in a Verilog design (Lightning Talk)",
+    "category": "sat",
+    "abstract": "              <p>\n                In a complex Verilog design, it can be difficult to relate timing reports for\n                critical paths back to the the source code because of the way a design is flattened\n                and optimised in a physical design flow. Being able to quickly correspond a timing\n                path to the source code is useful in determining causes and potential fixes. This\n                talk describes <a href=\"https://github.com/jameshanlon/netlist-paths\"\n                target=\"_blank\">a simple command-line tool</a> to do this. It uses a modified\n                version of\n                Verilator to obtain a netlist from Verilog source code and provides options to query\n                paths and cones of logic by specifying start, end and through points in the design,\n                similar to what you find with EDA tooling.\n              </p>\n          <h6>Presenter: <a href=\"www.jameswhanlon.com\" target=\"_blank\">Jamie Hanlon</a></h6>\n              <p>\n                Jamie Hanlon works as an Engineer at Graphcore in Bristol (UK), a company building\n                silicon processors for machine intelligence. He is part of the Silicon team, working\n                on the logical and physical design of the a processor, replicated thousands of time\n                over the chip. Previously he has worked on compiler and toolchain software,\n                specifically LLVM, and completed a PhD at the University of Bristol in computer\n                architecture.\n              </p>\n"
+  },
+  {
+    "start": "2019-09-28 15:22",
+    "end": "2019-09-28 15:25",
+    "speaker": "Ekaterina Berezina, Ivan Piatak",
+    "affiliation": "Syntacore",
+    "title": "Open Source SCR1 core",
+    "category": "sat",
+    "abstract": "          <p>\n            <a href=\"https://github.com/syntacore/scr1\" target=\"_blank\">SCR1</a> is an open-source\n            MCU-class RISC-V core for deeply embedded applications and\n            accelerator control, developed and maintained by Syntacore. Over the three years of its\n            existence, the processor has found significant traction both in industry and in academia\n            around the world.\n          </p>\n          <p>\n            in our brief presentation, we will talk about the SCR1 key features and the latest updates, as well\n            as invite you to our demo, where we show the use of SCR1 both for educational purposes\n            and for commercial projects.\n          </p>\n          <h6>Presenters: <a href=\"https://www.linkedin.com/in/kate-berezina/\" target=\"_blank\">Ekaterina Berezina</a>,\n            <a href=\"https://www.linkedin.com/in/ivan-piatak-64351b123/\" target=\"_blank\">Ivan Piatak</a></h6>\n              <p>\n                Ekaterina Berezina is a Senior HW Engineer at Syntacore, where she contributes to\n                the SCRx core family development and maintenance. Ekaterina has more than 6 years of\n                experience in CPU IP development including architecture and microarchitecture\n                definition, RTL design, testing and verification, area/timing/power optimization for\n                ASIC and FPGA. She received her Master\u2019s degree in Computer Science at\n                Saint-Petersburg ITMO University and teaches Computer Architecture classes there.\n              </p>\n              <p>\n                Ivan Piatak is an ASIC design engineer at Syntacore. He received his MS and PhD\n                degrees from the Peter the Great St.Petersburg Polytechnic University where he also\n                currently serves in the research assistant position at the Higher school of applied\n                physics and space technologies. His research interests are in the low power data\n                acquisition methods with a specific focus on the digitally-assisted pipelined ADCs\n                design. At Syntacore, he is responsible for the ASIC digital backend and layout in\n                the customer projects, and also contributes to FPGA prototyping.\"\n              </p>\n"
+  },
+  {
+    "start": "2019-09-28 15:25",
+    "end": "2019-09-28 15:28",
+    "speaker": "David Hossack",
+    "affiliation": "",
+    "title": "RISC-V without a Register File",
+    "category": "sat",
+    "abstract": "<p>The RISC-V ISA specifies a register file of 31 registers of 32 bits each. <a href=\"https://github.com/arghhhh/minrv32\" target=\"_blank\">This project</a> aims to eliminate this requirement by memory mapping the register file into the same memory as used for program and data. The resulting architectural state consists of only the program counter, with instructions that read arguments and write results to memory over multiple cycles. This is reminiscent of old processors such as the 6502. As an optimization, the internal state can be considered as a register-file cache, leading to some interesting design considerations.\n</p>\n\n<h4>Presenter: David Hossack</h4>\n<p>\nDavid Hossack is a design engineer at Analog Devices in Boston MA, USA. This project occupies some of his limited spare time.\n</p>"
+  },
+  {
+    "start": "2019-09-28 15:28",
+    "end": "2019-09-28 15:31",
+    "speaker": "Christiaan Baaij",
+    "affiliation": "QBayLogic",
+    "title": "Visions of the future",
+    "category": "sat",
+    "abstract": "<p>\n\n  Functional languages and beyond for circuit design and\n  alternative architectures.\n\n</p>\n<h6>Presenter: Christiaan Baaij</h6>"
+  },
+  {
+    "start": "2019-09-28 15:31",
+    "end": "2019-09-28 15:34",
+    "speaker": "Pepijn de Vos",
+    "affiliation": "",
+    "title": "Synthesize HDL to 7400 logic",
+    "category": "sat",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-28 15:34",
+    "end": "2019-09-28 15:37",
+    "speaker": "Jack Koenig",
+    "affiliation": "SiFive",
+    "title": "What's new in Chisel",
+    "category": "sat",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-28 16:00",
+    "end": "2019-09-28 16:20",
+    "speaker": "Aliaksei Chapyzhenka",
+    "affiliation": "SiFive",
+    "title": "Reusing HW components with DUH flow",
+    "category": "sat",
+    "abstract": "DUH is an opensource data format designed to capture information about reusable HW components. It provides a standard way of capturing: ports, bus interfaces, memory maps, registers, generator parameters, clocks, resets, etc. DUH format supported with a variety of tools.\n\nImport tools help to import available information from Verilog, IPXACT, SystemRDL sources. Inference tools do the guesswork finding standard bus interfaces. DUH document can be opened and inspected in the web browser. DUH document has a standard JSON schema and can be validated. DUH export tools provide Verilog, IPXACT, Chisel-Scala output. The goal of DUH project is to make HW IP more reusable and enable more SoC automation tools.\n\nPresenter: Aliaksei Chapyzhenka\n\nAliaksei Chapyzhenka is an engineer at SiFive Inc., author of the WaveDrom project and OSS contributor since 2011. "
+  },
+  {
+    "start": "2019-09-28 16:20",
+    "end": "2019-09-28 16:40",
+    "speaker": "Jack Koenig",
+    "affiliation": "SiFive",
+    "title": "Onboarding Verilog Peripherals to Rocket Chip",
+    "category": "sat",
+    "abstract": "Rocket Chip is an open-source RISC-V processor-complex generator that comprises the Rocket microarchitecture and TileLink interconnect generators. It has been used in over 20 tape outs by UC Berkeley alone, and is an important piece of the SiFive FE310 (HiFive 1) embedded SoC as well as the Linux-capable FU540 SoC (HiFive Unleashed). A common question in the open-source community is \u201cHow do I integrate Rocket Chip into my SoC\u201d. This talk is an introduction to the use of Rocket Chip and how one might onboard a Verilog IP into a Rocket Chip SoC.\nPresenter: Jack Koenig\n\nJack Koenig is a Staff Engineer at SiFive. He maintains the Chisel and FIRRTL projects in addition to working on tooling for parameterized generators like Rocket Chip. "
+  },
+  {
+    "start": "2019-09-28 16:50",
+    "end": "2019-09-28 17:10",
+    "speaker": "\u00c1kos Hadnagy",
+    "affiliation": "1st CLaaS",
+    "title": "Unleashing the Potential of Cloud FPGAs",
+    "category": "sat",
+    "abstract": "Having FPGAs available in the data center presents enormous potential for new and exciting compute models. But, for this emerging ecosystem to thrive, we need infrastructure to develop custom hardware accelerators for these platforms and integrate them with web applications and cloud infrastructure. The 1st CLaaS (Custom Logic as a Service) Framework brings cloud FPGAs within reach of the open-source community, startups, and everyone.\n\n1st CLaaS provides an end-to-end solution for streaming data to and from custom logic using WebSockets. It provides infrastructure for development, provisioning, and deployment of custom FPGA logic as a microservice, significantly reducing the development overhead of integrating cloud FPGAs for acceleration of web and cloud applications.\n\nThis talk will introduce the framework and some of its recent improvements as well as the impact it could have on open-source silicon.\n\nPresenter: \u00c1kos Hadnagy\n\n\u00c1kos Hadnagy is master\u2019s student at TU Delft. He became involved in the project through Google Summer of Code, returning for the second year after contributing to WARP-V last summer.\n\nHis interests include heterogenous and reconfigurable computing and FPGA and hardware development.\n"
+  },
+  {
+    "start": "2019-09-28 17:10",
+    "end": "2019-09-28 17:30",
+    "speaker": "David Shah",
+    "affiliation": "nextpnr (Griffith Research)",
+    "title": "Taking nextpnr to the next level!",
+    "category": "sat",
+    "abstract": "nextpnr, a next-generation multi-architecture FPGA place-and-route tool was presented at ORConf 2018 with both iCE40 and highly experimental ECP5 support. Over the past year, we have taken the ECP5 support from proof-of-concept to production-ready, and opened up the possibility to use nextpnr to build large and complex designs. This has included augmenting the existing simulated annealing placer with a significantly faster analytical placer (HeAP), adding multi-threaded timing analysis, and adding support for the nitty-gritty hardware details needed for high-speed IO interfaces.\n\nThe end result is the capability to build large designs quickly, such as Linux-capable VexRiscv and Rocket processors with DDR3 memory and Gigabit Ethernet. A live demo of this collaborative open gateware and toolchain project will be given.\n\nThis talk will introduce some of the improvements made to nextpnr, as well as a roadmap to improved support for even bigger and better FPGAs in the future \u2013 and how you can get involved!\n\nPresenter: David Shah\nDavid is the owner of Griffith Research Ltd and a developer of open source FPGA toolchains including nextpnr and Yosys. He documented the bitstream of the Lattice ECP5 FPGAs in Project Trellis and used this to build an end-to-end open-source flow for these parts using Yosys and nextpnr.\n"
+  },
+  {
+    "start": "2019-09-28 17:30",
+    "end": "2019-09-28 19:00",
+    "speaker": "",
+    "affiliation": "",
+    "title": "Go to dinner",
+    "category": "sat",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-28 19:00",
+    "end": "2019-09-28 22:00",
+    "speaker": "",
+    "affiliation": "",
+    "title": "Dinner @ Alriq",
+    "category": "sat",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-29 09:00",
+    "end": "2019-09-29 09:30",
+    "speaker": "",
+    "affiliation": "",
+    "title": "Room open, coffee",
+    "category": "sun",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-29 09:30",
+    "end": "2019-09-29 09:50",
+    "speaker": "Guillem Cabo",
+    "affiliation": "Barcelona Supercomputer Center - Centro Nacional de Supercomputaci\u00f3n (BSC-CNS)",
+    "title": " Open Source computer architecture research at the Barcelona Supercomputer Center",
+    "category": "sun",
+    "abstract": "Barcelona Supercomputer Center - Centro Nacional de Supercomputaci\u00f3n (BSC-CNS) is the leading supercomputing center in Spain. It houses MareNostrum, one of the most powerful supercomputers in Europe, and is a hosting member of the PRACE European distributed supercomputing infrastructure. The mission of BSC is to research, develop, and manage information technologies to facilitate scientific progress. We have a long history of developing software stacks for HPC. Over the years, We have released many open source tools for instrumentation, visualization, and analysis of software and architectures, but RTL design has been a research area quite limited until now. The growth of an Open Digital design ecosystem has enabled BSC to explore computer architecture at a deeper level, closing the gap between academia and industry.\n\nLast May BSC, along Universitat Polit\u00e8cnica de Barcelona (UPC), Centro Nacional de Microelectr\u00f2nica (CNM) and Centro de Investigaci\u00f3n en Computaci\u00f3n del Instituto Polit\u00e9cnico Nacional de M\u00e9xico (CIC) summited for manufacturing the preDRAC processor, our first RISC-V ASIC design. In this presentation, We will talk about the compromise of BSC with RISC-V, show an overview of preDRAC, and describe the role of Open Source IP and tools in the project.\n\nPresenter: Guillem Cabo\n\nGuillem Cabo is a research engineer at BSC-CNS. He was involved in the tape out of preDRAC. He is currently working on RTL design, mainly designing and integrating control mechanisms for real-time multi-core processors in several H2020 projects, at the CAOS group.\n"
+  },
+  {
+    "start": "2019-09-29 09:50",
+    "end": "2019-09-29 10:10",
+    "speaker": "Jose E. Marchesi",
+    "affiliation": "GNU Project",
+    "title": "GNU poke, an extensible editor for structured binary data",
+    "category": "sun",
+    "abstract": "GNU poke is a new interactive editor for binary data. Not limited to editing basic entities such as bits and bytes, it provides a full-fledged procedural, interactive programming language designed to describe data structures and to operate on them.\n\nGNU poke is useful in many domains. It is very well suited to aid in the development of programs that operate on binary files, such as assemblers and linkers. It is also good for the fast development of prototypes for programs like linkers, compressors or filters, and it provides a convenient foundation to write other utilities such as diff and patch tools for binary files. I reckon GNU poke could be useful for people working on the software stack for open source hardware systems.\n\nFirst I will introduce the program and show what it does: from simple bits/bytes editing to user-defined structures and then, very very quickly due to time limitations, will cover how to describe user data, which is to say the art of writing \"pickles\".\n\nPresenter: Jose E. Marchesi\nJose E. Marchesi is a GNU hacker and maintainer. Currently making a life as the teach lead of the Oracle Toolchain Team. "
+  },
+  {
+    "start": "2019-09-29 10:20",
+    "end": "2019-09-29 10:40",
+    "speaker": "Alan J. Wood",
+    "affiliation": "Netmean Limited",
+    "title": "BlackEdge Based FPGA-OSH",
+    "category": "sun",
+    "abstract": "BlackEdge is the new myStorm proposed FPGA OpenSource Hardware roadmap for embedded heterogenous development systems, we take a look at the standard and a peek under the open hardware kimono to see what's coming down the road project wise.\n\nPresenter: Alan J Wood\n\nAlan Wood (@folkonlogy) is a hardware and software engineer, specialising in heterogeneous embedded systems, machine vision/learning and dev systems \n"
+  },
+  {
+    "start": "2019-09-29 10:40",
+    "end": "2019-09-29 11:00",
+    "speaker": "Todd Strader",
+    "affiliation": "Hudson River Trading",
+    "title": "DPI protected Verilog instead of encryption",
+    "category": "sun",
+    "abstract": "Encrypted Verilog is unusable to open source tools like Verilator. Beyond that, the Verilog encryption scheme is basically worthless. See https://acmccs.github.io/papers/p1533-chhotarayA.pdf for futher details. Or if you prefer more practical evidence, spend a little while researching actual attacks on encrypted RTL.\n\nThis project is a proof of concept for a utility which would use Verilator to compile a protected Verilog module into a DPI-accessible shared object. While the compiled object could be analyzed, this approach provides little to no opportunity for the plaintext Verilog to be exposed.\n\nPresenter: Todd Strader\nTodd Strader is an engineer at Hudson River Trading and is involved with the Verilator project "
+  },
+  {
+    "start": "2019-09-29 11:30",
+    "end": "2019-09-29 11:50",
+    "speaker": "Dan Gisselquist",
+    "affiliation": "Gisselquist Technology, LLC",
+    "title": "Formally Verifying AXI Interfaces",
+    "category": "sun",
+    "abstract": "Gisselquist Technology, LLC, has recently developed a set of formal properties for verifying both AXI and AXI-lite interactions. The properties were then applied to many open source projects. In this talk, Dr. Gisselquist will discuss both how the property set works and some of the bugs he has found using it.\n\nPresenter: Dan Gisselquist\nDr. Gisselquist is the owner of Gisselquist Technology, LLC, a services based microbusiness focused on providing superior computer engineering and signal processing services to our customers. Dr. Gisselquist has an M.D. in Computer Engineering and a Ph.D. in Electrical Engineering both from the U.S. Air Force Institute of Technology. His most recent work has involved formally verifying bus components using SymbiYosys. "
+  },
+  {
+    "start": "2019-09-29 11:50",
+    "end": "2019-09-29 12:10",
+    "speaker": "Benjamin Barrois",
+    "affiliation": "Hiventive",
+    "title": "One simulator to rule them all, and on a distributed infrastructure run them",
+    "category": "sun",
+    "abstract": "The rise of open hardware pushed by open architectures such as RISC-V must be accompanied by open tool suites making it accessible to the largest number. Today, two distinct profiles are required to produce an electronic device: hardware designers and software developers. Hardware designers often work on close-source, expensive tool suites with only a small degree of freedom, to produce a suitable hardware prototype. Once low-level software produced (kernel, drivers...) from the hardware specification, software developers then use the prototype as a support for their developments and testing, with other tools. This long, sequential process could be dramatically shortened by using a unique collaborative tool, centered around a software representation of the hardware: a virtual platform.\n\nIn this talk, we will present Hiventive's multi-simulator virtual platform engine running a RISC-V virtual platform embedding a Linux distribution. Compare to existing solutions, Hiventive's multi-simulator doesn't focus on only one simulator, but instead take advantage of existing great simulators like QEMU, GEM5, and more.\n\nPresenter: Benjamin Barrois\nBenjamin Barrois is the CTO and one of the co-founders of Hiventive, a young startup aiming to revolutionize the way electronics products are designed. He joined the adventure after getting a PhD about low-power computer arithmetics.\n"
+  },
+  {
+    "start": "2019-09-29 12:10",
+    "end": "2019-09-29 13:10",
+    "speaker": "",
+    "affiliation": "",
+    "title": "Lunch",
+    "category": "sun",
+    "abstract": ""
+  },
+  {
+    "start": "2019-09-29 13:10",
+    "end": "2019-09-29 13:30",
+    "speaker": "Frank K. G\u00fcrkaynak",
+    "affiliation": "ETH Z\u00fcrich",
+    "title": "What has PULP team been working on lately",
+    "category": "sun",
+    "abstract": "The PULP project has been actively working on new ideas over the summer. In this talk I will briefly introduce the latest projects and chips the group has worked on. PULP project is committed to release all proven hardware with a permissive open source license (Solderpad) and we hope that ideas that we developed in the latest chips will also prove themselves useful and can become part of our releases.\n\nPresenter: Frank K. G\u00fcrkaynak\nFrank has been involved in the PULP project since the beginning in 2013. His background is in digital IC design but these days he is only allowed to talk about the projects, leaving the real work to younger (and more capable) colleagues "
+  },
+  {
+    "start": "2019-09-29 13:30",
+    "end": "2019-09-29 13:50",
+    "speaker": "J\u00f6rg Mische",
+    "affiliation": "RudolV",
+    "title": "RudolV: from the RISC-V SoftCPU contest to a timing predictable core",
+    "category": "sun",
+    "abstract": "RudolV is yet another 5-stage in-order RISC-V core. In contrast to other implementations it focuses on timing predictability by avoiding speculative components like out-of-order execution, dynamic branch prediction or caches. Without affecting the predictability, techniques like instruction fusion, in-order dual issue and decoupled fetching can improve its throughput.\n\nPresenter: J\u00f6rg Mische\nJ\u00f6rg Mische is a researcher on real-time capable manycore systems and networks-on-chip. He presented the Reduced Complexity ManyCore (RC/MC) and its predictable PaterNoster NoC at earlier ORCONFs. After leaving university, he is now a freelancer in the area of real-time FPGA systems. "
+  },
+  {
+    "start": "2019-09-29 13:50",
+    "end": "2019-09-29 14:10",
+    "speaker": "Staf Verhaegen",
+    "affiliation": "Chips4Makers",
+    "title": "On a quest for the ideal HDL(s) for makers and hobbyists",
+    "category": "sun",
+    "abstract": "With a software background I stumbled in the hardware 'programming' languages beginning of this decade. Since the beginning I had a love/hate relationship with the common RTL languages at best. In the beginning I thought it was just the normal rookie feeling and some persistence would solve it. After almost a decade I am convinced some fundamental shortcomings in the common RTL languages are holding back hardware development productivity and the usability by non-experts like makers.\n\nThere is hope though, as I will also highlight some recent developments which in my opinion are a big step in the right direction.\nPresenter: Staf Verhaegen"
+  }
+]
