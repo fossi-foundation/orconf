@@ -319,13 +319,213 @@
             <div class="card-body">
               <p class="card-text">
 
-    <!-- <h4> -->
-      <!--   <a name="!!!" href="#!!!"></a>!!!</h4> -->
-    <!-- <p> -->
-    <!-- </p> -->
-  <!-- <h6>Presenter: </h6> -->
-  <!-- <p> -->
-    <!-- </p> -->
+              <h4>
+                <a name="gatemate">Module with CologneChip GateMate FPGA (GMM-7550)</a>
+              </h4>
+              <p>
+                Presentation (with a live demo) of the open hardware module,
+                based on the CologneChip GateMate FPGA. Hardware part of the
+                project consists of the FPGA module itself, a small adapter
+                board to host the module on Raspberry-Pi 40-pin GPIO header, a
+                memory (SRAM and SPI) extension module, control software, and
+                design examples. GateMate FPGA designs are synthesized using the
+                Yosys framework, optionally with GHDL Yosys plugin.  All the
+                hardware was designed with KiCAD and released under CERN-OHL-P
+                license. Control software and design examples are released under
+                MIT license.
+              </p>
+              <h6>Presenter: Anton Kuzmin</h6>
+
+
+              <h4>
+                <a name="datatransport">Data transport in a radio telescope: Remote Direct Memory Access over Ethernet from FPGA to GPU</a>
+              </h4>
+              <p>
+                In the past century, many discoveries have been made in the
+                universe through radio astronomy. Several discoveries of recent
+                years include Pulsars, Fast Radio Bursts and the magnetic
+                interaction between stars and their planets. Contrary to an
+                optical telescope, a radio telescope observes a range of radio
+                signals outside the optical spectrum. Today's radio telescope
+                systems consist of several to many antennas which are
+                computationally combined into one large radio telescope.
+
+                To enable more groundbreaking research, even better systems are
+                needed to reveal more details of the universe. At the same time,
+                there is a pressing need to improve the material cost and energy
+                efficiency of systems. One of the biggest challenges we face
+                today is efficient data movement from antenna receivers to the
+                GPUs in the central processor that performs most of the
+                computational work. 
+
+                This talk will first give an introduction in to radio telescope
+                systems and will then discuss how an implementation with Remote
+                Direct Memory Access (RDMA) over Converged Ethernet (RoCE) from
+                FPGA to GPU can both improve the energy efficiency of radio
+                telescope systems as well as enabling new science. The RoCE
+                implementation on FPGA is under development and will be made
+                available as open firmware."
+              </p>
+              <h6>Presenter: Steven van der Vlugt</h6>
+
+              <h4>
+                <a name="cache-coherence">Old School cache coherence - a snooping system for a multicore processor based on CVA6</a>
+              </h4>
+              <p>
+                For many years now the computational power required by modern
+                applications can only be offered by a collection of CPUs working
+                together in a multicore processor. For these CPUs to process
+                information correctly, it is necessary to implement mechanisms
+                which guarantee that each core always uses an up-to-date version
+                of the data: cache coherence protocols have been developed with
+                this purpose. Years ago, when silicon technology could support
+                the integration of only a handful of CPUs per chip, cache
+                coherence was achieved by implementing bus snooping mechanisms;
+                nowadays the propensity is to make use of directory-based cache
+                coherence mechanisms, which guarantee excellent scalability, at
+                the expense speed. This trend can be confirmed also by looking
+                at the existing open-source implementations: there is not a
+                single snooping mechanism. This is a problem, because many
+                real-world scenarios would benefit from a low latency cache
+                coherence unit, for example for all processors integrating a
+                limited number of CPUs. With Culsans our goal is to cover this
+                gap, by developing an open-source, tightly-coupled, low latency
+                cache coherence unit for a quad-core processor based on the
+                popular RISC-V CPU CVA6. In this presentation we show the
+                architecture and the performance of the proposed
+                implementation.
+              </p>
+              <h6>Presenter: Massimiliano Giacometti </h6>
+
+              <h4>
+                <a name="astron">ASTRON's open source IP contributions</a>
+              </h4>
+              <p>
+                Introduction to open source tooling and IP for FPGA design
+                developed or used at ASTRON. The goal of this talk is to
+                communicate a high level overview of our design flow and open
+                source tooling. As well as the open source IP we have provided
+                in the past and touch on recent open-source projects we work on.
+              </p>
+              <h6>Presenter: Reinier van der Walle</h6>
+
+              <h4>
+                <a name="testbench-linting">SystemVerilog Testbench linting with open-source</a>
+              </h4>
+              <p>
+                Abstract— Linting or rule-checking is a proven technique in RTL
+                design and software domain to maintain high quality of code
+                across distributed teams. SystemVerilog, the leading design
+                verification language for chip designs will immensely benefit
+                from such technology/process. However, lack of focus in EDA,
+                wide variety of coding styles, and commercial factors have
+                slowed down development of such tools in the past. We present
+                our experience in building and deploying such lint tools based
+                on a popular open-source platform slang/pyslang. As rules are
+                developed in Python, it is very easy to customize it at finer
+                granularity with reasonable cost. We also share how such rule
+                checking can be integrated into a Continuous
+                Integration/development (CI/CD) flow such as Git Actions.
+              </p>
+              <h6>Presenter: Srinivasan Venkataramanan, Satinder Singh Paul</h6>
+
+              <h4>
+                <a name="mathlib">MathLib - Math functions Library for SystemVerilog</a>
+              </h4>
+              <p>
+                The importance of mathematical models in modern electronic-based
+                systems across various domains such as automotive,
+                telecommunication, gadgets, and medical cannot be overstated.
+                These models play a central role in system design and are often
+                created using tools like MATLAB© and Octave, which offer a wide
+                range of built-in functions. However, hardware design,
+                particularly the verification process, requires specialized
+                skills and tools like SystemVerilog.
+
+                To address this, we have developed a package called MathLib,
+                which extends standard SystemVerilog to include mathematical
+                function modeling. In this paper, we present a selection of
+                MATLAB functions and their equivalents implemented in MathLib.
+                This approach offers several key advantages:
+
+                1. Native SystemVerilog implementation: By integrating
+                mathematical functions directly into SystemVerilog, we eliminate
+                the need for external tools or dependencies, streamlining the
+                design process.
+
+                2. Cost savings: Since MathLib enables native implementation in
+                SystemVerilog, it eliminates the need for additional licenses or
+                software, resulting in cost savings for the users.
+
+                Furthermore, we provide a real-world example of how MathLib was
+                utilized in one of our recent customer projects. We demonstrate
+                how we employed MathLib to model complex equations within native
+                SystemVerilog, showcasing its practical application.
+                Additionally, we share insights from deploying this library in a
+                few analog and mixed-signal (AMS) designs, specifically in the
+                development of designs such as low-dropout regulators (LDOs) and
+                low-pass filters (LPFs).
+
+                Through this paper, we aim to highlight the benefits of using
+                MathLib in SystemVerilog-based design projects, showcasing its
+                capabilities and demonstrating its successful integration into
+                various AMS designs.
+              </p>
+              <h6>Presenter: Deepa Palaniappan, Srinivasan Venkataramanan</h6>
+
+              <h4>
+                <a name="virtual-prototypes">Virtual Prototypes and Open Source Hardware Design in Research and Education</a></h4>
+              <p>
+                Virtual Prototypes (VP) enable early software development and
+                verification. Furthermore, they additionally VPs allow flexible
+                hardware prototyping. Based on the SystemC hardware modeling
+                language, VPs can offer fast simulations of complete hardware
+                platforms (e.g., System-on-Chip (SoC)) executing bare metal
+                applications, operating systems and more (10x to 100x faster
+                than RTL simulations). With the Group of Computer Architecture
+                (AGRA) at the University of Bremen, our research focuses on
+                methods and techniques for the design and verification of
+                VP-based Software and Hardware. To bridge the gap between the VP
+                and the real-world Hardware, methods crossing the abstraction
+                layers (e.g., from the VP to the RTL) is a promising approach
+                for verification. While utilizing available open source tools,
+                we take part in releasing our tooling as open source to enable
+                further research and offer accessible educational tools (VPs,
+                RTL implementation, verification tools, etc.). In this talk, we
+                will give an overview of our recent workaround VPs, design and
+                verification and how open source helps in research and
+                education.
+              </p>
+              <h6>Presenter: Sallar Ahmadi-Pour</h6>
+
+              <h4>
+                <a name="graphical-approach">A Graphical Approach to Lightweight Block-Level Formal Verification</a></h4>
+              <p>
+                Shorter time-to-market demands and the need for customized
+                digital designs due to tight constraints on performance, power
+                consumption, area, and security increasingly challenge
+                functional correctness. Traditional verification techniques
+                based on simulation can only test a limited set of sequences and
+                might fail to stimulate an error. Formal verification, on the
+                other hand, explores the state space and proves a property
+                exhaustively on the given design under the given assumptions. It
+                can find rare corner-case issues within seconds and spot
+                ambiguities in the specification. Arguing over whole classes of
+                stimuli concurrently, however, requires different thinking and
+                comes with a learning curve when used to simulation. Thus, we
+                propose a flow-chart-based methodology for lightweight
+                block-level formal verification from a designer's point of view.
+              </p>
+              <h6>Presenter: Meinhard Kissich</h6>
+
+
+              <!-- <h4> -->
+              <!--   <a name="!!!" href="#!!!"></a>!!!</h4> -->
+              <!-- <p> -->
+              <!-- </p> -->
+              <!-- <h6>Presenter: </h6> -->
+              <!-- <p> -->
+              <!-- </p> -->
 
               </p>
             </div>
