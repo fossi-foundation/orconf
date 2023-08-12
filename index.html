@@ -172,16 +172,15 @@
               </div><!-- col -->
             </div><!-- row -->
 
-            <!-- Card: Submit Sunday Session -->
-            <div class="row">
+            <!-- Card: Talks -->
+            <div class="row" id="talks">
               <div class="col-sm-12 mt-3">
-                <a name="talks" href="#talks"></a>
                 <div class="card">
-                  <h5 class="card-header">Talks (Schedule tba)</h5>
+                  <h5 class="card-header">Talks (Schedule coming soon)</h5>
                   <div class="card-body">
 {% for talk in talks_ordered %}
                       <p class="card-text">
-                        <b>{{ talk.title}}</b><br/>{{ talk.speaker }}, {{ talk.affiliation }} (<a href="#{{ talk.title | slugify }}">more</a>)
+                        <b>{{ talk.title}}</b><br/>{{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %} <a href="#{{ talk.title | slugify }}">more</a>
                       </p>
 {% endfor %}
                   </div>
