@@ -1,3 +1,8 @@
+---
+---
+{% assign keynotes = site.data.schedule | where: "type", "keynote" %}
+{% assign talks = site.data.schedule | where: "type", "talk" %}
+{% assign talks_ordered = keynotes | concat: talks %}
 
 <!doctype html>
 <html lang="en">
@@ -143,7 +148,6 @@
               </div><!-- col -->
             </div><!-- row -->
 
-
             <!-- Card: Submit Sunday Session -->
             <div class="row">
               <div class="col-sm-12 mt-3">
@@ -168,6 +172,23 @@
               </div><!-- col -->
             </div><!-- row -->
 
+            <!-- Card: Submit Sunday Session -->
+            <div class="row">
+              <div class="col-sm-12 mt-3">
+                <a name="talks" href="#talks"></a>
+                <div class="card">
+                  <h5 class="card-header">Talks (Schedule tba)</h5>
+                  <div class="card-body">
+{% for talk in talks_ordered %}
+                      <p class="card-text">
+                        <b>{{ talk.title}}</b><br/>{{ talk.speaker }}, {{ talk.affiliation }} (<a href="#{{ talk.title | slugify }}">more</a>)
+                      </p>
+{% endfor %}
+                  </div>
+                </div><!-- card -->
+              </div><!-- col -->
+            </div><!-- row -->
+            
              <!-- Card: Submit talk -->
              <div class="row">
               <div class="col-sm-12 mt-3">
@@ -358,31 +379,20 @@
             <div class="card-body">
               <p class="card-text">
 
-              <h4>
-                <a name="pulp"></a>Ten Years of PULP: The Evolution of the Species from IoT to HPC
+{% for talk in talks_ordered %}
+              <h4 id="{{ talk.title | slugify }}">
+                {{ talk.title }}
               </h4>
               <p>
-                With the increasing number of applications across various
-                sectors such as IoT, consumer electronics, industrial
-                automation, automotive, and high-performance computing silicon
-                IPs leverage silicon IPs as fundamental building block for
-                creating complex electronic systems. While the cost of accessing
-                silicon has been decreasing due to the twilight of Moore's law,
-                obtaining proprietary hardware IPs remains a significant
-                obstacle for innovative start-ups and can also lead to supply
-                chain challenges for larger companies. However, a recent surge
-                in high-quality open-source hardware IPs offers a promising
-                solution to overcome this barrier. These advancements pave the
-                way for exciting applications in open-source electronics,
-                potentially alleviating supply chain issues for global
-                electronics system design companies. In this presentation, I
-                will delve into the evolutionary journey of the open-source
-                Parallel-Ultra-Low-Power (PULP) platform over the past decade
-                exploring opportunities and challenges for next-generation
-                open-source computing systems in a wide range of domains, from
-                IoT to HPC.
+                {{ talk.abstract }}
               </p>
-              <h6>Presenter: Davide Rossi</h6>
+
+              <h6>Presenter: {{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %}</h6>
+
+              <p>
+                {{ talk.bio }}
+              </p>
+{% endfor %}
 
               <h4>
                 <a name="openroad"></a>OpenRoad: The journey so far and roadmap
