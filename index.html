@@ -2,7 +2,8 @@
 ---
 {% assign keynotes = site.data.schedule | where: "type", "keynote" %}
 {% assign talks = site.data.schedule | where: "type", "talk" %}
-{% assign talks_ordered = keynotes | concat: talks %}
+{% assign lightning = site.data.schedule | where: "type", "lightning" %}
+{% assign talks_ordered = keynotes | concat: talks | concat: lightning %}
 
 <!doctype html>
 <html lang="en">
