@@ -173,100 +173,60 @@
               </div><!-- col -->
             </div><!-- row -->
 
+
             <!-- Card: Talks -->
             <div class="row" id="talks">
               <div class="col-sm-12 mt-3">
                 <div class="card">
-                  <h5 class="card-header">Talks (Schedule coming soon)</h5>
+                  <h5 class="card-header">Schedule</h5>
                   <div class="card-body">
-{% for talk in talks_ordered %}
-                      <p class="card-text">
-                        <b>{{ talk.title}}</b><br/>{{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %} <a href="#{{ talk.title | slugify }}">more</a>
-                      </p>
-{% endfor %}
+                    <h5>Thursday, September 14 (pre-ORConf)</h5>
+                    <div class="row">
+                      <div class="col-3">14:00 - 18:00</div>
+                      <div class="col-9"><a href="#cadence">Thursday special: Skywater 130 PDK @ Cadence</a></div>
+                    </div>
+                    <h5 class="mt-2">Friday, September 15</h5>
+                    <div class="row">
+                      <div class="col-3">09:00 - 10:00</div>
+                      <div class="col-9">Registration/socializing at venue</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">10:00 - 18:00</div>
+                      <div class="col-9">Presentations</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">18:30 - 22:00</div>
+                      <div class="col-9">Social Event @ KHG</div>
+                    </div>
+                    <h5 class="mt-2">Saturday, September 15</h5>
+                    <div class="row">
+                      <div class="col-3">09:00 - 10:00</div>
+                      <div class="col-9">Registration/socializing at venue</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">10:00 - 17:00</div>
+                      <div class="col-9">Presentations</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">17:00 - 22:00</div>
+                      <div class="col-9">Show-and-Tell Networking @ Creative Hall</div>
+                    </div>
+                    <h5 class="mt-2">Sunday, September 15</h5>
+                    <div class="row">
+                      <div class="col-3">09:00 - 13:00</div>
+                      <div class="col-9"><a href="#sunday-sessions">Sunday Sessions</a><br/>
+                      <ul>
+                        <li>Tiny Tapeout Workshop</li>
+                        <li>cocotb unconference</li>
+                        <li>FuseSoC Plugfest</li>
+                      </ul>
+                      </div>
+                    </div>
                   </div>
                 </div><!-- card -->
               </div><!-- col -->
             </div><!-- row -->
-            
-             <!-- Card: Submit talk -->
-             <div class="row">
-              <div class="col-sm-12 mt-3">
-               <a name="present" href="#present"></a>
-               <div class="card">
-                 <h5 class="card-header">Submit a talk</h5>
-                 <div class="card-body">
-                   <p class="card-text">
-                     We encourage anyone involved in the open source semiconductor engineering space
-                     to come along and give share your work or experience.
 
-                   </p>
-                   <p class="card-text">
-                     This year we're offering lightning talk and 15-minute speaking slots, with the
-                     choice of opting in to be considered for an extended slot of 30-40 minutes. We
-                     are intentionally reducing the standard speaking slot length this year to ensure
-                     we can accomodate all of the exceptional talk submissions we recieve, and to
-                     maximise face-to-face time throughout the event. We encourage speakers to skip
-                     the technical deep-dive presentations and instead provide high-level
-                     introductions and overviews of what makes their work great, and prepare a poster
-                     or hardware demo for people to come and discuss details during the breaks.
-
-                   </p>
-
-                   <p class="card-text">
-                     So if you've designed, worked on or even just used open source IP cores and/or
-                     management systems, verification IP, build flows, SoCs, simulators, synthesis
-                     tools, FPGA and ASIC implementation tools, languages and DSLs, compilers, or
-                     anything related we'd love to have you join us to share your experience.
-
-                   </p>
-
-                   <div class="alert alert-warning" role="alert">
-                    We still accept lightning talks and likely also accept
-                    regular talks after that deadline, but please make sure to
-                    submit as soon as possible, even if its a placeholder.
-                  </div>
-
-          <!--         <div class="alert alert-secondary" role="alert">
-                     We are sorry, but we cannot accept more talks at the moment. Anyhow, you can still submit a talk and we will try to accomodate it when a slot opens.
-                   </div> -->
-                   <div class="d-flex justify-content-center">
-                     <form action="https://forms.gle/Q2Z4VqA5e3pW4Xur7" target="_blank">
-                       <input type="submit" class="btn btn-primary" value="Submit Talk" />
-                     </form>
-                   </div>
-                 </div>
-               </div><!-- card -->
-             </div><!-- col -->
-          </div><!-- row -->
-
-          <div class="row">
-            <!-- Card: venue -->
-            <a name="venue" href="#venue"></a>
-            <div class="col-sm-12 mt-3">
-              <div class="card">
-                <h5 class="card-header">
-                  Venue
-                </h5>
-                <div class="card-body">
-                    <p>
-                      ORConf 2023 will be held <a
-                      href="https://hm.edu">Hochschule München University of
-                      Applied Sciences</a> on the main campus. The street
-                      address is Lothstr. 64.
-                    </p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.7231555188428!2d11.554287877028845!3d48.154142271245334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75e0277f9f9b%3A0x6f504be37492c497!2sHochschule%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1689310553900!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                    <p>
-                      The conference will take place in the main lecture hall "Roter Würfel" ("Red Cube").
-                    </p>
-
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Roter_W%C3%BCrfel.jpg/640px-Roter_W%C3%BCrfel.jpg" class="img-fluid">
-                  </p>
-                </div><!-- card-body -->
-              </div><!-- card -->
-            </div><!-- col -->
-          </div> <!-- row -->
         </div> <!-- col -->
         <div class="col-sm-4 mt-3">
           <div class="row">
@@ -380,8 +340,114 @@
         </div> <!-- col -->
       </div><!-- row -->
 
-      <div class="row">
-        <div class="col-sm-12 mt-3">
+            <div class="row">
+              <!-- Card: venue -->
+              <a name="venue" href="#venue"></a>
+              <div class="col-sm-12 mt-3">
+                <div class="card">
+                  <h5 class="card-header">
+                    Venue
+                  </h5>
+                  <div class="card-body">
+                      <p>
+                        ORConf 2023 will be held <a
+                        href="https://hm.edu">Hochschule München University of
+                        Applied Sciences</a> on the main campus. The street
+                        address is Lothstr. 64.
+                      </p>
+                      <p>
+                        The conference will take place in the main lecture hall "Roter Würfel" ("Red Cube").
+                      </p>
+                      <div class="row">
+                      <div class="col-6">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.7231555188428!2d11.554287877028845!3d48.154142271245334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75e0277f9f9b%3A0x6f504be37492c497!2sHochschule%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1689310553900!5m2!1sen!2sde" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                      <div class="col-6">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Roter_W%C3%BCrfel.jpg/640px-Roter_W%C3%BCrfel.jpg" class="img-fluid">
+                      </div>
+                    </div>
+                    </p>
+                  </div><!-- card-body -->
+                </div><!-- card -->
+              </div><!-- col -->
+            </div> <!-- row -->
+
+            
+            <div class="row" id="talks">
+              <div class="col-sm-12 mt-3">
+                <div class="card">
+                  <h5 class="card-header">Talks (Schedule coming soon)</h5>
+                  <div class="card-body">
+{% for talk in talks_ordered %}
+                      <p class="card-text">
+                        <b>{{ talk.title}}</b><br/>{{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %} <a href="#{{ talk.title | slugify }}">more</a>
+                      </p>
+{% endfor %}
+<h5>Friday</h5>
+{% assign talks_friday = talks_ordered | where:"day","fri" | sort:"from" %}
+{% for talk in talks_friday %}
+<p class="card-text">
+  <b>{{ talk.title}}</b><br/>{{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %} <a href="#{{ talk.title | slugify }}">more</a>
+</p>
+{% endfor %}
+                  </div>
+                </div><!-- card -->
+              </div><!-- col -->
+            </div><!-- row -->
+            
+             <!-- Card: Submit talk -->
+             <div class="row">
+              <div class="col-sm-12 mt-3">
+               <a name="present" href="#present"></a>
+               <div class="card">
+                 <h5 class="card-header">Submit a talk</h5>
+                 <div class="card-body">
+                   <p class="card-text">
+                     We encourage anyone involved in the open source semiconductor engineering space
+                     to come along and give share your work or experience.
+
+                   </p>
+                   <p class="card-text">
+                     This year we're offering lightning talk and 15-minute speaking slots, with the
+                     choice of opting in to be considered for an extended slot of 30-40 minutes. We
+                     are intentionally reducing the standard speaking slot length this year to ensure
+                     we can accomodate all of the exceptional talk submissions we recieve, and to
+                     maximise face-to-face time throughout the event. We encourage speakers to skip
+                     the technical deep-dive presentations and instead provide high-level
+                     introductions and overviews of what makes their work great, and prepare a poster
+                     or hardware demo for people to come and discuss details during the breaks.
+
+                   </p>
+
+                   <p class="card-text">
+                     So if you've designed, worked on or even just used open source IP cores and/or
+                     management systems, verification IP, build flows, SoCs, simulators, synthesis
+                     tools, FPGA and ASIC implementation tools, languages and DSLs, compilers, or
+                     anything related we'd love to have you join us to share your experience.
+
+                   </p>
+
+                   <div class="alert alert-warning" role="alert">
+                    We still accept lightning talks and likely also accept
+                    regular talks after that deadline, but please make sure to
+                    submit as soon as possible, even if its a placeholder.
+                  </div>
+
+          <!--         <div class="alert alert-secondary" role="alert">
+                     We are sorry, but we cannot accept more talks at the moment. Anyhow, you can still submit a talk and we will try to accomodate it when a slot opens.
+                   </div> -->
+                   <div class="d-flex justify-content-center">
+                     <form action="https://forms.gle/Q2Z4VqA5e3pW4Xur7" target="_blank">
+                       <input type="submit" class="btn btn-primary" value="Submit Talk" />
+                     </form>
+                   </div>
+                 </div>
+               </div><!-- card -->
+             </div><!-- col -->
+             </div><!-- row -->
+
+             <div class="row">
+              <div class="col-sm-12 mt-3">
            <div class="card" id="cadence">
                 <h5 class="card-header">Thursday special: Skywater 130 PDK @ Cadence</h5>
                 <div class="card-body">
@@ -399,41 +465,12 @@ In order to register to the workshop, please write an email to <a href="aklotz@c
 </p>
 </div>
 </div>
-</div>
-</div>
-      
-      <div class="row">
-        <div class="col-sm-12 mt-3">
-          <div class="card">
-            <a name="presentations" href="#presentations"></a>
-            <h5 class="card-header">Presentations</h5>
-            <div class="card-body">
-              <p class="card-text">
-
-{% for talk in talks_ordered %}
-              <h4 id="{{ talk.title | slugify }}">
-                {{ talk.title }}
-              </h4>
-              <p>
-                {{ talk.abstract | markdownify }}
-              </p>
-
-              <h6>Presenter: {{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %}</h6>
-
-              <p>
-                {{ talk.bio | markdownify }}
-              </p>
-{% endfor %}
-              </p>
+              </div>
             </div>
-          </div>
-      </div>
-
 
       <div class="row">
         <div class="col-sm-12 mt-3">
-          <div class="card">
-            <a name="sunday-sessions" href="#sunday-sessions"></a>
+          <div class="card" id="sunday-sessions">
             <h5 class="card-header">Sunday Sessions</h5>
             <div class="card-body">
               <p class="card-text">
@@ -491,7 +528,34 @@ In order to register to the workshop, please write an email to <a href="aklotz@c
             </div>
           </div>
         </div>
+      </div>      
+      <div class="row">
+        <div class="col-sm-12 mt-3">
+          <div class="card">
+            <a name="presentations" href="#presentations"></a>
+            <h5 class="card-header">Presentations</h5>
+            <div class="card-body">
+              <p class="card-text">
+
+{% for talk in talks_ordered %}
+              <h4 id="{{ talk.title | slugify }}">
+                {{ talk.title }}
+              </h4>
+              <p>
+                {{ talk.abstract | markdownify }}
+              </p>
+
+              <h6>Presenter: {{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %}</h6>
+
+              <p>
+                {{ talk.bio | markdownify }}
+              </p>
+{% endfor %}
+              </p>
+            </div>
+          </div>
       </div>
+
 
       <!-- <div class="row"> -->
       <!--   <div class="col-sm-12 mt-3"> -->
@@ -568,44 +632,5 @@ In order to register to the workshop, please write an email to <a href="aklotz@c
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment@2.18.1/min/moment.min.js"></script>
-
-    <script>
-      $.getJSON("schedule.json", function (events) {
-        $('.fossi-schedule-subset').each(function() {
-          let filterCategory = $(this).data('category');
-
-          html = '';
-          let eventCnt = 0;
-          for (let ev of events) {
-            if (ev.category != filterCategory) {
-              continue;
-            }
-
-            html += [
-              '<div class="list-group event">',
-                '<div class="event-time">' + moment(ev.start).format('D.MM. HH:mm') + ' - ' + moment(ev.end).format('HH:mm') + '</div>',
-                '<a class="event-title" data-toggle="collapse" href="#event-abstract-' + eventCnt + '">' + ev.title + '</a>',
-                '<div class="event-speaker">',
-                  ev.speaker,
-                  '<span class="event-affiliation">' + ev.affiliation + '</span>',
-            ].join('\n');
-            if (ev.video !== undefined && ev.video != '')
-              html += ' <span class="event-video"><a href="' + ev.video + '">video</a></span>';
-            if (ev.slides !== undefined && ev.slides != '')
-              html += ' <span class="event-slides"><a href="' + ev.slides + '">slides</a></span>';
-            html += [
-                '</div>',
-                '<div id="event-abstract-'+eventCnt+'" class="event-abstract collapse">',
-                  ev.abstract,
-                '</div>',
-              '</div>',
-            ].join('\n');
-            eventCnt++;
-          }
-
-          $(this).html(html);
-        });
-      });
-    </script>
   </body>
 </html>
