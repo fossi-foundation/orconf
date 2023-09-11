@@ -383,13 +383,6 @@
                         <b>{{ talk.title}}</b><br/>{{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %} <a href="#{{ talk.title | slugify }}">more</a>
                       </p>
 {% endfor %}
-<h5>Friday</h5>
-{% assign talks_friday = talks_ordered | where:"day","fri" | sort:"from" %}
-{% for talk in talks_friday %}
-<p class="card-text">
-  <b>{{ talk.title}}</b><br/>{{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %} <a href="#{{ talk.title | slugify }}">more</a>
-</p>
-{% endfor %}
                   </div>
                 </div><!-- card -->
               </div><!-- col -->
