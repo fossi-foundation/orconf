@@ -3,7 +3,9 @@
 {% assign keynotes = site.data.schedule | where: "type", "keynote" %}
 {% assign talks = site.data.schedule | where: "type", "talk" %}
 {% assign lightning = site.data.schedule | where: "type", "lightning" %}
+{% assign breaks = site.data.schedule | where: "type", "break" %}
 {% assign talks_ordered = keynotes | concat: talks | concat: lightning %}
+{% assign program = keynotes | concat: talks | concat: breaks %}
 
 <!doctype html>
 <html lang="en">
@@ -183,33 +185,33 @@
                     <h5>Thursday, September 14 (pre-ORConf)</h5>
                     <div class="row">
                       <div class="col-3">14:00 - 18:00</div>
-                      <div class="col-9"><a href="#cadence">Thursday special: Skywater 130 PDK @ Cadence</a></div>
+                      <div class="col-9"><a href="#cadence"><b>Thursday special: Skywater 130 PDK @ Cadence</b></a></div>
                     </div>
                     <h5 class="mt-2">Friday, September 15</h5>
+                    {% assign program_friday = program | where:"day","fri" | sort:"from" %}
+                    {% for talk in program_friday %}
                     <div class="row">
-                      <div class="col-3">09:00 - 10:00</div>
-                      <div class="col-9">Registration/socializing at venue</div>
+                      <div class="col-3">{{ talk.from }} - {{ talk.to }}</div>
+                      <div class="col-9"><b>{{ talk.title }}</b>{% if talk.speaker %}<br />{{ talk.speaker }} <a href="#{{ talk.title | slugify }}">more</a>{% endif %}</div>
                     </div>
+                    </p>
+                    {% endfor %}
                     <div class="row">
-                      <div class="col-3">10:00 - 18:00</div>
-                      <div class="col-9">Presentations</div>
-                    </div>
-                    <div class="row">
-                      <div class="col-3">18:30 - 22:00</div>
-                      <div class="col-9">Social Event @ KHG TUM</div>
+                      <div class="col-3">18:00 - 22:00</div>
+                      <div class="col-9"><b>Social Event @ KHG TUM</b></div>
                     </div>
                     <h5 class="mt-2">Saturday, September 16</h5>
+                    {% assign program_friday = program | where:"day","sat" | sort:"from" %}
+                    {% for talk in program_friday %}
                     <div class="row">
-                      <div class="col-3">09:00 - 10:00</div>
-                      <div class="col-9">Registration/socializing at venue</div>
+                      <div class="col-3">{{ talk.from }} - {{ talk.to }}</div>
+                      <div class="col-9"><b>{{ talk.title }}</b>{% if talk.speaker %}<br />{{ talk.speaker }} <a href="#{{ talk.title | slugify }}">more</a>{% endif %}</div>
                     </div>
-                    <div class="row">
-                      <div class="col-3">10:00 - 17:00</div>
-                      <div class="col-9">Presentations</div>
-                    </div>
+                    </p>
+                    {% endfor %}
                     <div class="row">
                       <div class="col-3">17:00 - 22:00</div>
-                      <div class="col-9">Show-and-Tell Networking @ Creative Hall</div>
+                      <div class="col-9"><b>Show-and-Tell Networking @ Creative Hall</b></div>
                     </div>
                     <h5 class="mt-2">Sunday, September 17</h5>
                     <div class="row">
@@ -376,13 +378,14 @@
             <div class="row" id="talks">
               <div class="col-sm-12 mt-3">
                 <div class="card">
-                  <h5 class="card-header">Talks (Schedule coming soon)</h5>
+                  <h5 class="card-header">Talks</h5>
                   <div class="card-body">
 {% for talk in talks_ordered %}
                       <p class="card-text">
                         <b>{{ talk.title}}</b><br/>{{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %} <a href="#{{ talk.title | slugify }}">more</a>
                       </p>
 {% endfor %}
+
                   </div>
                 </div><!-- card -->
               </div><!-- col -->
