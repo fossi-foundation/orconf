@@ -211,7 +211,14 @@
                     {% endfor %}
                     <div class="row">
                       <div class="col-3">17:00 - 22:00</div>
-                      <div class="col-9"><b>Show-and-Tell Networking @ Creative Hall</b></div>
+                      <div class="col-9"><b>Show-and-Tell Networking @ Creative Hall</b><br/>
+                        <h6>🗲 Lightning Talks 🗲</h6>
+                        <ul>
+                          {% for talk in lightning %}
+                          <li><b>{{ talk.title }}</b><br/>{{ talk.speaker }} <a href="#{{ talk.title | slugify }}">more</a></li>
+                          {% endfor %}
+                        </ul>
+                      </div>
                     </div>
                     <h5 class="mt-2">Sunday, September 17</h5>
                     <div class="row">
