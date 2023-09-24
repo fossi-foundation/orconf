@@ -198,7 +198,11 @@
                     {% for talk in program_friday %}
                     <div class="row">
                       <div class="col-3">{{ talk.from }} - {{ talk.to }}</div>
-                      <div class="col-9"><b>{{ talk.title }}</b>{% if talk.speaker %}<br />{{ talk.speaker }} <a href="#{{ talk.title | slugify }}">more</a>{% endif %}</div>
+                      <div class="col-9"><b>{{ talk.title }}</b>
+                        {% if talk.speaker %}<br />{{ talk.speaker }} <i class="fas fa-info-circle"></i> <a href="#{{ talk.title | slugify }}">more</a>{% endif %}
+                        {% if talk.youtube %} <i class="fab fa-youtube"></i> <a href="{{ talk.youtube }}">youtube</a>{% endif %}                      
+                        {% if talk.slides %} <i class="fas fa-file-pdf"></i> <a href="{{ talk.slides }}">slides</a>{% endif %}                      
+                      </div>
                     </div>
                     </p>
                     {% endfor %}
@@ -211,7 +215,11 @@
                     {% for talk in program_friday %}
                     <div class="row">
                       <div class="col-3">{{ talk.from }} - {{ talk.to }}</div>
-                      <div class="col-9"><b>{{ talk.title }}</b>{% if talk.speaker %}<br />{{ talk.speaker }} <a href="#{{ talk.title | slugify }}">more</a>{% endif %}</div>
+                      <div class="col-9"><b>{{ talk.title }}</b>
+                        {% if talk.speaker %}<br />{{ talk.speaker }} <i class="fas fa-info-circle"></i> <a href="#{{ talk.title | slugify }}">more</a>{% endif %}
+                        {% if talk.youtube %} <i class="fab fa-youtube"></i> <a href="{{ talk.youtube }}">youtube</a>{% endif %}                      
+                        {% if talk.slides %} <i class="fas fa-file-pdf"></i> <a href="{{ talk.slides }}">slides</a>{% endif %}                      
+                      </div>
                     </div>
                     </p>
                     {% endfor %}
@@ -230,7 +238,11 @@
                         <h6>🗲 Lightning Talks 🗲</h6>
                         <ul>
                           {% for talk in lightning %}
-                          <li><b>{{ talk.title }}</b><br/>{{ talk.speaker }} <a href="#{{ talk.title | slugify }}">more</a></li>
+                          <li><b>{{ talk.title }}</b><br/>
+                            {{ talk.speaker }} <i class="fas fa-info-circle"></i> <a href="#{{ talk.title | slugify }}">more</a>
+                            {% if talk.youtube %} <i class="fab fa-youtube"></i> <a href="{{ talk.youtube }}">youtube</a>{% endif %}                      
+                            {% if talk.slides %} <i class="fas fa-file-pdf"></i> <a href="{{ talk.slides }}">slides</a>{% endif %}                      
+                          </li>
                           {% endfor %}
                         </ul>
                       </div>
@@ -364,22 +376,6 @@
         </div> <!-- col -->
       </div><!-- row -->
 
-
-            <div class="row" id="talks">
-              <div class="col-sm-12 mt-3">
-                <div class="card">
-                  <h5 class="card-header">Talks</h5>
-                  <div class="card-body">
-{% for talk in talks_ordered %}
-                      <p class="card-text">
-                        <b>{{ talk.title}}</b><br/>{{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %} <a href="#{{ talk.title | slugify }}">more</a>
-                      </p>
-{% endfor %}
-
-                  </div>
-                </div><!-- card -->
-              </div><!-- col -->
-            </div><!-- row -->
 
              <!-- Card: Submit talk -->
              <div class="row">
@@ -558,11 +554,15 @@ In order to register to the workshop, please write an email to <a href="aklotz@c
                 {{ talk.title }}
               </h4>
               <p>
+                {% if talk.youtube %}<i class="fab fa-youtube"></i> <a href="{{ talk.youtube }}">youtube</a>{% endif %}                      
+                {% if talk.slides %} <i class="fas fa-file-pdf"></i> <a href="{{ talk.slides }}">slides</a>{% endif %}                      
+              </p>
+              <p>
                 {{ talk.abstract | markdownify }}
               </p>
 
               <h6>Presenter: {{ talk.speaker }}{% if talk.affiliation %} ({{ talk.affiliation }}){% endif %}</h6>
-
+            
               <p>
                 {{ talk.bio | markdownify }}
               </p>
